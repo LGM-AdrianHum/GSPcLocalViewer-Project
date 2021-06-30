@@ -1,0 +1,2502 @@
+<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="frmOpenBookTasks_TreeViewLbl" xml:space="preserve">
+    <value>Tree View</value>
+  </data>
+  <data name="frmSearch_ClearSearchHistoryBtn" xml:space="preserve">
+    <value>Clear Search History</value>
+  </data>
+  <data name="frmViewerPartslist_ExportToFileCMS" xml:space="preserve">
+    <value>Export To File</value>
+  </data>
+  <data name="frmMemoLocal_ReferenceMemoLbl" xml:space="preserve">
+    <value>Reference Memo</value>
+  </data>
+  <data name="frmViewerPicture_RotateRight" xml:space="preserve">
+    <value>Rotate Right</value>
+  </data>
+  <data name="frmOpenBookSearch_UpdateDateDgvColumn" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="frmConfigViewerGeneral_MouseWheelContentsScroll" xml:space="preserve">
+    <value>Use mouse wheel scroll on Contents</value>
+  </data>
+  <data name="frmMemoLocal_TypeDGCol" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="frmViewer_PartslistMenuItem" xml:space="preserve">
+    <value>Parts List</value>
+  </data>
+  <data name="frmPrint_PartsListRadioButton" xml:space="preserve">
+    <value>Parts List</value>
+  </data>
+  <data name="frmConfigMemoSettings_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmConfigMemoSettings_Info1" xml:space="preserve">
+    <value>Select Global Memo Folder</value>
+  </data>
+  <data name="frmMemoLocal_CommandLineLbl" xml:space="preserve">
+    <value>Command Line</value>
+  </data>
+  <data name="frmInfo_Name" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="frmViewer_TextSearchMenuItem" xml:space="preserve">
+    <value>Text Search …</value>
+  </data>
+  <data name="frmMemoGlobal_ProgramMemoLbl" xml:space="preserve">
+    <value>Program Memo</value>
+  </data>
+  <data name="frmViewerPartslist_SelectAllTSB" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmViewerPartslist_SelectAllCMS" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmViewer_ViewContentsTSBToolTip" xml:space="preserve">
+    <value>View Contents</value>
+  </data>
+  <data name="frmConfigViewerGeneral_HistroySizeLbl" xml:space="preserve">
+    <value>History Size</value>
+  </data>
+  <data name="frmSelectionList_TabSeparatedCMS" xml:space="preserve">
+    <value>Tab Separated</value>
+  </data>
+  <data name="frmMemoRecovery_ErrorMsg2" xml:space="preserve">
+    <value>(E-MRC-EM002) Specified information does not exist</value>
+  </data>
+  <data name="frmMemoRecovery_ErrorMsg1" xml:space="preserve">
+    <value>(E-MRC-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmSelectionList_ClearSelectionTSB" xml:space="preserve">
+    <value>Clear Selected</value>
+  </data>
+  <data name="frmSelectionList_ClearSelectionCMS" xml:space="preserve">
+    <value>Clear Selected</value>
+  </data>
+  <data name="frmConfigTasks_PageNameLbl" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="frmViewer_PrintPartsListMenuItem" xml:space="preserve">
+    <value>Print PartsList …</value>
+  </data>
+  <data name="frmSingleBookDownload_DownloadBtn" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="frmOpenBookTasks_BookmarksLbl" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="frmConfig_Name" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="frmMemoLocal_UpdateDateDGCol" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="frmViewer_ReadylblStatus" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmViewer_tsbPanMode" xml:space="preserve">
+    <value>Pan Mode</value>
+  </data>
+  <data name="frmViewer_addOnToolStripMenuItem" xml:space="preserve">
+    <value>AddOn</value>
+  </data>
+  <data name="frmViewerPartslist_NextListCMS" xml:space="preserve">
+    <value>Next List</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewer_FontAndColorMenuItem" xml:space="preserve">
+    <value>Font And Color …</value>
+  </data>
+  <data name="frmConfigTasks_SearchLbl" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmPrint_Printerlbl" xml:space="preserve">
+    <value>Printer</value>
+  </data>
+  <data name="frmOpenBook_TreeViewTSB" xml:space="preserve">
+    <value>Tree View</value>
+  </data>
+  <data name="frmViewer_BookmarksMenu" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="frmPageSetup_1by8cmbLst" xml:space="preserve">
+    <value>1 by 8</value>
+  </data>
+  <data name="frmConfig_ViewerGeneral_lblZoomStep" xml:space="preserve">
+    <value>Zoom Step</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Name" xml:space="preserve">
+    <value>Multiple Books Download</value>
+  </data>
+  <data name="frmPartNumberSearch_ExactMatch" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="frmViewer_MiniMapMenuItem" xml:space="preserve">
+    <value>Mini Map</value>
+  </data>
+  <data name="frmViewer_LastPageTSBToolTip" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="frmViewer_ErrorMsg11" xml:space="preserve">
+    <value>(E-VWR-EM011) Failed to save specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg10" xml:space="preserve">
+    <value>(E-VWR-EM010) Failed to load specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg13" xml:space="preserve">
+    <value>(E-VWR-EM013) URL not found</value>
+  </data>
+  <data name="frmViewer_ErrorMsg12" xml:space="preserve">
+    <value>(E-VWR-EM012) Failed to save specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg15" xml:space="preserve">
+    <value>Application configuration is incorrect. Please re-install it or contact your system administrator.</value>
+  </data>
+  <data name="frmViewer_ErrorMsg14" xml:space="preserve">
+    <value>(E-VWR-EM014) Failed to load specified object</value>
+  </data>
+  <data name="frmConfigViewerGeneral_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmPrintPreview_PartListTSBTooltip" xml:space="preserve">
+    <value>Parts List</value>
+  </data>
+  <data name="frmConfigViewerGeneral_LanguageLbl" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="frmConfigSearchPageName_GridCol_DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="frmConfigSearchPageName_ErrorMsg2" xml:space="preserve">
+    <value>(E-SPG-EM002) Not in required format</value>
+  </data>
+  <data name="frmConfigSearchPageName_ErrorMsg1" xml:space="preserve">
+    <value>(E-SPG-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmSelectionList_SaveRecordTSB" xml:space="preserve">
+    <value>Save Record</value>
+  </data>
+  <data name="frmOpenBookSearch_DetailsLbl" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="frmPrint_NameLbl" xml:space="preserve">
+    <value>Name</value>
+  </data>
+  <data name="frmOpenBookTasks_AdvSrcPageNameLbl" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="frmMemoGlobal_BrowseBtn" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmConfigViewerGeneral_MaintainZoomLevelChkBox" xml:space="preserve">
+    <value>Maintain Zoom Level during Navigation</value>
+  </data>
+  <data name="frmConfigMemoSettings_BehaviourLbl" xml:space="preserve">
+    <value>Behaviour</value>
+  </data>
+  <data name="frmViewer_ColorMenuItem" xml:space="preserve">
+    <value>Color…</value>
+  </data>
+  <data name="frmViewer_SelectionListMenuItem" xml:space="preserve">
+    <value>Selection List</value>
+  </data>
+  <data name="frmViewerPartslist_PreviousList" xml:space="preserve">
+    <value>Previous List</value>
+  </data>
+  <data name="frmMemoTasks_AdminMemosLbl" xml:space="preserve">
+    <value>Admin Memos</value>
+  </data>
+  <data name="frmMemoLocal_AddHyperlinkMemoTSB" xml:space="preserve">
+    <value>Add Hyperlink Memo</value>
+  </data>
+  <data name="frmSingleBookDownload_CloseBtn" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmViewer_OpenNewBookTSBToolTip" xml:space="preserve">
+    <value>Open New Book</value>
+  </data>
+  <data name="frmMemoLocal_HypURLLbl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="frmPrint_PictureRadioButton" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmPrint_PropertiesBtn" xml:space="preserve">
+    <value>Properties</value>
+  </data>
+  <data name="frmConfigViewerGeneral_OnetoOnechkBox" xml:space="preserve">
+    <value>One to One</value>
+  </data>
+  <data name="frmPrintPreview_FitPage" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="frmAbout_Name" xml:space="preserve">
+    <value>About GSPcLocal</value>
+  </data>
+  <data name="frmConfigMemoSettings_BrowseBtn2" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmDataSize_chkDiskSpace" xml:space="preserve">
+    <value>Allocate space for data download</value>
+  </data>
+  <data name="frmConfigViewerGeneral_MouseWheelPictureScroll" xml:space="preserve">
+    <value>Use mouse wheel scroll on Images</value>
+  </data>
+  <data name="frmPrint_ToLbl" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="frmConfigViewerGeneral_FitWidthchkBox" xml:space="preserve">
+    <value>Fit Width</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblConnection" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="frmViewer_PrintSelectionListMenuItem" xml:space="preserve">
+    <value>Print SelectionList …</value>
+  </data>
+  <data name="frmConfigTasks_ConnectionLbl" xml:space="preserve">
+    <value>Connection</value>
+  </data>
+  <data name="frmOpenBookSearch_Info8" xml:space="preserve">
+    <value>Enter the search criteria</value>
+  </data>
+  <data name="frmOpenBookSearch_Info6" xml:space="preserve">
+    <value>Finished loading</value>
+  </data>
+  <data name="frmOpenBookSearch_Info7" xml:space="preserve">
+    <value>Enter the search criteria</value>
+  </data>
+  <data name="frmOpenBookSearch_Info4" xml:space="preserve">
+    <value>Downloading……</value>
+  </data>
+  <data name="frmOpenBookSearch_Info5" xml:space="preserve">
+    <value>Loading……</value>
+  </data>
+  <data name="frmOpenBookSearch_Info2" xml:space="preserve">
+    <value>Search a book</value>
+  </data>
+  <data name="frmOpenBookSearch_Info3" xml:space="preserve">
+    <value>Select a book</value>
+  </data>
+  <data name="frmOpenBookSearch_Info1" xml:space="preserve">
+    <value>Open books by searching</value>
+  </data>
+  <data name="frmConfigViewerConnection_llblPort" xml:space="preserve">
+    <value>Proxy Port</value>
+  </data>
+  <data name="frmViewer_MemoAddToPicMenuItem" xml:space="preserve">
+    <value>Add Picture Memo…</value>
+  </data>
+  <data name="frmDataSize_tvlcolFolderName" xml:space="preserve">
+    <value>Folder Name</value>
+  </data>
+  <data name="frmMemoLocal_ClearRefreshTSB" xml:space="preserve">
+    <value>Clear / Refresh</value>
+  </data>
+  <data name="frmTextSearch_MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="frmAbout_GSPcLBL2" xml:space="preserve">
+    <value>Warning: This program is protected by copyright law. Unauthorized reproduction of this program or any portion of it, is considered as illegal and may result in criminal penalities.</value>
+  </data>
+  <data name="frmAbout_GSPcLBL1" xml:space="preserve">
+    <value>Graphical Solution Package content Local </value>
+  </data>
+  <data name="frmDjVuAuthentication_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmPrint_PagesChkbox" xml:space="preserve">
+    <value>Pages</value>
+  </data>
+  <data name="frmTextSearch_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmPageSetup_HalfPageRadioButton" xml:space="preserve">
+    <value>Half Page</value>
+  </data>
+  <data name="frmPrint_Propertybtn" xml:space="preserve">
+    <value>Property</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ServerKey" xml:space="preserve">
+    <value>Server Key</value>
+  </data>
+  <data name="frmMultipleBooksDownload_SelectAllChkBox" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmPageSetup_SplitPattern" xml:space="preserve">
+    <value>Split Pattern</value>
+  </data>
+  <data name="frmSelectionList_TabSeparated1CMS" xml:space="preserve">
+    <value>Tab Separated</value>
+  </data>
+  <data name="frmConfigViewerFont_OKbtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmConfigViewerGeneral_PictureLbl" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmMemoGlobal_ClearRefreshTSB" xml:space="preserve">
+    <value>Clear / Refresh</value>
+  </data>
+  <data name="frmSearch_TxtSearch" xml:space="preserve">
+    <value>Text Search</value>
+  </data>
+  <data name="frmMultipleBooksDownload_StatusListViewColumn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="frmPageSetup_MaintainPictureZoomchkbox" xml:space="preserve">
+    <value>Maintain Picture Zoom</value>
+  </data>
+  <data name="frmSelectionList_CopyToClipboardCMS" xml:space="preserve">
+    <value>Copy To Clipboard</value>
+  </data>
+  <data name="frmViewer_OpenMenuItem" xml:space="preserve">
+    <value>Open …</value>
+  </data>
+  <data name="frmDataSize_tvlcolSize" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="frmAddRecord_btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="frmViewer_ToolsMenuItem" xml:space="preserve">
+    <value>Tools</value>
+  </data>
+  <data name="frmPageSetup_OrientationLbl" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="frmViewer_MemoRecoveryTSBToolTip" xml:space="preserve">
+    <value>Recover Memos</value>
+  </data>
+  <data name="frmMemoLocal_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewer_HistoryBackwardTSBToolTip" xml:space="preserve">
+    <value>Backward</value>
+  </data>
+  <data name="frmConfig_PartNameSearchTSB" xml:space="preserve">
+    <value>Part Name Search</value>
+  </data>
+  <data name="frmOpenBookSearch_SearchCriteriaLbl" xml:space="preserve">
+    <value>Search Criteria</value>
+  </data>
+  <data name="frmConfigTasks_GeneralLbl" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="frmInfo_lblPageInformation" xml:space="preserve">
+    <value>Page Information</value>
+  </data>
+  <data name="frmDataSize_btnDeleteSelected" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="frmViewerPartslist_AddPartMemoCMS" xml:space="preserve">
+    <value>Add Part Memo</value>
+  </data>
+  <data name="frmViewerPartslist_AddPartMemoTSB" xml:space="preserve">
+    <value>Add Part Memo</value>
+  </data>
+  <data name="frmPageSetup_ForPortraitPictureLbl" xml:space="preserve">
+    <value>For Portrait Picture</value>
+  </data>
+  <data name="frmMemoTasks_MemoList" xml:space="preserve">
+    <value>Memo List</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info10" xml:space="preserve">
+    <value>Book download canceled because maximum download limit was reached</value>
+  </data>
+  <data name="frmPrint_CurrentPageChkbox" xml:space="preserve">
+    <value>Current Page</value>
+  </data>
+  <data name="frmMemoLocal_UpdatedOnLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmPartNumberSearch_ErrorMsg1" xml:space="preserve">
+    <value>(E-PNS-EM001) Not in required format</value>
+  </data>
+  <data name="frmPartNumberSearch_ErrorMsg2" xml:space="preserve">
+    <value>(E-PNS-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmMemoTasks_LocalMemosLbl" xml:space="preserve">
+    <value>Local Memos</value>
+  </data>
+  <data name="frmViewerPicture_NextPictureTSBTooltip" xml:space="preserve">
+    <value>Next Picture</value>
+  </data>
+  <data name="frmOpenBookSearch_PublishingIdDgvColumn" xml:space="preserve">
+    <value>Publishing Id</value>
+  </data>
+  <data name="frmViewerPartslist_NextListTSBTooltip" xml:space="preserve">
+    <value>Next List</value>
+  </data>
+  <data name="frmPrint_ErrorMsg1" xml:space="preserve">
+    <value>(W-PRT-WM001) Please select the 'Page from' and 'Page to'</value>
+  </data>
+  <data name="frmDataSize_stOverflow" xml:space="preserve">
+    <value>Overflow</value>
+  </data>
+  <data name="frmPartNameSearch__Info1" xml:space="preserve">
+    <value>No result found</value>
+  </data>
+  <data name="frmPartNameSearch__Info2" xml:space="preserve">
+    <value>result(s) found</value>
+  </data>
+  <data name="frmPartNameSearch__Info3" xml:space="preserve">
+    <value>not found</value>
+  </data>
+  <data name="frmViewer_AdvancedSearchMenuItem" xml:space="preserve">
+    <value>Advanced Search…</value>
+  </data>
+  <data name="frmViewer_PartNumberTooltip" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmConfigTasks_MemosLbl" xml:space="preserve">
+    <value>Memos</value>
+  </data>
+  <data name="frmConfigSearchPartName_GridCol_Alignment" xml:space="preserve">
+    <value>Col Alignment</value>
+  </data>
+  <data name="frmInfo_txtServerKey" xml:space="preserve">
+    <value>Server Key</value>
+  </data>
+  <data name="frmViewer_MultipleBooksDownloadTSBToolTip" xml:space="preserve">
+    <value>Multiple Books Download</value>
+  </data>
+  <data name="frmConfig_PartNumberSearchTSB" xml:space="preserve">
+    <value>Part Number Search</value>
+  </data>
+  <data name="frmTextSearch_ErrorMsg1" xml:space="preserve">
+    <value>(E-TSR-EM001) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmTextSearch_ErrorMsg2" xml:space="preserve">
+    <value>(E-TSR-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg3" xml:space="preserve">
+    <value>(E-MGL-EM003) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg2" xml:space="preserve">
+    <value>(E-MGL-EM002) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg1" xml:space="preserve">
+    <value>(E-MGL-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg7" xml:space="preserve">
+    <value>(E-MGL-EM007) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg6" xml:space="preserve">
+    <value>(E-MGL-EM006) Failed to save specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg5" xml:space="preserve">
+    <value>(E-MGL-EM005) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg4" xml:space="preserve">
+    <value>(E-MGL-EM004) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg9" xml:space="preserve">
+    <value>(E-MGL-EM009) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_ErrorMsg8" xml:space="preserve">
+    <value>(E-MGL-EM008) Specified information does not exist</value>
+  </data>
+  <data name="frmPrint_PrintBtn" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="frmViewerPartslist_TabSeparated1CMS" xml:space="preserve">
+    <value>Tab Separated</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_SearchSettingsLbl" xml:space="preserve">
+    <value>Search Settings</value>
+  </data>
+  <data name="frmDataSize_tvlcolModifiedDate" xml:space="preserve">
+    <value>Modified Date</value>
+  </data>
+  <data name="frmViewer_SearchByPageNameMenuItem" xml:space="preserve">
+    <value>Page Name …</value>
+  </data>
+  <data name="frmPageSetup_PreviewBtn" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="frmMemoLocal_DescriptionDGCol" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmSelectionList_GoToPageTSB" xml:space="preserve">
+    <value>Go To Page</value>
+  </data>
+  <data name="frmConfigSearchPageName_SearchSettingsLbl" xml:space="preserve">
+    <value>Search Settings</value>
+  </data>
+  <data name="frmConfig_ViewerGeneral_chkFitPageForMultiParts" xml:space="preserve">
+    <value>Zoom Fit Page for multi parts</value>
+  </data>
+  <data name="frmConfigViewerGeneral_StretchLbl" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="frmOpenBookTasks_ExplorerViewLbl" xml:space="preserve">
+    <value>Explorer View</value>
+  </data>
+  <data name="frmPartNumberSearch_PartNum" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmDataSize_lblStatusHeader" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="frmConfigMemoSettings_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmDataSize_stRemainingSpace" xml:space="preserve">
+    <value>Remaining</value>
+  </data>
+  <data name="frmViewer_FontMenuItem" xml:space="preserve">
+    <value>Font…</value>
+  </data>
+  <data name="frmMemoLocal_RefBookPublishingIdLbl" xml:space="preserve">
+    <value>Book Publishing Id</value>
+  </data>
+  <data name="frmMemoGlobal_TxtMeoDateLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmViewer_workOffLineMenuItem" xml:space="preserve">
+    <value>Work Offline</value>
+  </data>
+  <data name="frmMemoLocal_HyperlinkMemoLbl" xml:space="preserve">
+    <value>Hyperlink Memo</value>
+  </data>
+  <data name="frmMemoRecovery_RecoveryFileLbl" xml:space="preserve">
+    <value>Recovery File</value>
+  </data>
+  <data name="frmSingleBookDownload_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmMemoLocal_AddTextMemoTSB" xml:space="preserve">
+    <value>Add Text Memo</value>
+  </data>
+  <data name="frmPageSetup_1by4cmbLst" xml:space="preserve">
+    <value>1 by 4</value>
+  </data>
+  <data name="frmMemoLocal_HypGoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmPartNameSearch_PartName" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblProxyServer" xml:space="preserve">
+    <value>Proxy Server</value>
+  </data>
+  <data name="frmConfigSearchPartName_GridCol_DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="frmMemoLocal_HypInfo1" xml:space="preserve">
+    <value>Provide the web page address (URL) in the above field to hyperlink</value>
+  </data>
+  <data name="frmSelectionListQuantity_Quantitylbl" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info3" xml:space="preserve">
+    <value>Ready……</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info2" xml:space="preserve">
+    <value>Books are already updated</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info1" xml:space="preserve">
+    <value>Books not Loaded</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info7" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info6" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info5" xml:space="preserve">
+    <value>Overall Progress:</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info4" xml:space="preserve">
+    <value>Checking Books to download……</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info9" xml:space="preserve">
+    <value>Downloading cancelled</value>
+  </data>
+  <data name="frmMultipleBooksDownload_Info8" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="frmSelectionList_CommaSeparated1CMS" xml:space="preserve">
+    <value>Comma Separated</value>
+  </data>
+  <data name="frmViewerPartslist_PartsDetailDGColumn" xml:space="preserve">
+    <value>Parts Details</value>
+  </data>
+  <data name="frmOpenBookTasks_SearchLbl" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmViewerPartslist_CommaSeparatedCMS" xml:space="preserve">
+    <value>Comma Separated</value>
+  </data>
+  <data name="frmViewer_FirstPageTSBToolTip" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="frmMemoLocal_BrowseBtn" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmMemoGlobal_UpdatedOnLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmMemoAdmin_Cancelbtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmMemoGlobal_AddHyperlinkMemoTSB" xml:space="preserve">
+    <value>Add Hyperlink Memo</value>
+  </data>
+  <data name="frmPageSetup_PortraitRadiobutton" xml:space="preserve">
+    <value>Portrait</value>
+  </data>
+  <data name="frmViewer_manageDiskSpaceTSBTooltip" xml:space="preserve">
+    <value>Manage Disk Space</value>
+  </data>
+  <data name="frmViewer_AddBookmarksTSBToolTip" xml:space="preserve">
+    <value>Add Bookmarks</value>
+  </data>
+  <data name="frmPageSetup_ForLandscapePictureLbl" xml:space="preserve">
+    <value>For Landscape Picture</value>
+  </data>
+  <data name="frmOpenBookTasks_AdvSrcTextLbl" xml:space="preserve">
+    <value>Text Search</value>
+  </data>
+  <data name="frmPageNameSearch_PageName" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_GridCol_Alignment" xml:space="preserve">
+    <value>Col Alignment</value>
+  </data>
+  <data name="frmConfig_ViewerFontTSB" xml:space="preserve">
+    <value>Viewer Font</value>
+  </data>
+  <data name="frmOpenBook_ExplorerView" xml:space="preserve">
+    <value>Explorer View</value>
+  </data>
+  <data name="frmViewer_ConnectionTSBTooltip" xml:space="preserve">
+    <value>Connection Settings</value>
+  </data>
+  <data name="frmConfigSearchPartName_Cancelbtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmPageSetup_PaperSizeLbl" xml:space="preserve">
+    <value>Paper Size:</value>
+  </data>
+  <data name="frmViewer_PreviousPictureTSBToolTip" xml:space="preserve">
+    <value>Previous Picture</value>
+  </data>
+  <data name="frmViewer_CloseMenuItem" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmAddRecord_ErrorMsg4" xml:space="preserve">
+    <value>(W-ARD-WM004) Part already exists in selection list</value>
+  </data>
+  <data name="frmAddRecord_ErrorMsg2" xml:space="preserve">
+    <value>(W-ARD-WM002) Quantity field must not be empty</value>
+  </data>
+  <data name="frmAddRecord_ErrorMsg3" xml:space="preserve">
+    <value>(W-ARD-WM003) Quantity must be numeric</value>
+  </data>
+  <data name="frmAddRecord_ErrorMsg1" xml:space="preserve">
+    <value>(W-ARD-WM001) Part number field must not be empty</value>
+  </data>
+  <data name="frmConfigSearchPartName_ErrorMsg2" xml:space="preserve">
+    <value>(E-SPT-EM002) Not in required format</value>
+  </data>
+  <data name="frmConfigSearchPartName_ErrorMsg1" xml:space="preserve">
+    <value>(E-SPT-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoGlobal_HypMemoDateLbl" xml:space="preserve">
+    <value>Updated on: 14/02/2010 21:26</value>
+  </data>
+  <data name="frmViewerPartslist_CommaSeparated1CMS" xml:space="preserve">
+    <value>Comma Separated</value>
+  </data>
+  <data name="frmOpenBookSearch_KeywordLbl" xml:space="preserve">
+    <value>Keyword</value>
+  </data>
+  <data name="frmPageSetup_SettingsLbl" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="frmOpenBookBookmarks_BookmarksInformation" xml:space="preserve">
+    <value>Bookmarks Information</value>
+  </data>
+  <data name="frmPrint_StatusLbl" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ServerInformationlbl" xml:space="preserve">
+    <value>Server Information</value>
+  </data>
+  <data name="frmConfigViewerFont_FontLbl" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="frmMemoRecovery_BrowseBtn" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmOpenBookBrowse_BrowseLbl" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmMultipleBooksDownload_CancelBtn" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmViewerTreeview_Name" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="frmViewer_Name" xml:space="preserve">
+    <value>GSPcLocal Viewer 3.0</value>
+  </data>
+  <data name="frmPartNameSearch_MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="frmViewer_HistoryForwardTSBToolTip" xml:space="preserve">
+    <value>Forward</value>
+  </data>
+  <data name="frmPrint_AllPagesChkbox" xml:space="preserve">
+    <value>All Pages</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg10" xml:space="preserve">
+    <value>(E-OBS-EM010) Encountered problem while searching</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg11" xml:space="preserve">
+    <value>(E-OBS-EM011) Failed to load specified object</value>
+  </data>
+  <data name="frmConfigTasks_SettingsLbl" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="frmPrintPreview_UpdateDateInfo" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="frmDataSize_Ques1" xml:space="preserve">
+    <value>Are you sure you want to delete the selected data</value>
+  </data>
+  <data name="frmSingleBookDownload_Info10" xml:space="preserve">
+    <value>Book download canceled because maximum download limit was reached</value>
+  </data>
+  <data name="frmDataSize_Name1" xml:space="preserve">
+    <value>Manage Disk Space</value>
+  </data>
+  <data name="frmDataSize_Info1" xml:space="preserve">
+    <value>Data path does not exist</value>
+  </data>
+  <data name="frmDataSize_Info2" xml:space="preserve">
+    <value>No books exist</value>
+  </data>
+  <data name="frmDataSize_Info3" xml:space="preserve">
+    <value>All books deleted</value>
+  </data>
+  <data name="frmViewer_ViewPartslistTSBToolTip" xml:space="preserve">
+    <value>View Parts List</value>
+  </data>
+  <data name="frmDataSize_btnOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmMemoGlobal_TypeDGCol" xml:space="preserve">
+    <value>Type</value>
+  </data>
+  <data name="frmViewer_PartNameSearchTSBToolTip" xml:space="preserve">
+    <value>Part Name Search</value>
+  </data>
+  <data name="frmConfig_AdvanceSearchTSB" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="frmMemo_PartMemoLbl" xml:space="preserve">
+    <value>Part Memo</value>
+  </data>
+  <data name="frmConfigTasks_FontAndColorLbl" xml:space="preserve">
+    <value>Font And Color</value>
+  </data>
+  <data name="frmViewerPartslist_AddtoSelectionListTSB" xml:space="preserve">
+    <value>Add To Selection List</value>
+  </data>
+  <data name="frmViewer_tsbFitPage" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_OKbtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblIp" xml:space="preserve">
+    <value>Proxy Address</value>
+  </data>
+  <data name="frmConfigViewerConnection_btnOK" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmSingleBookDownload_Name" xml:space="preserve">
+    <value>Single Book Download</value>
+  </data>
+  <data name="frmMemoGlobal_ListRelatedTSB" xml:space="preserve">
+    <value>List Related</value>
+  </data>
+  <data name="frmViewer_ConnectionMenuItem" xml:space="preserve">
+    <value>Connection Settings …</value>
+  </data>
+  <data name="frmConfigSearchPageName_GridCol_Width" xml:space="preserve">
+    <value>Col Width</value>
+  </data>
+  <data name="frmViewer_NavToPrevPageMenuItem" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ContentPath" xml:space="preserve">
+    <value>Content Path:</value>
+  </data>
+  <data name="frmConfig_PageNameSearchTSB" xml:space="preserve">
+    <value>Page Name Search</value>
+  </data>
+  <data name="frmViewer_PartNumberMenuItem" xml:space="preserve">
+    <value>Part Number …</value>
+  </data>
+  <data name="frmMemoTasks_GlobalMemosLbl" xml:space="preserve">
+    <value>Global Memo</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblSeconds" xml:space="preserve">
+    <value>seconds</value>
+  </data>
+  <data name="frmConfigMemoSettings_BrowseBtn" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmMemoGlobal_DeleteAllTSB" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="frmOpenBookTasks_BrowseLbl" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmMemoGlobal_AddCurrentMemoTSB" xml:space="preserve">
+    <value>Save Current Memo</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Err002" xml:space="preserve">
+    <value>(E-PT-CF001) Failed to create file/folder specified.</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Err003" xml:space="preserve">
+    <value>(E-RG-OP001) Cannot open book.</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Err001" xml:space="preserve">
+    <value>(E-TV-LD001) Failed to load specified object.</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Err004" xml:space="preserve">
+    <value>(E-RG-OP002) Cannot open book.</value>
+  </data>
+  <data name="frmConfigSearchPartName_GridCol_Width" xml:space="preserve">
+    <value>Col Width</value>
+  </data>
+  <data name="frmViewer_MemoListMenuItem" xml:space="preserve">
+    <value>View Memo List…</value>
+  </data>
+  <data name="frmMemoLocal_AddCurrentMemoTSB" xml:space="preserve">
+    <value>Save Current Memo</value>
+  </data>
+  <data name="frmConfigViewerGeneral_GeneralBtn" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="frmMemoGlobal_ReferenceMemoLbl" xml:space="preserve">
+    <value>Reference Memo</value>
+  </data>
+  <data name="frmConfigViewerGeneral_stretchchkBox" xml:space="preserve">
+    <value>Stretch</value>
+  </data>
+  <data name="frmMemoGlobal_CommandLineLbl" xml:space="preserve">
+    <value>Command Line</value>
+  </data>
+  <data name="frmMemoTasks_TasksLbl" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="frmPageSetup_SplitPrinting" xml:space="preserve">
+    <value>Split Printing</value>
+  </data>
+  <data name="frmViewer_GSPcLocalMenuItem" xml:space="preserve">
+    <value>GSPcLocal Help</value>
+  </data>
+  <data name="frmDataSize_stProcessing" xml:space="preserve">
+    <value>Processing disk space...</value>
+  </data>
+  <data name="frmConfig_ViewerFont_FontLbl" xml:space="preserve">
+    <value>Font</value>
+  </data>
+  <data name="frmSearchTasks_txtSearch" xml:space="preserve">
+    <value>Text Search</value>
+  </data>
+  <data name="frmConfigMemoSettings_MemoLbl" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="frmViewerPicture_ReadyTxt" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmConfigSearchPageName_OKbtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmOpenBookSearch_MatchCaseLbl" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="frmViewerPicture_Name" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmOpenBookSearch_BookCodeDgvColumn" xml:space="preserve">
+    <value>Book Code</value>
+  </data>
+  <data name="frmPageSetup_1by1cmbLst" xml:space="preserve">
+    <value>1 by 1</value>
+  </data>
+  <data name="frmOpenBookTasks_TasksLbl" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="frmConfigTasks_TasksLbl" xml:space="preserve">
+    <value>Tasks</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_GridCol_Width" xml:space="preserve">
+    <value>Col Width</value>
+  </data>
+  <data name="frmOpenBook_SearchTSB" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmViewerTreeview_CommaSeparatedCMItem" xml:space="preserve">
+    <value>Comma Separated</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg5" xml:space="preserve">
+    <value>(E-MLC-EM005) Specified information does not exist</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg4" xml:space="preserve">
+    <value>(E-MLC-EM004) URL not found</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg7" xml:space="preserve">
+    <value>(E-MLC-EM007) Can not open Internet Explorer</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg6" xml:space="preserve">
+    <value>(E-MLC-EM006) Failed to save specified object</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg1" xml:space="preserve">
+    <value>(E-MLC-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg3" xml:space="preserve">
+    <value>(E-MLC-EM003) Specified information does not exist</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg2" xml:space="preserve">
+    <value>(E-MLC-EM002) Failed to save specified object</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg9" xml:space="preserve">
+    <value>(E-MLC-EM009) Specified information does not exist</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg8" xml:space="preserve">
+    <value>Do you want to save any changes made here?</value>
+  </data>
+  <data name="frmMemoGlobal_DescriptionDGCol" xml:space="preserve">
+    <value>Description</value>
+  </data>
+  <data name="frmViewer_MultipleBooksDownloadMenuItem" xml:space="preserve">
+    <value>Multiple Books Download …</value>
+  </data>
+  <data name="frmTextSearch_Info2" xml:space="preserve">
+    <value>result(s) found</value>
+  </data>
+  <data name="frmTextSearch_Info3" xml:space="preserve">
+    <value>not found</value>
+  </data>
+  <data name="frmTextSearch_Info1" xml:space="preserve">
+    <value>No result found</value>
+  </data>
+  <data name="frmSelectionList_Name" xml:space="preserve">
+    <value>Selection List</value>
+  </data>
+  <data name="frmMemoGlobal_RefGoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmMemoGlobal_RefInfo1" xml:space="preserve">
+    <value>(space separated values)</value>
+  </data>
+  <data name="frmMemoGlobal_UpdateDateDGCol" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="frmViewer_SettingsMenu" xml:space="preserve">
+    <value>Settings</value>
+  </data>
+  <data name="frmConfigMemoSettings_PopupPictureMemosChkBox" xml:space="preserve">
+    <value>Popup Picture Memos</value>
+  </data>
+  <data name="frmViewer_FileMenu" xml:space="preserve">
+    <value>File</value>
+  </data>
+  <data name="frmConfigViewerGeneral_ShowPictureToolbarInFrameChkBox" xml:space="preserve">
+    <value>Show Picture Toolbar In Frame</value>
+  </data>
+  <data name="frmPrintPreview_PrintDateInfo" xml:space="preserve">
+    <value>Print Date</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_Cancelbtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmMemoGlobal_AddProgramMemoTSB" xml:space="preserve">
+    <value>Add Program Memo</value>
+  </data>
+  <data name="frmConfigViewerFont_HighlightBackColorLbl" xml:space="preserve">
+    <value>Highlight back color</value>
+  </data>
+  <data name="frmInfo_txtContentPath" xml:space="preserve">
+    <value>Content Path</value>
+  </data>
+  <data name="frmSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmViewerTreeview_Info4" xml:space="preserve">
+    <value>Finished loading</value>
+  </data>
+  <data name="frmViewerTreeview_Info5" xml:space="preserve">
+    <value>(E-VTV-EM005) Failed to load specified object</value>
+  </data>
+  <data name="frmViewerTreeview_Info6" xml:space="preserve">
+    <value>(E-VTV-EM006) Failed to download specified object</value>
+  </data>
+  <data name="frmViewerTreeview_Info7" xml:space="preserve">
+    <value>% Downloaded</value>
+  </data>
+  <data name="frmViewerTreeview_Info1" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmViewerTreeview_Info2" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="frmViewerTreeview_Info3" xml:space="preserve">
+    <value>(E-VTV-EM004) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmOpenBook_BookmarksTSB" xml:space="preserve">
+    <value>Bookmarks</value>
+  </data>
+  <data name="frmViewer_manageDiskSpaceMenuItem" xml:space="preserve">
+    <value>Manage Disk Space …</value>
+  </data>
+  <data name="frmSelectionList_SelectAllCMS" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmSelectionList_SelectAllTSB" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmViewer_NavToFirstPageMenuItem" xml:space="preserve">
+    <value>First Page</value>
+  </data>
+  <data name="frmPrint_BothRadioButton" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="frmMemoGlobal_HypGoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmMemoGlobal_HypInfo1" xml:space="preserve">
+    <value>Provide the web page address (URL) in the above field to hyperlink</value>
+  </data>
+  <data name="frmSearch_AdvanceSearch" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="frmConfigViewerGeneral_PartslistLbl" xml:space="preserve">
+    <value>Parts List</value>
+  </data>
+  <data name="frmPageSetup_LandscapeRadiobutton" xml:space="preserve">
+    <value>Landscape</value>
+  </data>
+  <data name="frmConfigViewerGeneral_DefaultZoomLbl" xml:space="preserve">
+    <value>Default Zoom</value>
+  </data>
+  <data name="frmSelectionListQuantity_DeleteBtn" xml:space="preserve">
+    <value>Delete</value>
+  </data>
+  <data name="frmAddRecord_btnSave1" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="frmDataSize_btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewer_SearchByPartNumberMenuItem" xml:space="preserve">
+    <value>Part Number …</value>
+  </data>
+  <data name="frmPageSetup_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmDataSize_Err3" xml:space="preserve">
+    <value>Allocated data size should be greater than 10MB</value>
+  </data>
+  <data name="frmDataSize_Err2" xml:space="preserve">
+    <value>Allocated data size should be less than available space</value>
+  </data>
+  <data name="frmDataSize_Err1" xml:space="preserve">
+    <value>(E-VDS-EM001) Failed to delete specified object</value>
+  </data>
+  <data name="frmDataSize_Err4" xml:space="preserve">
+    <value>Allocated data size should be greater than existing data space</value>
+  </data>
+  <data name="frmDataSize_Name" xml:space="preserve">
+    <value>Data Cleanup</value>
+  </data>
+  <data name="frmDataSize_btnUnSelectAll1" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="frmConfig_ViewerColor_PartsListInfo" xml:space="preserve">
+    <value>Partlist Information</value>
+  </data>
+  <data name="frmViewer_NavToLastPageMenuItem" xml:space="preserve">
+    <value>Last Page</value>
+  </data>
+  <data name="frmViewer_AddPictureMemoTSBToolTip" xml:space="preserve">
+    <value>Add Picture Memo</value>
+  </data>
+  <data name="frmDataSize_btnUnSelectAll" xml:space="preserve">
+    <value>Unselect All</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Browselbl" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmDataSize_lblDownloadedDataHeader" xml:space="preserve">
+    <value>Downloaded Data</value>
+  </data>
+  <data name="frmViewer_PageNameMenuItem" xml:space="preserve">
+    <value>Page Name …</value>
+  </data>
+  <data name="frmViewer_ViewInformationTSBToolTip" xml:space="preserve">
+    <value>View Information</value>
+  </data>
+  <data name="frmConfigMemoSettings_EnableGlobalMemosChkbox" xml:space="preserve">
+    <value>Enable Global Memos</value>
+  </data>
+  <data name="frmPartNumberSearch_Info3" xml:space="preserve">
+    <value>not found</value>
+  </data>
+  <data name="frmPartNumberSearch_Info2" xml:space="preserve">
+    <value>result(s) found</value>
+  </data>
+  <data name="frmPartNumberSearch_Info1" xml:space="preserve">
+    <value>No result found</value>
+  </data>
+  <data name="frmMemoLocal_DeleteAllTSB" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="frmViewer_PageNameSearchTSBToolTip" xml:space="preserve">
+    <value>Page Name Search</value>
+  </data>
+  <data name="frmOpenBookSearch_ExactMatchLbl" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="frmViewer_NavigationMenuItem" xml:space="preserve">
+    <value>Navigation</value>
+  </data>
+  <data name="frmSearch_PageNameSearch" xml:space="preserve">
+    <value>Page Name Search</value>
+  </data>
+  <data name="frmConfigMemoSettings_LocalMemoBackupFilesLbl" xml:space="preserve">
+    <value>Local Memo Backup File</value>
+  </data>
+  <data name="frmConfigMemoSettings_ErrorMsg4" xml:space="preserve">
+    <value>(E-CMS-EM004) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmConfigMemoSettings_ErrorMsg3" xml:space="preserve">
+    <value>(E-CMS-EM003) Not in required format</value>
+  </data>
+  <data name="frmConfigMemoSettings_ErrorMsg2" xml:space="preserve">
+    <value>(E-CMS-EM002) Specified information does not exist</value>
+  </data>
+  <data name="frmConfigMemoSettings_ErrorMsg1" xml:space="preserve">
+    <value>(E-CMS-EM001) Failed to save specified object</value>
+  </data>
+  <data name="frmViewer_PreviousPageTSBToolTip" xml:space="preserve">
+    <value>Previous Page</value>
+  </data>
+  <data name="frmMemoLocal_ExecutablePathLbl" xml:space="preserve">
+    <value>Executable Path</value>
+  </data>
+  <data name="frmMemoLocal_ListRelatedTSB" xml:space="preserve">
+    <value>List Related</value>
+  </data>
+  <data name="frmViewer_SearchByPartNameMenuItem" xml:space="preserve">
+    <value>Part Name …</value>
+  </data>
+  <data name="frmOpenBook_BrowseTSB" xml:space="preserve">
+    <value>Browse</value>
+  </data>
+  <data name="frmViewer_MemoListTSBToolTip" xml:space="preserve">
+    <value>View Memo List</value>
+  </data>
+  <data name="frmViewer_tsbShowThumbnail" xml:space="preserve">
+    <value>Show Thumbnails</value>
+  </data>
+  <data name="frmMemoGlobal_DeleteSelectedTSB" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="frmMemoRecovery_LocalMemoRecoveryLbl" xml:space="preserve">
+    <value>Local Memo Recovery</value>
+  </data>
+  <data name="frmMemoLocal_RefGoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmPageNameSearch_ExactMatch" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="frmConfig_ViewerGeneralTSB" xml:space="preserve">
+    <value>Viewer General</value>
+  </data>
+  <data name="frmViewer_PrintPictureMenuItem" xml:space="preserve">
+    <value>Print Picture …</value>
+  </data>
+  <data name="frmViewer_NavToNextViewMenuItem" xml:space="preserve">
+    <value>Next View</value>
+  </data>
+  <data name="frmMemoLocal_RefInfo1" xml:space="preserve">
+    <value>(space separated values)</value>
+  </data>
+  <data name="frmViewerTreeview_PrintToCMItem" xml:space="preserve">
+    <value>Print To</value>
+  </data>
+  <data name="frmViewerPartslist_TabSeparatedCMS" xml:space="preserve">
+    <value>Tab Separated</value>
+  </data>
+  <data name="frmViewer_TextSearchTSBToolTip" xml:space="preserve">
+    <value>Text Search</value>
+  </data>
+  <data name="frmViewerPicture_ErrorMsg1" xml:space="preserve">
+    <value>(E-VPC-EM001) Not in required format</value>
+  </data>
+  <data name="frmViewerPicture_ErrorMsg2" xml:space="preserve">
+    <value>(E-VPC-EM002) Failed to load specified object</value>
+  </data>
+  <data name="frmDataSize_btnSelectAll1" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmViewer_MemoRecoveryMenuItem" xml:space="preserve">
+    <value>Memo Recovery …</value>
+  </data>
+  <data name="frmMemoLocal_TxtMemoLbl" xml:space="preserve">
+    <value>Text Memo</value>
+  </data>
+  <data name="frmConfig_ViewerGeneral_chkSideBySidePrinting" xml:space="preserve">
+    <value>Side By Side Printing</value>
+  </data>
+  <data name="frmConfigMemoSettings_LocalMemoBackupFileLbl" xml:space="preserve">
+    <value>Local Memo Backup File</value>
+  </data>
+  <data name="frmSingleBookDownload_ReadyStatusLbl" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmPrint_PrintRangeLbl" xml:space="preserve">
+    <value>Print Range</value>
+  </data>
+  <data name="frmSearchTasks_Page" xml:space="preserve">
+    <value>Page</value>
+  </data>
+  <data name="frmSearchTasks_Part" xml:space="preserve">
+    <value>Part</value>
+  </data>
+  <data name="frmSelectionList_ErrorMsg1" xml:space="preserve">
+    <value>(E-SLT-EM001) Failed to export specified object</value>
+  </data>
+  <data name="frmSelectionList_ErrorMsg2" xml:space="preserve">
+    <value>(E-SLT-EM002) Failed to load specified object</value>
+  </data>
+  <data name="frmSelectionList_ErrorMsg3" xml:space="preserve">
+    <value>(E-SLT-EM003) Failed to load specified object</value>
+  </data>
+  <data name="frmSelectionList_ErrorMsg4" xml:space="preserve">
+    <value>(E-SLT-EM004) Failed to load specified object</value>
+  </data>
+  <data name="frmSearchTasks_PartNum" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmConfigViewerConnection_rdoType0" xml:space="preserve">
+    <value>Don't use proxy server (connect directly)</value>
+  </data>
+  <data name="frmConfigViewerConnection_rdoType1" xml:space="preserve">
+    <value>Use HTTP proxy</value>
+  </data>
+  <data name="frmConfigViewerConnection_rdoType2" xml:space="preserve">
+    <value>Use SOCKS4 proxy</value>
+  </data>
+  <data name="frmConfigViewerConnection_rdoType3" xml:space="preserve">
+    <value>Use SOCKS5 proxy</value>
+  </data>
+  <data name="frmConfigMemoSettings_TakeBackupLocalMemosChkBox" xml:space="preserve">
+    <value>Take Backup of Local Memos</value>
+  </data>
+  <data name="frmViewerPartslist_AddSelectionListCMS" xml:space="preserve">
+    <value>Add To Selection List</value>
+  </data>
+  <data name="frmOpenBookTasks_SelectViewsLbl" xml:space="preserve">
+    <value>Select Views</value>
+  </data>
+  <data name="frmViewer_ListIndexTooltip" xml:space="preserve">
+    <value>List Index</value>
+  </data>
+  <data name="frmOpenBookBookmarks_OpenBookmarksMsg" xml:space="preserve">
+    <value>Open Bookmarks by browsing</value>
+  </data>
+  <data name="frmPrintPreview_Name" xml:space="preserve">
+    <value>Print Preview</value>
+  </data>
+  <data name="frmMemoGlobal_RefOtherRefLbl" xml:space="preserve">
+    <value>Other Ref</value>
+  </data>
+  <data name="frmMultipleBooksDownload_CloseBtn" xml:space="preserve">
+    <value>Close</value>
+  </data>
+  <data name="frmMemoTask_lblBothMemo" xml:space="preserve">
+    <value>Both</value>
+  </data>
+  <data name="frmViewer_ViewPictureTSBToolTip" xml:space="preserve">
+    <value>View Picture</value>
+  </data>
+  <data name="frmMemoLocal_ErrorMsg10" xml:space="preserve">
+    <value>(E-MLC-EM010) Can not open file/folder specified</value>
+  </data>
+  <data name="frmViewer_LanguageMenu" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="frmPageNameSearch_Searching" xml:space="preserve">
+    <value>Searching...</value>
+  </data>
+  <data name="frmPageNameSearch_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmViewer_Ques1" xml:space="preserve">
+    <value>Are you sure you want to delete this bookmark?</value>
+  </data>
+  <data name="frmConfig_MemoSettingsTSB" xml:space="preserve">
+    <value>Memo Settings</value>
+  </data>
+  <data name="frmViewer_Info4" xml:space="preserve">
+    <value>All memos are disabled. Enable memo from settings screen</value>
+  </data>
+  <data name="frmViewer_Info3" xml:space="preserve">
+    <value>Please wait for page to load</value>
+  </data>
+  <data name="frmViewer_Info2" xml:space="preserve">
+    <value>Searching Series.xml</value>
+  </data>
+  <data name="frmViewer_Info1" xml:space="preserve">
+    <value>Downloading…</value>
+  </data>
+  <data name="frmPartNumberSearch_Name" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmConfig_ViewerColor_GeneralLbl" xml:space="preserve">
+    <value>General</value>
+  </data>
+  <data name="frmPageSetup_SplittingOptionLbl" xml:space="preserve">
+    <value>Splitting Option:</value>
+  </data>
+  <data name="frmViewer_NextPageTSBToolTip" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="frmMemoLocal_LocalMemoLbl" xml:space="preserve">
+    <value>Local Memo</value>
+  </data>
+  <data name="frmMemoGlobal_SaveAllMemosTSB" xml:space="preserve">
+    <value>Save All Memos</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_GridCol_DisplayName" xml:space="preserve">
+    <value>Display Name</value>
+  </data>
+  <data name="frmPrint_FromLbl" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="frmPrint_SelectionPrinting" xml:space="preserve">
+    <value>Selection Printing</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg1" xml:space="preserve">
+    <value>(E-OBB-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg3" xml:space="preserve">
+    <value>(E-OBB-EM003) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg2" xml:space="preserve">
+    <value>(E-OBB-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg5" xml:space="preserve">
+    <value>(E-OBB-EM005) Failed to download specified object</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg4" xml:space="preserve">
+    <value>(E-OBB-EM004) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg7" xml:space="preserve">
+    <value>(E-OBB-EM007) Specified information does not exist</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg6" xml:space="preserve">
+    <value>(E-OBB-EM006) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBrowse_ErrorMsg8" xml:space="preserve">
+    <value>(E-OBB-EM008) Specified information does not exist</value>
+  </data>
+  <data name="frmOpenBookTasks_AdvSrcPartNumberLbl" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmViewer_SearchMenu" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMemoLocal_RefMemoDateLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmViewer_ReadyStatusLbl" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmConfigViewerFont_Cancelbtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmConfigSearchPartName_GridCol_FieldId" xml:space="preserve">
+    <value>Field Id</value>
+  </data>
+  <data name="frmSelectionList_ExportToFileCMS" xml:space="preserve">
+    <value>Export To File</value>
+  </data>
+  <data name="frmOpenBookTasks_OpenBooksLbl" xml:space="preserve">
+    <value>Open Books</value>
+  </data>
+  <data name="frmViewer_PartNumberSearchTSBToolTip" xml:space="preserve">
+    <value>Part Number Search</value>
+  </data>
+  <data name="frmMultipleBooksDownload_FileNameListViewColumn" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="frmPageNameSearch_ErrorMsg1" xml:space="preserve">
+    <value>(E-PGS-EM001) Not in required format</value>
+  </data>
+  <data name="frmPageNameSearch_ErrorMsg2" xml:space="preserve">
+    <value>(E-PGS-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmSelectionList_ThirdPartyBasketTSBToolTip" xml:space="preserve">
+    <value>Basket</value>
+  </data>
+  <data name="frmViewer_PartNameMenuItem" xml:space="preserve">
+    <value>Part Name …</value>
+  </data>
+  <data name="frmConfigViewerGeneral_DefaultLanguageLbl" xml:space="preserve">
+    <value>Default Language</value>
+  </data>
+  <data name="frmViewer_InformationMenuItem" xml:space="preserve">
+    <value>Information</value>
+  </data>
+  <data name="frmViewer_tsbPicZoomOut" xml:space="preserve">
+    <value>Zoom Out</value>
+  </data>
+  <data name="frmOpenBookTasks_GridViewLbl" xml:space="preserve">
+    <value>Grid View</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblPassword" xml:space="preserve">
+    <value>Proxy Password</value>
+  </data>
+  <data name="frmSearchTasks_PageName" xml:space="preserve">
+    <value>Page Name</value>
+  </data>
+  <data name="frmInfo_ErrorMsg1" xml:space="preserve">
+    <value>(E-INF-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmInfo_ErrorMsg2" xml:space="preserve">
+    <value>(E-INF-EM002) Failed to load specified object</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_ErrorMsg2" xml:space="preserve">
+    <value>(E-SPN-EM002) Not in required format</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_ErrorMsg1" xml:space="preserve">
+    <value>(E-SPN-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmViewer_GoToPortalMenuItem" xml:space="preserve">
+    <value>Go to Portal</value>
+  </data>
+  <data name="frmViewer_MemoAddToPartMenuItem" xml:space="preserve">
+    <value>Add Part Memo…</value>
+  </data>
+  <data name="frmViewerPicture_SelectText" xml:space="preserve">
+    <value>Select Text</value>
+  </data>
+  <data name="frmPrintPreview_PictureTSBTooltip" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmViewer_PrintTSBToolTip" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="frmConfigViewerGeneral_OtherLbl" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="frmSearch_PartNameSearch" xml:space="preserve">
+    <value>Part Name Search</value>
+  </data>
+  <data name="frmSelectionList_SelectionListDGCol" xml:space="preserve">
+    <value>Selection List</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Detailslbl" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMemoTasks_ViewOptionsLbl" xml:space="preserve">
+    <value>View Options</value>
+  </data>
+  <data name="frmDataSize_btnSelectAll" xml:space="preserve">
+    <value>Select All</value>
+  </data>
+  <data name="frmSelectionListQuantity_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewer_HelpMenu" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="frmPageSetup_ZoomLbl" xml:space="preserve">
+    <value>Zoom</value>
+  </data>
+  <data name="frmSearch_SearchWholeBook" xml:space="preserve">
+    <value>Search Whole Book</value>
+  </data>
+  <data name="frmViewer_PictureIndexTooltip" xml:space="preserve">
+    <value>Picture Index</value>
+  </data>
+  <data name="frmOpenBookTasks_AdvSrcPartNameLbl" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="frmViewerTreeview_TabSeparatedCMItem" xml:space="preserve">
+    <value>Tab Separated</value>
+  </data>
+  <data name="frmConfigMemoSettings_EnableLocalMemosLbl" xml:space="preserve">
+    <value>Enable Local Memos</value>
+  </data>
+  <data name="frmConfigViewerGeneral_FitPageLbl" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="frmViewerTreeview_PrintFromCMItem" xml:space="preserve">
+    <value>Print From</value>
+  </data>
+  <data name="frmConfigViewerFont_SizeLbl" xml:space="preserve">
+    <value>Size</value>
+  </data>
+  <data name="frmMemoGlobal_ExecutablePathLbl" xml:space="preserve">
+    <value>Executable Path</value>
+  </data>
+  <data name="frmConfigTasks_ViewerLbl" xml:space="preserve">
+    <value>Viewer</value>
+  </data>
+  <data name="frmViewer_ViewMenu" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="frmMemoLocal_TxtMeoDateLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmConfigMemoSettings_EnableAdminMemosChkbox" xml:space="preserve">
+    <value>Enable Administrator Memos</value>
+  </data>
+  <data name="frmViewer_AddBookmarksMenuItem" xml:space="preserve">
+    <value>Add Bookmarks</value>
+  </data>
+  <data name="frmConfigViewerGeneral_HistroySizeErrorMsgLbl" xml:space="preserve">
+    <value>Enter a positive interger for history size</value>
+  </data>
+  <data name="frmConfigViewerConnection_btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewer_NavToPrevViewMenuItem" xml:space="preserve">
+    <value>Previous View</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ErrorMsg1" xml:space="preserve">
+    <value>(E-OBM-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ErrorMsg2" xml:space="preserve">
+    <value>(E-OBM-EM002) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ErrorMsg3" xml:space="preserve">
+    <value>(E-OBM-EM003) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookBookmarks_ErrorMsg4" xml:space="preserve">
+    <value>(E-OBM-EM004) Failed to load specified object</value>
+  </data>
+  <data name="frmDjVuAuthentication_UseridLbl" xml:space="preserve">
+    <value>User Id</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblLogin" xml:space="preserve">
+    <value>Proxy Login</value>
+  </data>
+  <data name="frmViewerPartslist_ErrorMsg2" xml:space="preserve">
+    <value>(E-VPL-EM002) Failed to export specified object</value>
+  </data>
+  <data name="frmViewerPartslist_ErrorMsg1" xml:space="preserve">
+    <value>(E-VPL-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmPageNameSearch_Name" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMemoLocal_DeleteSelectedTSB" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="frmMemoGlobal_GlobalMemoLbl" xml:space="preserve">
+    <value>Global Memo</value>
+  </data>
+  <data name="frmOpenBookSearch_AdvanceSearchLbl" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="frmViewer_ContentMenuItem" xml:space="preserve">
+    <value>Contents</value>
+  </data>
+  <data name="frmMemoGlobal_TxtMemoLbl" xml:space="preserve">
+    <value>Text Memo</value>
+  </data>
+  <data name="frmViewer_closeAllToolStripMenuItem" xml:space="preserve">
+    <value>Close All</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_SelectServerItem" xml:space="preserve">
+    <value>Select a server…</value>
+  </data>
+  <data name="frmViewer_SaveDefaultMenuItem" xml:space="preserve">
+    <value>Save Defaults</value>
+  </data>
+  <data name="frmMemoGlobal_HyperlinkMemoLbl" xml:space="preserve">
+    <value>Hyperlink Memo</value>
+  </data>
+  <data name="frmSelectionList_DeleteAllTSB" xml:space="preserve">
+    <value>Delete All</value>
+  </data>
+  <data name="frmConfigMemoSettings_DetailsLbl" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="frmViewer_Info5_5" xml:space="preserve">
+    <value>Manage disk to free some space</value>
+  </data>
+  <data name="frmViewer_Info5_4" xml:space="preserve">
+    <value>of allowed space</value>
+  </data>
+  <data name="frmViewer_Info5_6" xml:space="preserve">
+    <value>Cannot perform book download</value>
+  </data>
+  <data name="frmViewer_Info5_1" xml:space="preserve">
+    <value>Low Disk Space</value>
+  </data>
+  <data name="frmViewer_Info5_3" xml:space="preserve">
+    <value>left from</value>
+  </data>
+  <data name="frmViewer_Info5_2" xml:space="preserve">
+    <value>Less than</value>
+  </data>
+  <data name="frmMemoLocal_AddProgramMemoTSB" xml:space="preserve">
+    <value>Add Program Memo</value>
+  </data>
+  <data name="frmMemo_Name" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="frmOpenBookTasks_ImagePreviewLbl" xml:space="preserve">
+    <value>Image Preview</value>
+  </data>
+  <data name="frmViewer_SingleBookDownloadTSBToolTip" xml:space="preserve">
+    <value>Single Book Download</value>
+  </data>
+  <data name="frmConfigViewerFont_FontAndColorLbl" xml:space="preserve">
+    <value>Font And Color</value>
+  </data>
+  <data name="frmViewer_HistoryListTSB" xml:space="preserve">
+    <value>History List</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg1" xml:space="preserve">
+    <value>(E-OBS-EM001) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg3" xml:space="preserve">
+    <value>(E-OBS-EM003) Failed to download specified object</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg2" xml:space="preserve">
+    <value>(E-OBS-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg5" xml:space="preserve">
+    <value>(E-OBS-EM005) Specified information does not exist</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg4" xml:space="preserve">
+    <value>(E-OBS-EM004) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg7" xml:space="preserve">
+    <value>(E-OBS-EM007) Specified information does not exist</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg6" xml:space="preserve">
+    <value>(E-OBS-EM006) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg9" xml:space="preserve">
+    <value>(E-OBS-EM009) Failed to load specified object</value>
+  </data>
+  <data name="frmOpenBookSearch_ErrorMsg8" xml:space="preserve">
+    <value>(E-OBS-EM008) Not in required format</value>
+  </data>
+  <data name="frmOpenBookBrowse_DetailsLbl" xml:space="preserve">
+    <value>Details</value>
+  </data>
+  <data name="frmTextSearch_ExactMatch" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="frmPartNameSearch_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMultipleBooksDownload_DownloadBtn" xml:space="preserve">
+    <value>Download</value>
+  </data>
+  <data name="frmPrint_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmSearchTasks_PartName" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="frmOpenBook_Name" xml:space="preserve">
+    <value>Open Books</value>
+  </data>
+  <data name="frmViewer_ConfigurationTSBToolTip" xml:space="preserve">
+    <value>Configuration</value>
+  </data>
+  <data name="frmConfigMemoSettings_GlobalMemoFolder" xml:space="preserve">
+    <value>Global Memo Folder</value>
+  </data>
+  <data name="frmPartNumberSearch_MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="frmPageNameSearch_MatchCase" xml:space="preserve">
+    <value>Match Case</value>
+  </data>
+  <data name="frmViewer_GeneralMenuItem" xml:space="preserve">
+    <value>General …</value>
+  </data>
+  <data name="frmPrintPreview_ActualSize" xml:space="preserve">
+    <value>1:1</value>
+  </data>
+  <data name="frmMemo_PictureMemoLbl" xml:space="preserve">
+    <value>Picture Memo</value>
+  </data>
+  <data name="frmViewer_ErrorMsg8" xml:space="preserve">
+    <value>(E-VWR-EM008) Failed to save specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg9" xml:space="preserve">
+    <value>(E-VWR-EM009) Failed to load specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg1" xml:space="preserve">
+    <value>(E-VWR-EM001) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmViewer_ErrorMsg2" xml:space="preserve">
+    <value>(E-VWR-EM002) Invalid command</value>
+  </data>
+  <data name="frmViewer_ErrorMsg3" xml:space="preserve">
+    <value>(E-VWR-EM003) Invalid command</value>
+  </data>
+  <data name="frmViewer_ErrorMsg4" xml:space="preserve">
+    <value>(E-VWR-EM004) Failed to download specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg5" xml:space="preserve">
+    <value>(E-VWR-EM005) Failed to save specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg6" xml:space="preserve">
+    <value>(E-VWR-EM006) Failed to delete specified object</value>
+  </data>
+  <data name="frmViewer_ErrorMsg7" xml:space="preserve">
+    <value>(E-VWR-EM007) Failed to recover specified object</value>
+  </data>
+  <data name="frmInfo_lblServerInformation" xml:space="preserve">
+    <value>Server Information</value>
+  </data>
+  <data name="frmMemoGlobal_RefServerKeyLbl" xml:space="preserve">
+    <value>Server Key</value>
+  </data>
+  <data name="frmMemoTask_lblAllMemo" xml:space="preserve">
+    <value>All</value>
+  </data>
+  <data name="frmSelectionList_CommaSeparatedCMS" xml:space="preserve">
+    <value>Comma Separated</value>
+  </data>
+  <data name="frmViewerPartslist_Info1" xml:space="preserve">
+    <value>Loading Parts List……</value>
+  </data>
+  <data name="frmViewerPartslist_Info3" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmViewerPartslist_Info2" xml:space="preserve">
+    <value>(E-VPL-EM003) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmViewerPartslist_Info4" xml:space="preserve">
+    <value>% Downloaded</value>
+  </data>
+  <data name="frmSingleBookDownload_Info8" xml:space="preserve">
+    <value>Downloading cancelled.</value>
+  </data>
+  <data name="frmSingleBookDownload_Info9" xml:space="preserve">
+    <value>Overall Progress:</value>
+  </data>
+  <data name="frmSingleBookDownload_Info2" xml:space="preserve">
+    <value>Book is already updated.</value>
+  </data>
+  <data name="frmSingleBookDownload_Info3" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmSingleBookDownload_Info1" xml:space="preserve">
+    <value>Checking files to download……</value>
+  </data>
+  <data name="frmSingleBookDownload_Info6" xml:space="preserve">
+    <value>Success</value>
+  </data>
+  <data name="frmSingleBookDownload_Info7" xml:space="preserve">
+    <value>Failed</value>
+  </data>
+  <data name="frmSingleBookDownload_Info4" xml:space="preserve">
+    <value>Checking files to download……</value>
+  </data>
+  <data name="frmSingleBookDownload_Info5" xml:space="preserve">
+    <value>Downloading</value>
+  </data>
+  <data name="frmViewer_PrintMenuItem" xml:space="preserve">
+    <value>Print …</value>
+  </data>
+  <data name="frmConfig_MemoFolderTSB" xml:space="preserve">
+    <value>Memo Folder</value>
+  </data>
+  <data name="frmConfig_ViewerConnectionTSB" xml:space="preserve">
+    <value>Viewer Connection</value>
+  </data>
+  <data name="frmMemoGlobal_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmSelectionListQuantity_ChangeBtn" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="frmMultipleBooksDownload_ErrorMsg1" xml:space="preserve">
+    <value>(W-MBD-WM001) Please select at least 1 book to download</value>
+  </data>
+  <data name="frmViewer_RestoreDefaultsTSBToolTip" xml:space="preserve">
+    <value>Restore Defaults</value>
+  </data>
+  <data name="frmConfigViewerGeneral_FitPagechkBox" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="frmConfigViewerGeneral_ShowPartslistToolbarChkbox" xml:space="preserve">
+    <value>Show Parts List Toolbar In Frame</value>
+  </data>
+  <data name="frmPrintPreview_FitWidth" xml:space="preserve">
+    <value>Fit Width</value>
+  </data>
+  <data name="frmPageSetup_Name" xml:space="preserve">
+    <value>Print Page Setup</value>
+  </data>
+  <data name="frmViewerPicture_RotateLeft" xml:space="preserve">
+    <value>Rotate Left</value>
+  </data>
+  <data name="frmConfigViewerGeneral_FitWidthLbl" xml:space="preserve">
+    <value>Fit Width</value>
+  </data>
+  <data name="frmMemoLocal_GoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmMemoRecovery_RecoverBtn" xml:space="preserve">
+    <value>Recover</value>
+  </data>
+  <data name="frmViewer_SingleBookDownloadMenuItem" xml:space="preserve">
+    <value>Single Book Download …</value>
+  </data>
+  <data name="frmMemoLocal_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmMemoLocal_Ques1" xml:space="preserve">
+    <value>Do you want to save any changes made in memo</value>
+  </data>
+  <data name="frmConfigViewerFont_HighlightForeColor" xml:space="preserve">
+    <value>Highlight fore color</value>
+  </data>
+  <data name="frmMemoGlobal_AddTextMemoTSB" xml:space="preserve">
+    <value>Add Text Memo</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info8" xml:space="preserve">
+    <value>Server Key</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info9" xml:space="preserve">
+    <value>Content Path</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info6" xml:space="preserve">
+    <value>Loading……</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info7" xml:space="preserve">
+    <value>Finished loading</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info4" xml:space="preserve">
+    <value>Checking for data updates……</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info5" xml:space="preserve">
+    <value>Downloading……</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info2" xml:space="preserve">
+    <value>Select a book</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info3" xml:space="preserve">
+    <value>Select a server</value>
+  </data>
+  <data name="frmOpenBookBrowse_Info1" xml:space="preserve">
+    <value>Open books by browsing</value>
+  </data>
+  <data name="frmInfo_lblBookInformation" xml:space="preserve">
+    <value>Book Information</value>
+  </data>
+  <data name="frmViewer_PrintPageMenuItem" xml:space="preserve">
+    <value>Print Page …</value>
+  </data>
+  <data name="frmViewerPicture_PreviousPictureTSBTooltip" xml:space="preserve">
+    <value>Previous Picture</value>
+  </data>
+  <data name="frmMemoGlobal_RefMemoDateLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmPrint_PrintDateInfo" xml:space="preserve">
+    <value>Print Date</value>
+  </data>
+  <data name="frmMemoListGoToPageTSB" xml:space="preserve">
+    <value>Go To Page</value>
+  </data>
+  <data name="frmDjVuAuthentication_Name" xml:space="preserve">
+    <value>Authentication</value>
+  </data>
+  <data name="frmDjVuAuthentication_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmMemoRecovery_Info1" xml:space="preserve">
+    <value>(E-MRC-EM003) Not in required format</value>
+  </data>
+  <data name="frmMemoGlobal_AddReferenceMemoTSB" xml:space="preserve">
+    <value>Add Reference Memo</value>
+  </data>
+  <data name="frmPageNameSearch_XmlNotFound" xml:space="preserve">
+    <value>(E-PGS-EM001) Specified information does not exist</value>
+  </data>
+  <data name="frmConfigSearchPageName_Cancelbtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmViewerTreeview_ExportToFileCMItem" xml:space="preserve">
+    <value>Export To File</value>
+  </data>
+  <data name="frmViewerTreeview_ErrorMsg1" xml:space="preserve">
+    <value>Copy To Clipboard</value>
+  </data>
+  <data name="frmMemoRecovery_Ques1" xml:space="preserve">
+    <value>Current local memos will be lost Do you want to proceed with memo recovery?</value>
+  </data>
+  <data name="frmViewer_tsbFindText" xml:space="preserve">
+    <value>Find Text</value>
+  </data>
+  <data name="frmViewerPartslist_ClearSelectionCMS" xml:space="preserve">
+    <value>Clear Selected</value>
+  </data>
+  <data name="frmViewerPartslist_ClearSelectionTSB" xml:space="preserve">
+    <value>Clear Selected</value>
+  </data>
+  <data name="frmOpenBookSearch_SearchLbl" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmOpenBookSearch_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmViewer_ErrorMsgDjVuCTL" xml:space="preserve">
+    <value />
+  </data>
+  <data name="frmMemoLocal_RefOtherRefLbl" xml:space="preserve">
+    <value>Other Ref</value>
+  </data>
+  <data name="frmViewer_ChangeMenuItem" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="frmConfigViewerConnection_ErrorMsg4" xml:space="preserve">
+    <value>(W-CVC-WM004) Proxy password is missing</value>
+  </data>
+  <data name="frmConfigViewerConnection_ErrorMsg1" xml:space="preserve">
+    <value>(W-CVC-WM001) Proxy address is not valid</value>
+  </data>
+  <data name="frmConfigViewerConnection_ErrorMsg2" xml:space="preserve">
+    <value>(W-CVC-WM002) Proxy address is missing</value>
+  </data>
+  <data name="frmConfigViewerConnection_ErrorMsg3" xml:space="preserve">
+    <value>(W-CVC-WM003) Proxy login is missing</value>
+  </data>
+  <data name="frmMemoGlobal_RefBookPublishingIdLbl" xml:space="preserve">
+    <value>Book Publishing Id</value>
+  </data>
+  <data name="frmConfigViewerGeneral_OnetoOneLbl" xml:space="preserve">
+    <value>One to One</value>
+  </data>
+  <data name="frmDataSize_btnDeleteSelected1" xml:space="preserve">
+    <value>Delete Selected</value>
+  </data>
+  <data name="frmConfigSearchPageName_GridCol_Alignment" xml:space="preserve">
+    <value>Col Alignment</value>
+  </data>
+  <data name="frmDataSize_lblInUseBooks" xml:space="preserve">
+    <value>Books you are viewing can not be deleted.</value>
+  </data>
+  <data name="frmConfigViewerGeneral_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmDataSize_lblDiskSpaceHeader" xml:space="preserve">
+    <value>Disk Space</value>
+  </data>
+  <data name="frmOpenBook_ImagePreview" xml:space="preserve">
+    <value>Image Preview</value>
+  </data>
+  <data name="frmPartNameSearch_ErrorMsg1" xml:space="preserve">
+    <value>(E-PTS-EM001) Not in required format</value>
+  </data>
+  <data name="frmPartNameSearch_ErrorMsg2" xml:space="preserve">
+    <value>(E-PTS-EM002) Failed to create file/folder specified</value>
+  </data>
+  <data name="frmSelectionListQuantity_Text" xml:space="preserve">
+    <value>Change Quantity</value>
+  </data>
+  <data name="frmOpenBookTasks_AdvSrcLbl" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="frmViewerPartslist_PreviousListTSBTooltip" xml:space="preserve">
+    <value>Previous List</value>
+  </data>
+  <data name="frmPageSetup_1by2cmbLst" xml:space="preserve">
+    <value>1 by 2</value>
+  </data>
+  <data name="frmSelectionListQuantity_PartNumberlbl" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmConfigSearchPartNumber_GridCol_FieldId" xml:space="preserve">
+    <value>Field Id</value>
+  </data>
+  <data name="frmViewer_NextPictureTSBToolTip" xml:space="preserve">
+    <value>Next Picture</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Info5" xml:space="preserve">
+    <value>Bookmarks loaded completely</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Info3" xml:space="preserve">
+    <value>Loading bookmarks</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Info2" xml:space="preserve">
+    <value>Select a server</value>
+  </data>
+  <data name="frmOpenBookBookmarks_Info1" xml:space="preserve">
+    <value>Select a bookmark</value>
+  </data>
+  <data name="frmOpenBookSearch_BookInformationLbl" xml:space="preserve">
+    <value>Book Information</value>
+  </data>
+  <data name="frmPageSetup_Preview" xml:space="preserve">
+    <value>Preview</value>
+  </data>
+  <data name="frmMemoLocal_HypMemoDateLbl" xml:space="preserve">
+    <value>Updated on:</value>
+  </data>
+  <data name="frmViewer_GSPcLocalHelpTSBToolTip" xml:space="preserve">
+    <value>GSPcLocal Help</value>
+  </data>
+  <data name="frmPageNameSearch_Info3" xml:space="preserve">
+    <value>not found</value>
+  </data>
+  <data name="frmPageNameSearch_Info2" xml:space="preserve">
+    <value>result(s) found</value>
+  </data>
+  <data name="frmPageNameSearch_Info1" xml:space="preserve">
+    <value>No result found</value>
+  </data>
+  <data name="frmMemoTasks_MemoTypes" xml:space="preserve">
+    <value>Memo Types</value>
+  </data>
+  <data name="frmMemoRecovery_Name" xml:space="preserve">
+    <value>Memo</value>
+  </data>
+  <data name="frmPrint_PrinterStatus1" xml:space="preserve">
+    <value>Other</value>
+  </data>
+  <data name="frmPrint_PrinterStatus2" xml:space="preserve">
+    <value>Unknown</value>
+  </data>
+  <data name="frmPrint_PrinterStatus3" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmPrint_PrinterStatus4" xml:space="preserve">
+    <value>Printing</value>
+  </data>
+  <data name="frmPrint_PrinterStatus5" xml:space="preserve">
+    <value>WarmUp</value>
+  </data>
+  <data name="frmPrint_PrinterStatus6" xml:space="preserve">
+    <value>Stopped Printing</value>
+  </data>
+  <data name="frmPrint_PrinterStatus7" xml:space="preserve">
+    <value>Offline</value>
+  </data>
+  <data name="frmSingleBookDownload_FileNameListViewColumn" xml:space="preserve">
+    <value>File Name</value>
+  </data>
+  <data name="frmConfigViewerConnection_lblConnTimeOut" xml:space="preserve">
+    <value>Connection TimeOut = </value>
+  </data>
+  <data name="frmPrint_SelectionLbl" xml:space="preserve">
+    <value>Selection</value>
+  </data>
+  <data name="frmViewer_MemosMenuItem" xml:space="preserve">
+    <value>Memos …</value>
+  </data>
+  <data name="frmConfigTasks_PartNumberLbl" xml:space="preserve">
+    <value>Part Number</value>
+  </data>
+  <data name="frmTextSearch_txt" xml:space="preserve">
+    <value>Text</value>
+  </data>
+  <data name="frmMemoRecovery_CancelBtn" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="frmDjVuAuthentication_SecuredDjVuUmageLbl" xml:space="preserve">
+    <value>Secured DjVu</value>
+  </data>
+  <data name="frmPartNameSearch_ExactMatch" xml:space="preserve">
+    <value>Exact Match</value>
+  </data>
+  <data name="frmPrint_UpdateDateInfo" xml:space="preserve">
+    <value>Update Date</value>
+  </data>
+  <data name="frmConfigSearchPartName_OKbtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmConfigTasks_PartNameLbl" xml:space="preserve">
+    <value>Part Name</value>
+  </data>
+  <data name="frmViewer_AboutGSPcLocalTSBToolTip" xml:space="preserve">
+    <value>About GSPcLocal</value>
+  </data>
+  <data name="frmViewer_tsbPicZoomSelect" xml:space="preserve">
+    <value>Select Zoom</value>
+  </data>
+  <data name="frmViewer_NavToNextPageMenuItem" xml:space="preserve">
+    <value>Next Page</value>
+  </data>
+  <data name="frmMemoLocal_SaveAllMemosTSB" xml:space="preserve">
+    <value>Save All Memos</value>
+  </data>
+  <data name="frmMultipleBooksDownload_ReadyStatusLbl" xml:space="preserve">
+    <value>Ready</value>
+  </data>
+  <data name="frmMemoGlobal_GoBtn" xml:space="preserve">
+    <value>Go</value>
+  </data>
+  <data name="frmMemoGlobal_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmMemoGlobal_Ques1" xml:space="preserve">
+    <value>Do you want to save any changes made here?</value>
+  </data>
+  <data name="frmMemoGlobal_Ques2" xml:space="preserve">
+    <value>Do you want to save any changes made here?</value>
+  </data>
+  <data name="frmDjVuAuthentication_PasswordLbl" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="frmViewerPicture_Info3" xml:space="preserve">
+    <value>Image Copied</value>
+  </data>
+  <data name="frmViewerPicture_Info2" xml:space="preserve">
+    <value>% Downloaded</value>
+  </data>
+  <data name="frmViewerPicture_Info1" xml:space="preserve">
+    <value>Loading picture……</value>
+  </data>
+  <data name="frmSearchTasks_Search" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMemoLocal_AddReferenceMemoTSB" xml:space="preserve">
+    <value>Add Reference Memo</value>
+  </data>
+  <data name="frmMemoGlobal_HypURLLbl" xml:space="preserve">
+    <value>URL</value>
+  </data>
+  <data name="frmViewer_MemoDetailsMenuItem" xml:space="preserve">
+    <value>Memos</value>
+  </data>
+  <data name="frmViewer_AboutGSPcLocalMenuItem" xml:space="preserve">
+    <value>About GSPcLocal</value>
+  </data>
+  <data name="frmOpenBookBrowse_ServerInformationLbl" xml:space="preserve">
+    <value>Server Information</value>
+  </data>
+  <data name="frmOpenBookBrowse_BookInformationLbl" xml:space="preserve">
+    <value>Bookmarks Information</value>
+  </data>
+  <data name="frmViewer_AdvanceSearchTSBToolTip" xml:space="preserve">
+    <value>Advanced Search</value>
+  </data>
+  <data name="frmSelectionList_AddRecordTSBtn" xml:space="preserve">
+    <value>Add Record</value>
+  </data>
+  <data name="frmMemoLocal_ProgramMemoLbl" xml:space="preserve">
+    <value>Program Memo</value>
+  </data>
+  <data name="frmConfig_ViewerColor_ColorLbl" xml:space="preserve">
+    <value>Color</value>
+  </data>
+  <data name="frmOpenBook_GridViewTSB" xml:space="preserve">
+    <value>Grid View</value>
+  </data>
+  <data name="frmViewerPartslist_CopyToClipboardCMS" xml:space="preserve">
+    <value>Copy To Clipboard</value>
+  </data>
+  <data name="frmPageSetup_PrintHeaderAndFooterChkbox" xml:space="preserve">
+    <value>Print Header and Footer</value>
+  </data>
+  <data name="frmPrint_Name" xml:space="preserve">
+    <value>Print</value>
+  </data>
+  <data name="frmConfigViewerGeneral_OpenBookNewWindow" xml:space="preserve">
+    <value>Open Book in Current Window</value>
+  </data>
+  <data name="frmSingleBookDownload_StatusListViewColumn" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="frmConfigSearchPageName_GridCol_FieldId" xml:space="preserve">
+    <value>Field Id</value>
+  </data>
+  <data name="frmSearch_PartNumSearch" xml:space="preserve">
+    <value>Part Number Search</value>
+  </data>
+  <data name="frmViewer_tsbPicCopy" xml:space="preserve">
+    <value>Copy Image</value>
+  </data>
+  <data name="frmViewer_RestoreDefaultMenuItem" xml:space="preserve">
+    <value>Restore Defaults</value>
+  </data>
+  <data name="frmTextSearch_Name" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="frmMemoAdmin_OKbtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmViewer_PictureTSLbl" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmPageSetup_FitPageRadiobutton" xml:space="preserve">
+    <value>Fit Page</value>
+  </data>
+  <data name="frmDataSize_listViewIblStatus" xml:space="preserve">
+    <value>Book in use</value>
+  </data>
+  <data name="frmViewerTreeview_CopyToClipboardCMItem" xml:space="preserve">
+    <value>Copy To Clipboard</value>
+  </data>
+  <data name="frmPageSetup_PrintPageNumberschkBox" xml:space="preserve">
+    <value>Print Page Numbers</value>
+  </data>
+  <data name="frmViewer_PictureMenuItem" xml:space="preserve">
+    <value>Picture</value>
+  </data>
+  <data name="frmPrint_RangePrinting" xml:space="preserve">
+    <value>Range Printing</value>
+  </data>
+  <data name="frmViewer_tsbPicZoomIn" xml:space="preserve">
+    <value>Zoom In</value>
+  </data>
+  <data name="frmConfigSearchPartName_SearchSettingsLbl" xml:space="preserve">
+    <value>Search Settings</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info001" xml:space="preserve">
+    <value>% Downloaded</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info003" xml:space="preserve">
+    <value>Search any books</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info002" xml:space="preserve">
+    <value>Search pages on server</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info005" xml:space="preserve">
+    <value>Enter page name to search</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info004" xml:space="preserve">
+    <value>Web service path not found</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info007" xml:space="preserve">
+    <value>Downloading Series.xml</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info006" xml:space="preserve">
+    <value>Checking for data updates</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info009" xml:space="preserve">
+    <value>Loading Series.xml</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info008" xml:space="preserve">
+    <value>Series.xml could not be downloaded</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info010" xml:space="preserve">
+    <value>Series.xml loaded completely</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info011" xml:space="preserve">
+    <value>Series.xml could not be loaded</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info012" xml:space="preserve">
+    <value>Searching pages</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info013" xml:space="preserve">
+    <value>Select books to search from</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info014" xml:space="preserve">
+    <value>File schema not found on server</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info015" xml:space="preserve">
+    <value>No result found</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info016" xml:space="preserve">
+    <value>Search complete</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info017" xml:space="preserve">
+    <value>Search cancled</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info018" xml:space="preserve">
+    <value>Search failed</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info019" xml:space="preserve">
+    <value>Web service path specified is not valid</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info023" xml:space="preserve">
+    <value>Search parts on server</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info022" xml:space="preserve">
+    <value>Specified information does not exist</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info021" xml:space="preserve">
+    <value>Can not connect to specified address.</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info020" xml:space="preserve">
+    <value>Web service not found at specified path</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info026" xml:space="preserve">
+    <value>Enter part number to search</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info025" xml:space="preserve">
+    <value>Enter part name to search</value>
+  </data>
+  <data name="frmOpenBookAdvSrc_Info024" xml:space="preserve">
+    <value>Searching parts</value>
+  </data>
+  <data name="frmSelectionList_DeleteSelectionTSB" xml:space="preserve">
+    <value>Delete Selection</value>
+  </data>
+  <data name="frmSelectionList_DeleteSelectionCMS" xml:space="preserve">
+    <value>Delete Selection</value>
+  </data>
+  <data name="frmMemoAdmin_AdminMemoLbl" xml:space="preserve">
+    <value>Admin Memo</value>
+  </data>
+  <data name="frmViewerPartslist_Name" xml:space="preserve">
+    <value>Parts List</value>
+  </data>
+  <data name="frmPageSetup_OKBtn" xml:space="preserve">
+    <value>OK</value>
+  </data>
+  <data name="frmPageSetup_Info1" xml:space="preserve">
+    <value>Orientation</value>
+  </data>
+  <data name="frmPageSetup_Info2" xml:space="preserve">
+    <value>Parts List Orientation</value>
+  </data>
+  <data name="frmMemoLocal_RefServerKeyLbl" xml:space="preserve">
+    <value>Server Key</value>
+  </data>
+  <data name="frmPartNumberSearch_SearchBtn" xml:space="preserve">
+    <value>Search</value>
+  </data>
+</root>

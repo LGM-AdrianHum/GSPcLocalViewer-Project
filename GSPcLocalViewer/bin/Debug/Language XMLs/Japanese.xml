@@ -1,0 +1,1903 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GSPcLocalViewer Language ="日本語" EN_NAME="Japanese">
+
+  <Screen Name="MAIN_FORM" Value="GSPcLocal Viewer 3.0">
+    <Resources Name="MENU_BAR">
+      <Resource Name="FILE" Value="ファイル" ToolTip="" />
+      <Resource Name="OPEN" Value="開く ..." ToolTip="" />
+      <Resource Name="GO_TO_PORTAL" Value="ポータルへ" ToolTip="" />
+      <Resource Name="PRINT" Value="印刷 ..." ToolTip="" />
+      <Resource Name="PRINT_PAGE" Value="ページを印刷　…" ToolTip="" />
+      <Resource Name="PRINT_PICTURE" Value="画像を印刷…" ToolTip="" />
+      <Resource Name="PRINT_PARTSLIST" Value="リストを印刷…" ToolTip="" />
+      <Resource Name="PRINT_SELECTIONLIST" Value="選択リストを印刷…" ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="オフライン作業" ToolTip="" />
+      <Resource Name="CLOSE" Value="閉じる" ToolTip="" />
+      <Resource Name="CLOSE_ALL" Value="全画面終了" ToolTip="" />
+      <Resource Name="NAVIGATION" Value="ナビゲーション" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="最初のページ" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="最後のページ" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="前のページ" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="次のページ" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="戻る" ToolTip="" />
+      <Resource Name="NEXT_VIEW" Value="進む" ToolTip="" />
+      <Resource Name="VIEW" Value="表示" ToolTip="" />
+      <Resource Name="CONTENTS" Value="コンテンツ" ToolTip="" />
+      <Resource Name="PICTURE" Value="画像" ToolTip="" />
+      <Resource Name="MINI_MAP" Value="ミニマップ" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="部品リスト" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="選択リスト" ToolTip="" />
+      <Resource Name="INFORMATION" Value="情報" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="既定値に戻す" ToolTip="" />
+      <Resource Name="SAVE_DEFAULTS" Value="既定値として保存" ToolTip="" />
+      <Resource Name="BOOKMARKS" Value="お気に入り" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="お気に入りの追加" ToolTip="" />
+      <Resource Name="MEMOS" Value="メモ" ToolTip="" />
+      <Resource Name="MEMOS_SETTINGS" Value="メモ..." ToolTip=""  />
+      <Resource Name="ADD_PICTURE_MEMO" Value="画像メモの追加…" ToolTip="" />
+      <Resource Name="ADD_PART_MEMO" Value="部品メモの追加…" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value="メモリストの閲覧…" ToolTip="" />
+      <Resource Name="MEMO_RECOVERY" Value="メモの復元 ..." ToolTip="" />
+      <Resource Name="SEARCH" Value="検索" ToolTip="" />
+      <Resource Name="PAGE_NAME" Value="目次検索 ..." ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="テキスト検索 ..." ToolTip="" />
+      <Resource Name="PART_NAME" Value="部品名称 ..." ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="部品番号 ..." ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高度な検索 ..." ToolTip="" />
+      <Resource Name="SETTINGS" Value="設定" ToolTip="" />
+      <Resource Name="FONT" Value="フォント..." ToolTip="" />
+      <Resource Name="COLOR" Value="色…" ToolTip="" />
+      <Resource Name="GENERAL" Value="全般 .." ToolTip="" />      
+      <Resource Name="PAGENAME_SETTINGS" Value="目次検索..." ToolTip="" />
+      <Resource Name="TEXTSEARCH_SETTINGS" Value="テキスト検索..." ToolTip="" />
+      <Resource Name="PARTNAME_SETTINGS" Value="部品名称 ..." ToolTip="" />
+      <Resource Name="PARTNUMBER_SETTINGS" Value="部品番号 ..." ToolTip="" />
+      <Resource Name="ADVANCEDSEARCH_SETTINGS" Value="高度な検索 ..." ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="ディスク領域設定..." ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="接続設定..." ToolTip="" />
+      <Resource Name="TOOLS" Value="ツール" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="ブックのダウンロード..." ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="複数ブックのダウンロード ..." ToolTip="" />
+      <Resource Name="HELP" Value="ヘルプ" ToolTip="" />
+      <Resource Name="GSPCLOCALHELP" Value="GSPcLocalヘルプ" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="GSPcLocalについて" ToolTip="" />
+      <Resource Name="ADD_ON" Value="追加項目" ToolTip="" />
+      <!--Update 65: "New Code" -->
+      <Resource Name="PARTSLIST_SETTINGS" Value="部品リスト設定..." ToolTip="" />
+      <Resource Name="SELECTIONLIST_SETTINGS" Value="選択リスト設定..." ToolTip="" />
+      <!--Update 65: "New Code End" -->
+    </Resources>
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="GO_TO_PORTAL" Value="ポータルへ" ToolTip="" />
+      <Resource Name="OPEN_NEW_BOOK" Value="ブックを開く" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="ブックを1冊ダウンロードします" ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="複数ブックのダウンロード" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="ディスク領域設定" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="接続設定" ToolTip="" />
+      <Resource Name="VIEW_CONTENTS" Value="内容を表示する" ToolTip="" />
+      <Resource Name="VIEW_PICTURE" Value="画像を表示" ToolTip="" />
+      <Resource Name="VIEW_PARTSLIST" Value="部品リストを表示" ToolTip="" />
+      <Resource Name="VIEW_INFORMATION" Value="情報を表示" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="既定値に戻す" ToolTip="" />
+      <Resource Name="PRINT" Value="印刷" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="お気に入りの追加" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value=" メモリストの閲覧." ToolTip="" />
+      <Resource Name="RECOVER_MEMOS" Value="メモの復元" ToolTip="" />
+      <Resource Name="CONFIGURATION" Value="設定" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="GSPcLocalについて" ToolTip="" />
+      <Resource Name="GSPCLOCAL_HELP" Value="GSPcLocalヘルプ" ToolTip="" />
+      <Resource Name="ADDON" Value="追加項目" ToolTip="" />
+      <Resource Name="BACKWARD" Value="戻る" ToolTip="" />
+      <Resource Name="FORWARD" Value="進む" ToolTip="" />
+      <Resource Name="HISTORY_LIST" Value="履歴リスト" ToolTip="" />
+      <Resource Name="PAGE_NAME_SEARCH" Value="目次検索" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="テキスト検索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部品名称検索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部品番号検索" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+      <Resource Name="PICTURE" Value="画像" ToolTip="" />
+      <Resource Name="PREVIOUS_PICTURE" Value="前の画像" ToolTip="" />
+      <Resource Name="NEXT_PICTURE" Value="次の画像" ToolTip="" />
+      <Resource Name="PAN_MODE" Value="パンモード" ToolTip="" />
+      <Resource Name="COPY_IMAGE" Value="画像コピー" ToolTip="" />
+      <Resource Name="SELECT_TEXT" Value="テキストを選択" ToolTip="" />
+      <Resource Name="ZOOM_IN" Value="拡大" ToolTip="" />
+      <Resource Name="SELECT_ZOOM" Value="範囲指定拡大" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="全体表示" ToolTip="" />
+      <Resource Name="ZOOM_OUT" Value="縮小" ToolTip="" />
+      <Resource Name="ROTATE_LEFT" Value="左回転" ToolTip="" />
+      <Resource Name="ROTATE_RIGHT" Value="右回転" ToolTip="" />
+      <Resource Name="ADD_PICTURE_MEMO" Value="画像メモの追加" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="最初のページ" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="最後のページ" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="前のページ" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="次のページ" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="次のページ" ToolTip="" />
+      <Resource Name="BASKET" Value="バスケット" ToolTip="" />
+      <Resource Name="FIND_TEXT" Value="テキストを検索" ToolTip="" />
+      <Resource Name="SHOW_THUMBNAIL" Value="サムネイルを表示する" ToolTip="" />
+      <Resource Name="READY" Value="準備完了" ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="オフライン作業" ToolTip="" />
+      <Resource Name="PICTURE_INDEX" Value="画像インデックス" ToolTip="" />
+      <Resource Name="LIST_INDEX" Value="リスト索引" ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="部品番号" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="DOWNLOADING" Value ="ダウンロード中 ..." ToolTip ="" />
+      <Resource Name="SEARCING_SERIES_XML" Value ="検索中.." ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE " Value ="(E-VWR-EM008) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) 指定された情報のダウンロードが出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) 指定された情報が存在しません" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) コマンドが不正です" ToolTip ="" />
+      <Resource Name="(E-VWR-EM005)_FAILED_SAVE" Value ="(E-VWR-EM005) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+      <Resource Name="READY" Value ="準備完了" ToolTip ="" />
+      <Resource Name="LOADING" Value ="読み込み中......" ToolTip ="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(E-VWR-EM013)_URL" Value ="(E-VWR-EM013) URLが見つかりません" ToolTip ="" />
+      <Resource Name="(E-VWR-EM001)_FILE/FOLDER" Value ="(E-VWR-EM001) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) コマンドが不正です" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) 指定された情報が存在しません" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) 指定された情報のダウンロードが出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM003)_INVALIDCOMMAND" Value ="(E-VWR-EM003) コマンドが不正です" ToolTip ="" />
+      <Resource Name="DELETE_BOOKMARK?" Value ="お気に入りを削除してよろしいですか？" ToolTip ="" />
+      <Resource Name="(E-VWR-EM006)_FAILED_DELETE" Value ="(E-VWR-EM006) 指定された情報の削除が出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM007)_FAILED_RECOVER" Value ="(E-VWR-EM007) 指定された情報を復元できませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE" Value ="(E-VWR-EM008) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM009)_FAILED_LOAD" Value ="(E-VWR-EM009) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      <Resource Name="(E-VWR-EM010)_FAILED_LOAD" Value ="(E-VWR-EM010) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      <Resource Name="(E-VWR-EM011)_FAILED_SAVE" Value ="(E-VWR-EM011) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+      <Resource Name="(E-VWR-EM012)_FAILED_SAVE" Value ="(E-VWR-EM012) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+      <Resource Name="MEMO_DISABLED" Value ="すべてのメモが無効になっています　設定画面からメモを有効にしてください" ToolTip ="" />
+      <Resource Name="FREE_SPACE" Value ="ブックダウンロードを実行できません" ToolTip ="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value ="ブックを1冊ダウンロードします" ToolTip ="" />
+      <Resource Name="LOW_DISK" Value ="ディスク容量不足" ToolTip ="" />
+      <Resource Name="LESS_THAN" Value ="以下" ToolTip ="" />
+      <Resource Name="LEFT_FROM" Value ="残り" ToolTip ="" />
+      <Resource Name="OF_ALLOWED" Value ="割り当て領域" ToolTip ="" />
+      <Resource Name="MANAGE_FREE_SPACE" Value ="ディスク領域設定" ToolTip ="" />
+      <Resource Name="UPDATE_DJVU" Value ="CSSのDjVuコントロールのインストールされているバージョンは、この機能をサポートしていません。" ToolTip ="" />
+      <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />     
+      <Resource Name="FAILED_XML" Value ="言語のXMLの読み込みに失敗しました。" ToolTip ="" />
+      <!--Update 149: "Start" -->
+	  <Resource Name="PROXY_SERVER_ERROR" Value="プロキシサーバが応答していません。" ToolTip="" />
+	  <Resource Name="PROXY_SERVER_CONFIG_ERROR" Value="プロキシ設定を確認してください。設定に問題がない場合は管理者に問い合わせてください。" ToolTip="" />
+      <!--Update 149: "End" -->
+    </Resources>
+    <Screen Name="PICTURE" Value="画像">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="PREVIOUS_PICTURE" Value ="前の画像" ToolTip ="" />
+        <Resource Name="NEXT_PICTURE" Value ="次の画像" ToolTip ="" />
+        <Resource Name="COPY_IMAGE" Value ="画像コピー" ToolTip ="" />
+        <Resource Name="ZOOM_IN" Value="拡大" ToolTip="" />
+        <Resource Name="ZOOM_OUT" Value="縮小" ToolTip="" />
+        <Resource Name="SELECT_ZOOM" Value ="範囲指定拡大" ToolTip ="" />
+        <Resource Name="PAN_MODE" Value="パンモード" ToolTip="" />
+        <Resource Name="ADD_PICTURE_MEMO" Value ="画像メモの追加" ToolTip ="" />
+        <Resource Name="FIT_PAGE" Value ="ページに合わせる" ToolTip ="" />
+        <Resource Name="ROTATE_LEFT" Value="左回転" ToolTip="" />
+        <Resource Name="ROTATE_RIGHT" Value="右回転" ToolTip="" />
+        <Resource Name="SELECT_TEXT" Value="テキストを選択" ToolTip="" />
+        <Resource Name="SHOW_THUMBNAIL" Value="サムネイルを表示する" ToolTip="" />
+        <Resource Name="FIND_TEXT" Value="テキストを検索" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="準備完了" ToolTip="" />
+        <Resource Name="LOADING_PICTURE" Value="画像を読み込んでいます" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="画像をコピーしました" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPC-EM001)_FORMAT" Value="(E-VPC-EM001) フォーマットが規定外です" ToolTip="" />
+        <Resource Name="(E-VPC-EM002)_FAILED" Value="(E-VPC-EM002) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="画像をコピーしました" ToolTip="" />
+        <Resource Name="UPDATE_DJVU" Value ="CSSのDjVuコントロールのインストールされているバージョンは、この機能をサポートしていません。" ToolTip ="" />
+        <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />
+      </Resources>
+	    <!--Update 186: "New Code Start" -->
+	   <Resources Name="COMBO_BOX">
+        <Resource Name="FIT_PAGE" Value="全体表示" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="幅に合わせる" ToolTip="" />
+        <Resource Name="ONE_TO_ONE" Value="1対1" ToolTip="" />
+        <Resource Name="STRETCH" Value="ストレッチ" ToolTip="" />
+      </Resources>
+	  <!--Update 186: "New Code End" -->
+    </Screen>
+    <Screen Name="SELECTION_LIST" Value="選択リスト">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="ADD_RECORD" Value="レコードの追加" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="選択解除" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="選択された情報を削除します" ToolTip="" />
+        <Resource Name="DELETE_ALL" Value="全て削除" ToolTip="" />
+        <Resource Name="PRINT" Value="印刷" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="ページへ移動" ToolTip="" />
+        <Resource Name="BASKET" Value ="バスケット" ToolTip ="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="選択解除" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="クリップボードにコピー" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="ファイルへ出力" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="カンマ区切り" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="タブ区切り" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="カンマ区切り" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="タブ区切り" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="選択された情報を削除します" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="ページへ移動" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SLT-EM001)_EXPORT" Value="(E-SLT-EM001) 指定された情報のエクスポートが出来ませんでした" ToolTip="" />
+        <Resource Name="(E-SLT-EM002)_FAILED" Value="(E-SLT-EM002) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SLT-EM003)_FAILED" Value="(E-SLT-EM003) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SLT-EM004)_FAILED" Value="(E-SLT-EM004) 情報ロード中にエラーが発生しました" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="SELECTION_LIST_QUANTITY" Value ="個数変更" >
+      <Resources Name="LABEL">
+        <Resource Name="QUANTITY" Value ="個数" ToolTip ="" />
+        <Resource Name="PART_NUMBER" Value ="部品番号" ToolTip ="" />
+      </Resources>
+      <Resources Name="BUTTON">
+        <Resource Name="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name="CHANGE" Value ="変更" ToolTip ="" />
+        <Resource Name="DELETE" Value ="削除" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PARTS_LIST" Value="部品リスト">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="CLEAR_SELECTED" Value="選択解除" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+        <Resource Name="ADD_PART_MEMO" Value="部品メモの追加" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="選択リストに追加" ToolTip="" />
+        <Resource Name="INFORMATION" Value="情報" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="次の部品リスト" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="前の部品リスト" ToolTip="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="ADD_PART_MEMO" Value="部品メモの追加" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="選択リストに追加" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="選択解除" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="クリップボードにコピー" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="ファイルへ出力" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="カンマ区切り" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="タブ区切り" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="カンマ区切り" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="タブ区切り" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="次の部品リスト" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="前の部品リスト" ToolTip="" />
+        <Resource Name ="INFORMATION" Value ="情報" ToolTip ="" />
+        <Resource Name ="Row_Selection_Mode" Value ="列選択" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="準備完了" ToolTip="" />
+        <Resource Name="LOADING_PARTSLIST" Value="部品リストを読み込んでいます" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPL-EM001)_FAILED" Value="(E-VPL-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-VPL-EM003)_FAILED" Value="(E-VPL-EM003)  指定されたファイル・フォルダを作成できませんでした" ToolTip="" />
+        <Resource Name="(E-VPL-EM002)_FAILED" Value="(E-VPL-EM002) 指定された情報のエクスポートが出来ませんでした" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="CONTENTS" Value="コンテンツ">
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="PRINT_TO" Value="印刷：　終点" ToolTip="" />
+        <Resource Name="PRINT_FROM" Value="印刷：　始点" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="ファイルへ出力" ToolTip="" />
+        <!--Update 73: "New Code Start" -->
+        <Resource Name="PRINT_THIS_CONTENTS" Value="この目次を印刷" ToolTip="" />
+        <!--Update 73: "New Code End" -->
+        <Resource Name="COPY_TO_CLIPBOARD" Value="クリップボードにコピー" ToolTip="" />
+        <Resource Name="TAB_SEPARATED" Value="タブ区切り" ToolTip="" />
+        <Resource Name="TAB_SEPARATED_FILE" Value="タブ区切り" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED" Value="カンマ区切り" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED_FILE" Value="カンマ区切り" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value ="準備完了" ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value ="ダウンロード中..." ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value="読み込みが完了しました" ToolTip="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-VTV-EM006)_FAILED" Value ="(E-VTV-EM006) 指定された情報のダウンロードが出来ませんでした" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VTV-EM004)_FAILED" Value ="(E-VTV-EM004) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value ="クリップボードにコピー" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="INFORMATION" Value="情報">
+      <Resources Name="LABEL">
+        <Resource Name="BOOK_INFORMATION" Value="ブック情報" ToolTip="" />
+        <Resource Name="PAGE_INFORMATION" Value="ページ情報" ToolTip="" />
+        <Resource Name="(E-INF-EM001)_FAILED" Value="(E-INF-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-INF-EM002)_FAILED" Value="(E-INF-EM002) 情報ロード中にエラーが発生しました" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADD_RECORD" Value="レコードの追加">
+      <Resources Name="BUTTON" >
+        <Resource Name="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name="SAVE" Value ="レコードの保存" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(W-ARD-WM001)_EMPTY" Value ="(W-ARD-WM001) 部品番号のフィールドは空白にできません" ToolTip ="" />
+        <Resource Name="(W-ARD-WM004)_PART" Value ="(W-ARD-WM004) 部品番号は既に選択リストに存在します" ToolTip ="" />
+        <Resource Name="(W-ARD-WM002)_QUANTITY" Value ="(W-ARD-WM002) 個数フィールドは空白にできません" ToolTip ="" />
+        <Resource Name="(W-ARD-WM003)_NUMERIC" Value ="(W-ARD-WM003) 個数フィールドには数値を入力してください" ToolTip ="" />
+        <Resource Name="(W-ARD-WM005)_EMPTY" Value ="(W-ARD-WM005) すべてのフィールドが空であってはならない" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="ABOUT" Value ="GSPcLocalについて">
+    <Resources Name="LABEL">
+      <Resource Name="GSP_LOCAL" Value="Graphical Solution Package content Local 3.0.0.0" ToolTip="" />
+      <Resource Name="WARNING" Value="警告：このプログラムは、著作権法によって保護されていますこのプログラムまたはその一部を不法に複製した場合は罰せられます" ToolTip="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name ="MEMO" Value ="部品メモ">
+    <Resources Name="LABEL">
+      <Resource Name="FORM_TITLE_PICTURE" Value ="画像メモ" ToolTip ="" />
+    </Resources>
+    <Screen Name="MEMO_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value ="タスク" ToolTip ="" />
+        <Resource Name="VIEW_OPTIONS" Value ="表示オプション" ToolTip ="" />
+        <Resource Name="LOCAL_MEMO" Value ="ローカルメモ" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="グローバルメモ" ToolTip ="" />
+        <Resource Name="ADMIN_MEMO" Value ="管理者メモ" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name ="TEXT_MEMO" Value ="テキスト" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンス" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンク" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラム" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+      </Resources>
+    </Screen>
+
+    <Screen Name="LOCAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="GO" Value ="GO" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="GO" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <!--Update#123: "New Code" -->
+        <Resource Name="SAVE_MEMO_TO_BOOK" Value ="ブック内同一品番を対象" ToolTip ="" />                                                   
+        <!--Update#123: "New Code End" -->
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="LOCAL_MEMO" Value ="ローカルメモ" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <!--Update#123: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#123: "New Code End" -->
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="その他の参照" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="テキストメモの追加" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモの追加" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモの追加" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモの追加" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="現在のメモを保存" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="全てのメモを保存" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="クリア/更新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="リスト関連" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="選択項目の削除" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="全て削除" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <!--Update#123: "New Code" -->
+        <Resource Name="MSG_SAVE_MEMO_TO_BOOK" Value ="ブック内の全ての同一部品番号へ保存します。" ToolTip ="" />
+        <Resource Name="MSG_DEL_MEMO_TO_BOOK" Value ="ブック内の全ての同一部品番号から、選択したメモを削除します。" ToolTip ="" />
+        <Resource Name="MSG_SAVE_COMPLETE_MEMO_TO_BOOK" Value ="件設定しました" ToolTip ="" />
+        <Resource Name="MSG_DEL_COMPLETE_MEMO_TO_BOOK" Value ="件削除しました" ToolTip ="" />
+        <Resource Name="MSG_PARTNUMBER" Value ="部品番号" ToolTip ="" />      
+        <Resource Name="MSG_PART" Value ="部." ToolTip ="" />
+        <Resource Name="MSG_ISOKY" Value ="よろしいですか？" ToolTip ="" />        
+        <!--Update#123: "New Code End" -->
+        <Resource Name="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MLC-EM002)_FAILED" Value ="(E-MLC-EM002) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+        <Resource Name="(E-MLC-EM003)_INFORMATION" Value ="(E-MLC-EM003) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="(E-MLC-EM004)_URL" Value ="(E-MLC-EM004) URLが見つかりません" ToolTip ="" />
+        <Resource Name="(E-MLC-EM005)_INFORMATION" Value ="(E-MLC-EM005) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="(E-MLC-EM006)_SAVE" Value ="(E-MLC-EM006) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+        <Resource Name="(E-MLC-EM007)_INTERNET" Value ="(E-MLC-EM007) Internet Explorerが開けません" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="変更を保存しますか？" ToolTip ="" />
+        <Resource Name="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 指定されたファイル・フォルダを開けませんでした" ToolTip ="" />
+        <Resource Name="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="変更を保存しますか？" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="GLOBAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="GO" Value ="GO" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="GO" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <!--Update#123: "New Code" -->
+        <Resource Name="SAVE_MEMO_TO_BOOK" Value ="ブック内同一品番を対象" ToolTip ="" />
+        <!--Update#123: "New Code End" -->
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="GLOBAL_MEMO" Value ="グローバルメモ" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="テキストメモの追加" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモの追加" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモの追加" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモの追加" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="現在のメモを保存" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="全てのメモを保存" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="クリア/更新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="リスト関連" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="選択項目の削除" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="全て削除" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+
+        <!--Update#123: "New Code" -->
+        <Resource Name="MSG_SAVE_MEMO_TO_BOOK" Value ="ブック内の全ての同一部品番号へ保存します。" ToolTip ="" />
+        <Resource Name="MSG_PARTNUMBER" Value ="部品番号" ToolTip ="" />
+        <Resource Name="MSG_ISOKY" Value ="よろしいですか？" ToolTip ="" />
+        <Resource Name="MSG_DEL_MEMO_TO_BOOK" Value ="ブック内の全ての同一部品番号から、選択したメモを削除します。" ToolTip ="" />
+        <Resource Name="MSG_SAVE_COMPLETE_MEMO_TO_BOOK" Value ="件設定しました" ToolTip ="" />
+        <Resource Name="MSG_DEL_COMPLETE_MEMO_TO_BOOK" Value ="件削除しました" ToolTip ="" />
+        <Resource Name="MSG_PART" Value ="部" ToolTip ="" />
+        <!--Update#123: "New Code End" -->
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="変更を保存しますか？" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADMIN_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="GO" Value ="GO" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="GO" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="キャンセル" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="ADMIN_MEMO" Value ="管理者メモ" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="テキストメモの追加" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="リファレンスメモの追加" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="ハイパーリンクメモの追加" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="プログラムメモの追加" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="現在のメモを保存" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="全てのメモを保存" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="クリア/更新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="リスト関連" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="選択項目の削除" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="全て削除" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) 指定された情報の保存が出来ませんでした" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="変更を保存しますか？" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="SINGLE_BOOK_DOWNLOAD" Value="ブックを1冊ダウンロードします">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="ダウンロード中..." ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      <Resource Name="CLOSE" Value="閉じる" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="準備完了...." ToolTip="" />
+      <Resource Name="DOWNLOADING" Value="ダウンロード中.." ToolTip="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="進捗状況：" ToolTip="" />
+    </Resources>
+    <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="失敗した" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="ファイル名" ToolTip="" />
+      <Resource Name="SUCCESS" Value="成功" ToolTip="" />
+      <Resource Name="STATUS" Value="状況" ToolTip="" />
+    </Resources>
+    <Resources Name ="STATUS_MESSAGE">
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="ダウンロードするファイルの確認中......" ToolTip="" />
+      <Resource Name="READY" Value="準備完了" ToolTip="" />
+      <Resource Name="ALREADY_UPDATED" Value="ブックは既に更新されています" ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="ダウンロードをキャンセルしました" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="ダウンロードの制限値を超えた為、ブックのダウンロードがキャンセルされました" ToolTip ="" />
+      <!--Update 149: "Start" -->
+	  <Resource Name="PROXY_SERVER_ERROR" Value="プロキシサーバが応答していません。" ToolTip="" />
+	  <Resource Name="PROXY_SERVER_CONFIG_ERROR" Value="プロキシ設定を確認してください。設定に問題がない場合は管理者に問い合わせてください。" ToolTip="" />
+      <!--Update 149: "End" -->
+    </Resources>
+  </Screen>
+
+  <Screen Name="MULTIPLE_BOOKS_DOWNLOAD" Value="複数ブックのダウンロード">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="ダウンロード" ToolTip="" />
+      <Resource Name="CLOSE" Value="閉じる" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="準備完了...." ToolTip="" />
+      <Resource Name ="DOWNLOADING" Value ="ダウンロード中.." ToolTip ="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="進捗状況：" ToolTip="" />
+    </Resources>
+    <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="失敗した" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="ファイル名" ToolTip="" />
+      <Resource Name="SUCCESS" Value="成功" ToolTip="" />
+      <Resource Name="STATUS" Value="状況" ToolTip="" />
+      <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="READY" Value ="準備完了" ToolTip ="" />
+      <Resource Name ="BOOKS_NOT_LOADED" Value ="ブックが読み込まれていません" ToolTip ="" />
+      <Resource Name ="(W-MBD-WM001)_SELECT" Value ="(W-MBD-WM001) 少なくとも一つのブックを選択してください" ToolTip ="" />
+      <Resource Name ="ALREADY_UPDATED" Value ="ブックは既に更新されています" ToolTip ="" />      
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="ダウンロードするブック情報を取得しています...... " ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="ダウンロードをキャンセルしました" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="ダウンロードの制限値を超えた為、ブックのダウンロードがキャンセルされました" ToolTip ="" />
+      <!--Update 149: "Start" -->
+	  <Resource Name="PROXY_SERVER_ERROR" Value="プロキシサーバが応答していません。" ToolTip="" />
+	  <Resource Name="PROXY_SERVER_CONFIG_ERROR" Value="プロキシ設定を確認してください。設定に問題がない場合は管理者に問い合わせてください。" ToolTip="" />
+      <!--Update 149: "End" -->
+    </Resources>
+  </Screen>
+
+  <Screen Name="PRINT" Value="印刷">
+    <!--Update 73: "New Code" -->
+    <Resources Name="GRID_VIEW" >
+      <Resource Name="NO" Value="No" ToolTip="" />
+      <Resource Name="PAGE_FROM" Value="始点" ToolTip="" />
+      <Resource Name="PAGE_TO" Value="終点" ToolTip="" />
+      <Resource Name="BUTTON" Value="Button" ToolTip="" />
+    </Resources>
+    <!--Update 73: "New Code End" -->
+    <Resources Name="BUTTON">
+      <Resource Name="PRINT" Value="印刷" ToolTip="" />
+      <Resource Name="PREVIEW" Value="印刷プレビュー" ToolTip="" />
+      <Resource Name="CLOSE" Value="閉じる" ToolTip="" />
+      <Resource Name="PROPERTY" Value="プロパティ" ToolTip="" />
+      <Resource Name="SPLIT_PATTERN" Value="分割パターン" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="POTRAIT" Value="縦" ToolTip="" />
+      <Resource Name="LANDSCAPE" Value="横" ToolTip="" />
+      <Resource Name="CURRENT_PAGE" Value="現在のページ" ToolTip="" />
+      <Resource Name="ALL_PAGE" Value="すべてのページ" ToolTip="" />
+      <Resource Name="PAGES" Value="ページ" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="全体表示" ToolTip="" />
+      <Resource Name="HALF_PAGE" Value="画像＋リスト" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="PRINT_PICTURE" Value="画像" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="部品リスト" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="選択リスト" ToolTip="" />
+      <Resource Name="MAINTAIN_PICTURE_ZOOM" Value="拡大状態で印刷" ToolTip="" />
+      <Resource Name="PRINT_PAGE_NUMBERS" Value="ページ番号を印刷する" ToolTip="" />
+      <Resource Name="PRINT_HEADER_AND_FOOTER" Value="ヘッダー、フッターを印刷する" ToolTip="" />
+      <Resource Name="AUTO_ROTATE" Value="自動的に画像を回転" ToolTip="" />
+      <!--Update 73: "New Code" -->
+      <Resource Name="PRINT_PICTURE_MEMO" Value="画像メモを印刷" ToolTip="" />
+      <!--Update 73: "New Code End" -->
+    </Resources>
+    <Resources Name="COMBO_BOX">
+      <Resource Name="1:1" Value="そのまま印刷" ToolTip="" />
+      <Resource Name="1:2" Value="2ページに分割" ToolTip="" />
+      <Resource Name="1:4" Value="4ページに分割" ToolTip="" />
+      <Resource Name="1:8" Value="8ページに分割" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PRINTER" Value="プリンター" ToolTip="" />
+      <Resource Name="NAME" Value="名前" ToolTip="" />
+      <Resource Name="STATUS" Value="状況" ToolTip="" />
+      <Resource Name="STATUSREADY" Value="準備完了" ToolTip="" />
+      <Resource Name="STATUSOTHER" Value="その他" ToolTip="" />
+      <Resource Name="STATUSUNKNOWN" Value="不明" ToolTip="" />
+      <Resource Name="STATUSPRINTING" Value="印刷中..." ToolTip="" />
+      <Resource Name="STATUSWARMUP" Value="準備中..." ToolTip="" />
+      <Resource Name="STATUSOFFLINE" Value="オフライン" ToolTip="" />
+      <Resource Name="STATUSSTOPPEDPRINTING" Value="印刷中止" ToolTip="" />
+      <Resource Name="SPLIT_PRINTING" Value="分割印刷" ToolTip="" />
+      <Resource Name="SETTINGS" Value="設定" ToolTip="" />
+      <Resource Name="ORIENTATION" Value="印刷の向き" ToolTip="" />
+      <Resource Name="ZOOM" Value="ズーム" ToolTip="" />
+      <Resource Name="RANGE_PRINTING" Value="範囲指定印刷…" ToolTip="" />
+      <Resource Name="SELECTION_PRINTING" Value="印刷部位" ToolTip="" />
+      <Resource Name="FROM" Value="(印刷)始点" ToolTip="" />
+      <Resource Name="TO" Value="(印刷)終点" ToolTip="" />
+      <Resource Name="PAPER_SIZE" Value ="用紙サイズ：" ToolTip ="" />
+      <Resource Name="SPLITTING_OPTION" Value ="分割オプション：" ToolTip ="" />
+      <Resource Name="LIST_ORIENTATION" Value="部品リスト印刷の向き" ToolTip ="" />
+    </Resources>
+    <Screen Name="PAGE_SPLITTING" Value="分割印刷">
+      <Resources Name="BUTTON">
+        <Resource Name="CLOSE" Value="閉じる" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PREVIEW" Value="印刷プレビュー" ToolTip="" />
+        <Resource Name="POTRAIT_PICTURE" Value="印刷の向き：　縦" ToolTip="" />
+        <Resource Name="LANDSCAPE_PICTURE" Value="印刷の向き：　横" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PRINT_PREVIEW" Value="印刷プレビュー">
+      <Resources Name="BUTTON">
+        <Resource Name="FIRST_PAGE" Value="最初のページ" ToolTip="" />
+        <Resource Name="PREVIOUS_PAGE" Value="前のページ" ToolTip="" />
+        <Resource Name="LAST_PAGE" Value="最後のページ" ToolTip="" />
+        <Resource Name="NEXT_PAGE" Value="次のページ" ToolTip="" />
+        <Resource Name="ZOOM" Value="ズーム" ToolTip="" />
+        <Resource Name="1:1" Value="1:1" ToolTip="" />
+        <Resource Name="FIT_PAGE" Value="ページに合わせる" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="幅に合わせる" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+        <Resource Name="CLOSE" Value="閉じる" ToolTip="" />        
+      </Resources>
+    </Screen>
+    <Screen Name="PRINT_MANAGER" Value="印刷の準備">
+      <Resources Name="LABEL">
+        <Resource Name="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+        <Resource Name="PRINT_DATE" Value ="印刷日付" ToolTip ="" />	
+		  <!--Update 194: "Start" -->
+	   <Resource Name="PROCESSING" Value="処理..." ToolTip="" />
+		<Resource Name="PRINTING" Value="印刷..." ToolTip="" />	
+		  <!--Update 194: "End" -->
+		  <!--Update 194: "Start" -->
+	   <Resource Name="PRINT" Value="印刷中断" ToolTip="" />
+		<Resource Name="CONFIRMATION_MESSAGE" Value="印刷を中止しますか？" ToolTip="" />	
+		  <!--Update 194: "End" -->
+      </Resources>
+      <Resources Name="POPUP_MESSAGE" Value="">
+      <!--Update 149: "Start" -->
+	  <Resource Name="PROXY_SERVER_ERROR" Value="プロキシサーバが応答していません。" ToolTip="" />
+	  <Resource Name="PROXY_SERVER_CONFIG_ERROR" Value="プロキシ設定を確認してください。設定に問題がない場合は管理者に問い合わせてください。" ToolTip="" />
+      <!--Update 149: "End" -->
+      </Resources>
+	  <!--Update 194: "Start" -->
+	  <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+	  <!--Update 194: "End" -->
+    </Screen>
+    <!--Update 73: "New Code" -->
+    <Screen Name="PAGE_SPECIFIED" Value="ページ指定">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+      </Resources>
+      <Resources Name="GRID_VIEW" Value="" >
+        <Resource Name="NO" Value="No" ToolTip="" />
+        <Resource Name="PAGE_FROM" Value="始点" ToolTip="" />
+        <Resource Name="PAGE_TO" Value="終点" ToolTip="" />
+        <Resource Name="BUTTON" Value="Button" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE" Value="">
+        <Resource Name="RANGE_LIMIT" Value="指定可能件数は10件までです。DELETEまたは印刷後に再度指定してください。" ToolTip="" />
+		<Resource Name="FILL_FROM_AND_TO" Value="FromとToは必ず設定してください。" ToolTip="" />
+       </Resources>
+    </Screen>
+    <!--Update 73: "New Code End" -->
+  </Screen>
+
+  <Screen Name="DATA_SIZE" Value="キャッシュの削除">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="DELETE" Value="削除" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resources>
+    <Resources Name= "TOOLSTRIP" >
+      <Resource Name="SELECT_ALL" Value="全選択" ToolTip="" />
+      <Resource Name="UNSELECT_ALL" Value="全選択解除" ToolTip="" />
+      <Resource Name="DELETE_SELECTED" Value="選択項目の削除" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="DISK_SPACE" Value ="ディスク領域" ToolTip ="" />
+      <Resource Name="DOWNLOADED_DATA" Value="ダウンロードされたデータ" ToolTip="" />
+      <Resource Name="BOOK_IN_USE" Value="閲覧中" ToolTip="" />
+      <Resource Name="CANNOT_DELETE_BOOK" Value="閲覧中のブックは消去できません" ToolTip="" />
+      <Resource Name="OVERFLOW" Value="オーバーフロー" ToolTip="" />
+    </Resources>
+    <Resources Name="TREE_VIEW">
+      <Resource Name="FOLDER_NAME" Value="フォルダ名" ToolTip="" />
+      <Resource Name="SIZE" Value="サイズ" ToolTip="" />
+      <Resource Name="MODIFIED_DATE" Value="更新日" ToolTip="" />
+      <Resource Name="STATUS" Value="状況" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="ALLOCATE_SPACE" Value="データのローカル保存用のディスク領域を割り当てます" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="NO_BOOKS_EXIST" Value="ブックがありません" ToolTip="" />
+      <Resource Name="NO_PATH" Value="データパスは存在しません" ToolTip="" />
+      <Resource Name="PROCESSING_DISK_SPACE" Value="データ領域の調整…" ToolTip="" />
+      <Resource Name="OVERFLOW" Value="オーバーフロー" ToolTip="" />
+      <Resource Name="REMAINING" Value ="残り" ToolTip ="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DELETE_DATA" Value ="選択したデータを削除してもよろしいですか？" ToolTip ="" />
+      <Resource Name="(E-VDS-EM001)_FAILED" Value ="(E-VDS-EM001) 指定された情報の削除が出来ませんでした" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE" Value ="割り当てられたデータ領域は、現状のデータサイズよりも大きく設定して下さい。" ToolTip ="" />
+      <Resource Name="NO_PATH" Value="データパスは存在しません" ToolTip="" />
+      <Resource Name="ALLOCATE_LESS" Value ="割り当てるデータの領域は空き容量よりも小さくする必要があります" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE_SPACE" Value ="割り当てるデータ領域は、10 MB以上である必要があります。" ToolTip ="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name="DJVU_AUTHENTICATION" Value="認証">
+    <Resource Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resource>
+    <Resources Name="LABEL">
+      <Resource Name="USER_ID" Value="ユーザーID" ToolTip="" />
+      <Resource Name="PASSWORD" Value="パスワード" ToolTip="" />
+      <Resource Name="SECURED_DJVU" Value="認証付画像" ToolTip="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name="CONNECTION" Value="接続">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PROXY_SERVER" Value="プロキシサーバー" ToolTip="" />
+      <Resource Name="CONNECTION_TIMEOUT" Value="接続タイムアウト" ToolTip="" />
+      <Resource Name="SECONDS" Value="秒" ToolTip="" />
+      <Resource Name="PROXY_ADDRESS" Value="プロキシサーバーのアドレス" ToolTip="" />
+      <Resource Name="PROXY_PORT" Value="使用するポート番号" ToolTip="" />
+      <Resource Name="PROXY_LOGIN" Value="ログインID" ToolTip="" />
+      <Resource Name="PROXY_PASSWORD" Value="パスワード" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="CONNECT_DIRECTLY" Value="プロキシサーバーを使用しない" ToolTip="" />
+      <Resource Name="HTTP_PROXY" Value="HTTP プロキシを使用する" ToolTip="" />
+      <Resource Name="SOCKS4_PROXY" Value="SOCK4 プロキシを使用する" ToolTip="" />
+      <Resource Name="SOCKS5_PROXY" Value="SOCK5 プロキシを使用する" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(W-CVC-WM002)_ADDRESS_MISSING" Value="(W-CVC-WM002) プロキシサーバーのアドレスが入力されていません" ToolTip="" />
+      <Resource Name="(W-CVC-WM001)_INVALID" Value="(W-CVC-WM001) プロキシサーバーのアドレスが不正です" ToolTip="" />
+      <Resource Name="(W-CVC-WM003)_PROXY_MISSING" Value="(W-CVC-WM003) ログイン用のIDが入力されていません" ToolTip="" />
+      <Resource Name="(W-CVC-WM004)_PASSWORD_MISSING" Value="(W-CVC-WM004) パスワードが入力されていません" ToolTip="" />
+    </Resources>
+  </Screen>
+  
+  <!--Update 149: "Start" -->
+  <Screen Name="PROXYAUTHENTICATION" Value="接続">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PROXY_SERVER" Value="プロキシサーバー" ToolTip="" />
+      <Resource Name="PROXY_LOGIN" Value="ログインID" ToolTip="" />
+      <Resource Name="PROXY_PASSWORD" Value="パスワード" ToolTip="" />
+	  <!--Update 172: "Start" -->            
+      <Resource Name="PROXY_ERROR" Value="入力に誤りがあります（パスワード等）" ToolTip="" />
+      <!--Update 172: "End" -->
+    </Resources> 
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(W-CVC-WM002)_ADDRESS_MISSING" Value="(W-CVC-WM002) プロキシサーバーのアドレスが入力されていません" ToolTip="" />
+      <Resource Name="(W-CVC-WM001)_INVALID" Value="(W-CVC-WM001) プロキシサーバーのアドレスが不正です" ToolTip="" />
+      <Resource Name="(W-CVC-WM003)_PROXY_MISSING" Value="(W-CVC-WM003) ログイン用のIDが入力されていません" ToolTip="" />
+      <Resource Name="(W-CVC-WM004)_PASSWORD_MISSING" Value="(W-CVC-WM004) パスワードが入力されていません" ToolTip="" />      
+    </Resources>
+  </Screen>
+  <!--Update 149: "End" -->
+  
+  <Screen Name="OPEN_BOOKS" Value="ブックを開く">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="BROWSE" Value="参照" ToolTip="" />
+      <Resource Name="BOOKMARKS" Value="お気に入り" ToolTip="" />
+      <Resource Name="SEARCH" Value="検索" ToolTip="" />
+      <Resource Name="PAGE_NAME_SEARCH" Value="目次検索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部品名称検索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部品番号検索" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="ディスク領域設定" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="接続設定 …" ToolTip="" />
+      <Resource Name="TREE_VIEW" Value="ツリービュー" ToolTip="" />
+      <Resource Name="GRID_VIEW" Value="グリッドビュー" ToolTip="" />
+      <Resource Name="EXPLORER_VIEW" Value="エクスプローラビュー" ToolTip="" />
+      <Resource Name="IMAGE_PREVIEW" Value="画像プレビュー" ToolTip="" />
+    </Resources>
+    <Screen Name="OPEN_BOOK_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="タスク" ToolTip="" />
+        <Resource Name="OPEN_BOOKS" Value="ブックを開く" ToolTip="" />
+        <Resource Name="BROWSE" Value="参照" ToolTip="" />
+        <Resource Name="BOOKMARKS" Value="お気に入り" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="目次検索" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部品名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部品番号" ToolTip="" />
+        <Resource Name="TREE_VIEW" Value="ツリービュー" ToolTip="" />
+        <Resource Name="GRID_VIEW" Value="グリッドビュー" ToolTip="" />
+        <Resource Name="EXPLORER_VIEW" Value="エクスプローラビュー" ToolTip="" />
+        <Resource Name="IMAGE_PREVIEW" Value="画像プレビュー" ToolTip="" />
+        <Resource Name="SELECT_VIEWS" Value ="ビュー選択" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="BROWSE_BOOK" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="BROWSE" Value="参照" ToolTip="" />
+        <Resource Name="DETAILS" Value="詳細" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="サーバー情報" ToolTip="" />
+        <Resource Name="BOOK_INFORMATION" Value="ブック情報" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="サーバーの選択…" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="ブックを選択" ToolTip="" />
+        <Resource Name="OPEN_BOOKS_BY_BROWSING" Value="ブックを開く" ToolTip="" />
+        <Resource Name="LOADING" Value="読み込み中....." ToolTip="" />
+        <Resource Name="SERVER_KEY" Value="サーバーキー" ToolTip="" />
+        <Resource Name="CONTENT_PATH" Value="コンテンツパス" ToolTip="" />
+        <Resource Name ="(E-OBB-EM003)_FAILED_LOAD" Value ="(E-OBB-EM003) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM004)_FAILED_LOAD" Value ="(E-OBB-EM004) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM008)_INFORMATION_NOEXIST" Value ="(E-OBB-EM008) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM003)_FAILED_LOAD" Value ="(E-OBM-EM003) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_BROWSING" Value="ブックを開く" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="データが更新されているかを確認します....." ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="ダウンロード中.." ToolTip="" />
+        <Resource Name="(E-OBB-EM006)_FAILED_LOAD" Value="(E-OBB-EM006) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="LOADING" Value="読み込み中......" ToolTip="" />
+        <Resource Name="(E-OBB-EM007)_INFORMATION_NOEXIST" Value="(E-OBB-EM007) 指定された情報が存在しません" ToolTip="" />
+        <Resource Name="FINISHED_LOADING" Value="読み込みが完了しました" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBB-EM001)_FAILED_LOAD" Value="(E-OBB-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-OBB-EM002)_FAILED_FOLDER" Value="(E-OBB-EM002) 指定されたファイル・フォルダを作成できませんでした" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="OPENBOOKBOOKMARKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="OPEN_BOOKMARKS_BROWSING" Value="お気に入りを参照してください" ToolTip="" />
+        <Resource Name="BOOKMARKS_INFORMATION" Value="お気に入り情報" ToolTip="" />
+        <Resource Name="BROWSE" Value="参照" ToolTip="" />
+        <Resource Name="CONTENT_PATH:" Value="コンテンツパス：" ToolTip="" />
+        <Resource Name="DETAILS" Value="詳細" ToolTip="" />
+        <Resource Name="SELECT_A_BOOKMARK" Value="お気に入りを選択" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="サーバーの選択…" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="お気に入りの読み込みが完了しました" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="サーバー情報" ToolTip="" />
+        <Resource Name="SERVER_KEY" Value="サーバーキー" ToolTip="" />        
+        <Resource Name="(E-OBM-EM002)_FAILED_LOAD" Value="(E-OBM-EM002) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-OBM-EM003)_FAILED_LOAD" Value="(E-OBM-EM003) 情報ロード中にエラーが発生しました" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-OBM-EM001)_FAILED_LOAD" Value ="(E-OBM-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM004)_FAILED_LOAD" Value ="(E-OBM-EM004) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="LOADING_BOOKMARKS" Value="お気に入りを読み込んでいます" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="お気に入りの読み込みが完了しました" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="OPENBOOKSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="EXACT_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="BOOK_CODE" Value="ブックコード" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value="ブックID" ToolTip="" />
+        <Resource Name="UPDATEDATE" Value="更新日" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_A_BOOK" Value="ブック検索" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="ブックを選択" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="検索条件を入力してください" ToolTip="" />
+        <Resource Name="KEYWORD" Value="キーワード" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="SEARCH_CRITERIA" Value="検索条件" ToolTip="" />
+        <Resource Name="BOOK_CODE" Value="ブックコード" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name ="ADVANCED_SEARCH" Value ="高度な検索" ToolTip ="" />
+        <Resource Name="BOOK_INFORMATION" Value ="ブック情報" ToolTip ="" />
+        <Resource Name ="DETAILS" Value ="詳細" ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value="ダウンロード中...." ToolTip="" />
+        <Resource Name ="(E-OBS-EM011)_FAILED_LOAD" Value ="(E-OBS-EM011) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_SEARCHING" Value="検索してブックを選択" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="検索条件を入力してください" ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="ダウンロード中....." ToolTip="" />
+        <Resource Name="LOADING" Value="読み込み中......" ToolTip="" />
+        <Resource Name ="(E-OBS-EM005)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM005) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value="読み込みが完了しました" ToolTip="" />
+        <Resource Name ="(E-OBS-EM006)_FAILED_FOLDER" Value ="(E-OBS-EM006) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM007) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM008)_NOT_FORMAT" Value ="(E-OBS-EM008) フォーマットが規定外です" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM009)_FAILED_LOAD" Value ="(E-OBS-EM009) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM010)_ENCOUNTERED_PROBLEM" Value ="(E-OBS-EM010) 検索時にエラーが発生しました" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBS-EM001)_FAILED_LOAD" Value="(E-OBS-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name ="(E-OBS-EM002)_FAILED_FOLDER" Value ="(E-OBS-EM002) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="((E-OBS-EM007) 指定された情報が存在しません" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PART_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECKBOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SELECT_A_SERVER" Value="サーバーの選択…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Webサービスのパスが見つかりません" ToolTip="" />
+        <Resource Name="ENTER_PARTNAME" Value="検索する部分で構成される名前を入力してください" ToolTip="" />
+        <Resource Name="SELECT_BOOKS" Value="選択ブックからの検索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="ファイルのスキーマはサーバー上に見つからない" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Webサービスは指定されたパスに見つかりません" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="指定されたWebサービスのパスが有効ではありません" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="サービスに接続できませんでした" ToolTip="" />
+        <Resource Name="DETAILS" Value="詳細" ToolTip="" />
+        <Resource Name="KEYWORD" Value="キーワード" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name ="PUBLISHING_ID" Value ="ブックID" ToolTip ="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name="SEARCH_ON_SERVER" Value="サーバー上の検索部分" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="データが更新されているかを確認します" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="ダウンロード中 ..." ToolTip="" />
+        <Resource Name="NO_SERIES" Value="をダウンロードすることができませんでした" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xmlが完全に読み込ま" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="シリーズを読み込んでいます" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xmlを読み込むことができませんでした" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定された情報が存在しません" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="検索中..." ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="完全な検索" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="検索を停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="検索に失敗しました" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) ブックを開くことができませんでした" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) ブックを開くことができませんでした" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PART_NUMBER_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">       
+        <Resource Name="SELECT_A_SERVER" Value="サーバーの選択…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="SEARCH_PARTS_ON_SERVER" Value="サーバー上の検索部分" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Webサービスのパスが見つかりません" ToolTip="" />
+        <Resource Name="ENTER_PARTNUMBER" Value="部品番号は、検索して入力してください" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="指定されたWebサービスのパスが有効ではありません" ToolTip="" />
+        <Resource Name="SELECT_BOOKS" Value="選択ブックからの検索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="ファイルのスキーマはサーバー上に見つからない" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="サービスに接続できませんでした." ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Webサービスは指定されたパスに見つかりません" ToolTip="" />
+        <Resource Name="DETAILS" Value="詳細" ToolTip="" />
+        <Resource Name="KEYWORD" Value="キーワード" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_ON_SERVER" Value="サーバー上の検索部分" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="データが更新されているかを確認します" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="ダウンロード中 ..." ToolTip="" />
+        <Resource Name="NO_SERIES" Value="をダウンロードすることができませんでした" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xmlが完全に読み込ま" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="シリーズを読み込んでいます" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xmlを読み込むことができませんでした" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定された情報が存在しません" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="検索中..." ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="完全な検索" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="検索を停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="検索に失敗しました" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) ブックを開くことができませんでした" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) ブックを開くことができませんでした" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PAGE_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SELECT_SERVER" Value="サーバーの選択…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Webサービスのパスが見つかりません" ToolTip="" />
+        <Resource Name="ENTER_PAGENAME" Value="検索するには、目次名称を入力してください" ToolTip="" />
+        <Resource Name="SELECT_BOOKS" Value="選択ブックからの検索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="ファイルのスキーマはサーバー上に見つからない" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="サービスに接続できませんでした" ToolTip="" />
+        <Resource Name="CHECKING_FOR_DATA_UPDATES" Value="データが更新されているかを確認します....." ToolTip="" />
+        <Resource Name="SERIES.XML_COULD_NOT_BE_DOWNLOADED" Value="Series.xmlをダウンロードすることができませんでした" ToolTip="" />
+        <Resource Name="LOADING_SERIES.XML" Value="シリーズを読み込んでいます" ToolTip="" />
+        <Resource Name="SPECIFIED_INFORMATION_DOES_NOT_EXIST" Value="指定された情報が存在しません" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="検索中..." ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Webサービスは指定されたパスに見つかりません" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="指定されたWebサービスのパスが有効ではありません" ToolTip="" />
+        <Resource Name="DETAILS" Value="詳細" ToolTip="" />
+        <Resource Name="KEYWORD" Value="キーワード" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_PAGES" Value="サーバー上のページを検索" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="ブックを検索" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="データが更新されているかを確認します" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="ダウンロード中 ..." ToolTip="" />
+        <Resource Name="NO_SERIES" Value="Series.xmlをダウンロードすることができませんでした" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xmlが完全に読み込ま" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="シリーズを読み込んでいます" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xmlを読み込むことができませんでした" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定された情報が存在しません" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="検索中..." ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="完全な検索" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="検索を停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="検索に失敗しました" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) ブックを開くことができませんでした" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) ブックを開くことができませんでした" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="CONFIGURATION" Value="設定">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="目次検索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部品名称検索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部品番号検索" ToolTip="" />
+      <Resource Name="FONT" Value="フォント" ToolTip="" />
+      <Resource Name="COLOR" Value="色" ToolTip="" />
+      <Resource Name="VIEWER_GENERAL" Value="一般" ToolTip="" />
+      <Resource Name="MEMO_SETTINGS" Value="メモ設定" ToolTip="" />
+    </Resources>
+    <Screen Name="CONFIGURATION_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="タスク" ToolTip="" />
+        <Resource Name="VIEWER" Value="ビューワ" ToolTip="" />
+        <Resource Name="FONT" Value="フォント" ToolTip="" />
+        <Resource Name="COLOR" Value="色" ToolTip="" />
+        <Resource Name="GENERAL" Value="全般" ToolTip="" />
+        <Resource Name="MEMOS" Value="メモ" ToolTip="" />
+        <Resource Name="SETTINGS" Value="設定" ToolTip="" />
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="目次検索" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="テキスト検索" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部品名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部品番号" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+        <Resource Name="TEXT" Value="テキスト" ToolTip="" />
+        <Resource Name="PARTSLIST_SETTINGS" Value="部品リスト設定" ToolTip="" />
+        <Resource Name="SELECTIONLIST_SETTINGS" Value="選択リスト設定" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="FONT" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="FONT:" Value="フォント" ToolTip="" />
+        <Resource Name="GENERAL" Value="全般" ToolTip="" />
+        <Resource Name="FONT" Value="フォント" ToolTip="" />
+        <Resource Name="SIZE" Value="サイズ" ToolTip="" />
+        <Resource Name="PRINT_FONT" Value="印刷フォント" ToolTip="" />
+        <Resource Name="PRINT_FONT_SIZE" Value="印刷フォントサイズ" ToolTip="" />
+  </Resources>
+    </Screen>
+    <Screen Name="COLOR" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="COLOR" Value="色" ToolTip="" />
+        <Resource Name="GENERAL" Value="全般" ToolTip="" />
+        <Resource Name="PARTLIST_INFORMATION" Value="部品リスト 情報" ToolTip="" />
+        <Resource Name="BACKCOLOR_GENERAL" Value="背景色" ToolTip="" />
+        <Resource Name="FORECOLOR_GENERAL" Value="前景色" ToolTip="" />
+        <Resource Name="BACKCOLOR_PART" Value="背景色" ToolTip="" />
+        <Resource Name="FORECOLOR_PART" Value="前景色" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="GENERAL" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="GENERAL" Value="全般" ToolTip="" />
+        <Resource Name="PICTURE" Value="画像" ToolTip="" />
+        <Resource Name="PARTS_LIST" Value="部品リスト" ToolTip="" />
+        <Resource Name="LANGUAGE" Value="言語" ToolTip="" />
+        <Resource Name="DEFAULT_LANGUAGE" Value="デフォルト言語" ToolTip="" />
+        <Resource Name="OTHER" Value="その他" ToolTip="" />
+        <Resource Name="HISTORY_SIZE" Value="履歴サイズ" ToolTip="" />
+        <Resource Name="DEFAULT_ZOOM" Value="デフォルト表示" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="拡大ステップ" ToolTip="" />
+        <!-- 3.3.0.37 Start-->
+        <Resource Name="CONTENTS_EXPAND_LEVEL" Value="表示階層数" ToolTip="" />
+        <!-- 3.3.0.37 End-->
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="PARTSLIST_TOOLBAR_FRAME" Value="部品リストツールバーをフレーム内に表示" ToolTip="" />
+        <Resource Name="PICTURE_TOOLBAR_FRAME" Value="画像ツールバーをフレーム内に表示" ToolTip="" />
+        <Resource Name="MAINTAIN_ZOOM" Value="ページ移動時に拡大状態を保持する" ToolTip="" />
+        <Resource Name="ZOOMFIT_MULTIPARTS" Value="複数ポイントハイライト時に画像をページに合わせる" ToolTip="" />
+        <Resource Name="OPEN_BOOK_CURRENT" Value="ブックを現在のウィンドウで開く" ToolTip="" />
+        <Resource Name="SIDE_BY_SIDE_PRINTING" Value="印刷：　横指定時に左右に印刷" ToolTip="" />
+        <Resource Name="MOUSEWHEEL_CONTENTS" Value="目次：　マウスでスクロールを行う" ToolTip="" />
+        <Resource Name="WHEELSCROLL_IMAGES" Value="画像：　マウスでスクロールを行う" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="拡大ステップ" ToolTip="" />
+        <!-- 3.3.0.37 Start-->
+        <Resource Name="HANKAKU_ZENKAKU" Value="半角と全角を区別しない" ToolTip="" />
+        <Resource Name="CONTENTS_EXPAND_ALL" Value="コンテンツをすべて開いた状態で表示" ToolTip="" />
+        <!-- 3.3.0.37 END-->
+      </Resources>
+      <Resources Name="COMBO_BOX">
+        <Resource Name="FIT_PAGE" Value="全体表示" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="幅に合わせる" ToolTip="" />
+        <Resource Name="ONE_TO_ONE" Value="1対1" ToolTip="" />
+        <Resource Name="STRETCH" Value="ストレッチ" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="MEMO" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+        <Resource Name="BROWSEGLOBAL" Value="参照" ToolTip="" />
+        <Resource Name="BROWSELOCAL" Value="参照" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="MEMO" Value="メモ" ToolTip="" />
+        <Resource Name="BEHAVIOUR" Value="動作" ToolTip="" />
+        <Resource Name="DETAIL" Value="詳細" ToolTip="" />
+        <Resource Name="LOCAL_MEMO_BACKUP_FILE" Value="ローカルメモのバックアップファイル" ToolTip="" />
+        <Resource Name="BOOKMARKS_INFORMATION" Value ="お気に入り情報" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="グローバルメモフォルダ" ToolTip ="" />
+        <Resource Name="SELECT_FOLDER" Value ="フォルダ選択：　グローバルメモフォルダ" ToolTip ="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="POPUP_PICTURE_MEMOS" Value="画像メモ" ToolTip="" />
+        <Resource Name="ENABLE_GLOBAL_MEMOS" Value="グローバルメモの有効化" ToolTip="" />
+        <Resource Name="ENABLE_LOCAL_MEMOS" Value="ローカルメモの有効化" ToolTip="" />
+        <Resource Name="TAKE_BACKUP_OF_LOCAL_MEMOS" Value="ローカルメモのバックアップを取得する" ToolTip="" />
+        <Resource Name="ENABLE_ADMINISTRATOR_MEMOS" Value="管理者メモの有効化" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-CMS-EM001)_FAILED" Value ="(E-CMS-EM001) 指定された情報の保存ができませんでした" ToolTip ="" />
+        <Resource Name="(E-CMS-EM002)_INFORMATION" Value ="(E-CMS-EM002) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="(E-CMS-EM003)_FORMAT" Value ="(E-CMS-EM003) フォーマットが規定外です" ToolTip ="" />
+        <Resource Name="(E-CMS-EM004)_FAILED" Value ="(E-CMS-EM004) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+      </Resources>
+
+    </Screen>
+    
+    <Screen Name="PAGE_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="検索設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列の配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) フォーマットが規定外です" ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PART_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="検索設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列の配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPT-EM001)_FAILED" Value="(E-SPT-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPT-EM002)_FORMAT" Value="(E-SPT-EM002) フォーマットが規定外です" ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PART_NUMBER" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="検索設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列の配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPN-EM001)_FAILED" Value="(E-SPN-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPN-EM002)_FORMAT" Value="(E-SPN-EM002) フォーマットが規定外です" ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="ADVANCED_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="検索設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列の配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) フォーマットが規定外です" ToolTip="" />
+      </Resources>
+    </Screen>
+    <!--Update 65: "New Code" -->
+    <Screen Name="PARTSLIST_SETTINGS" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PARTS_LIST_CONFIG" Value="パーツリストの構成" ToolTip="" />
+        <Resource Name="LIST_SETTINGS" Value="リストの設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="ENABLE_DISPALY" Value="表示" ToolTip="" />
+        <Resource Name="ENABLE_PRINT" Value="印刷" ToolTip="" />
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="プリント幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="プリント配置" ToolTip="" />
+ </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) フォーマットが規定外です" ToolTip="" />
+        <!--Support 81: "New Code" -->
+        <Resource Name="SELECT_ONE_CHECK_BOX" Value="表示と印刷は常に1つ以上選択してください。" ToolTip="" />
+        <!--Support 81: "New Code End" -->
+      </Resources>
+    </Screen>
+
+    <Screen Name="SELECTIONLIST_SETTINGS" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SELECTION_LIST_CONFIG" Value="選択リストの構成" ToolTip="" />
+        <Resource Name="LIST_SETTINGS" Value="リストの設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="ENABLE_DISPALY" Value="表示" ToolTip="" />
+        <Resource Name="ENABLE_PRINT" Value="印刷" ToolTip="" />
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="プリント幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="プリント配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) フォーマットが規定外です" ToolTip="" />
+        <!--Support 81: "New Code" -->
+        <Resource Name="SELECT_ONE_CHECK_BOX" Value="表示と印刷は常に1つ以上選択してください。" ToolTip="" />
+        <!--Support 81: "New Code End" -->
+      </Resources>
+    </Screen>
+    <!--Update 65: "New Code End" -->
+    <Screen Name="TEXT_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="検索設定" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列のID" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="表示名" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列幅" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列の配置" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) フォーマットが規定外です" ToolTip="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="SEARCH" Value="検索">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="目次検索" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="テキスト検索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部品名称検索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部品番号検索" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+    </Resources>
+
+    <Screen Name="SEARCH_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="PAGE" Value="ページ" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="目次検索" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="テキスト検索" ToolTip="" />
+        <Resource Name="PART" Value="部品" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部品名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部品番号" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PAGE_NAME_SEARCH" Value="検索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="検索履歴をクリア" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PAGE_NAME" Value="目次検索" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) フォーマットが規定外です" ToolTip ="" />
+        <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="RESULT_FOUND" Value ="検索結果" ToolTip ="" />
+        <Resource Name="NO_RESULT" Value ="検索条件に該当する結果がありませんでした" ToolTip ="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name="SEARCHING" Value="検索中..." ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PART_NAME_SEARCH" Value="検索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="検索履歴をクリア" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NAME" Value="部品名称" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="現在のブックを検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="検索条件に該当する結果がありませんでした" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="検索結果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="検索中..." ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定された情報が存在しません" ToolTip ="" />
+        <Resources Name ="POPUP_MESSAGE">
+          <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) フォーマットが規定外です" ToolTip ="" />
+          <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+        </Resources>
+      </Resources>
+    </Screen>
+
+    <Screen Name="PART_NUMBER_SEARCH" Value="検索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="検索履歴をクリア" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NUMBER" Value="部品番号" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="現在のブックを検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="検索条件に該当する結果がありませんでした" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="検索結果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="検索中..." ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定された情報が存在しません" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) フォーマットが規定外です" ToolTip ="" />
+        <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 指定されたファイル・フォルダを作成できませんでした" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="TEXT_SEARCH" Value="検索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="検索履歴をクリア" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+        <Resource Name="TEXT" Value="テキスト" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="現在のブックを検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="検索条件に該当する結果がありませんでした" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="検索結果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="検索中..." ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定された情報が存在しません" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="SearchSettings.xmlは、必要な形式ではありません。" ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridViewコントロールは完全にロードすることはできません。" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="ADVANCED_SEARCH" Value="検索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="検索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="検索履歴をクリア" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="検索条件に該当する結果がありませんでした" ToolTip="" />
+        <Resource Name="TEXT" Value="テキスト" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高度な検索" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全一致" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="大文字/小文字を区別する" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="現在のブックを検索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="検索条件に該当する結果がありませんでした" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="検索結果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="検索中..." ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定された情報が存在しません" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="SearchSettings.xmlは、必要な形式ではありません。" ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridViewコントロールは完全にロードすることはできません。" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="MEMO_LIST" Value ="メモ一覧">
+    <Screen Name ="MEMOLIST_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name ="TASKS" Value ="タスク" ToolTip ="" />
+        <Resource Name ="VIEW_OPTIONS" Value ="表示オプション" ToolTip ="" />
+        <Resource Name ="LOCAL_MEMOS" Value ="ローカルメモ" ToolTip ="" />
+        <Resource Name ="GLOBAL_MEMO" Value ="グローバルメモ" ToolTip ="" />
+        <Resource Name ="PART_MEMO" Value ="部品メモ" ToolTip ="" />
+        <Resource Name ="PICTURE_MEMO" Value="画像メモ" ToolTip ="" />
+        <Resource Name ="ALL" Value ="全て" ToolTip ="" />
+        <Resource Name ="BOTH" Value ="両方" ToolTip ="" />
+        <Resource Name ="ADMIN_MEMOS" Value ="管理者メモ" ToolTip ="" />
+        <Resource Name ="MEMO_TYPE" Value ="メモの種類" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name ="TEXT_MEMO" Value ="テキスト" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンス" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンク" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラム" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_LOCAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="LOCAL_MEMO" Value ="ローカルメモ" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="GO" Value ="Go" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="Go" ToolTip ="" />
+        <Resource Name ="OK" Value ="Ok" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="ページへ移動" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Internet Explorerが開けません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 指定されたファイル・フォルダを開けませんでした" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_GLOBAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="GLOBAL_MEMO" Value ="グローバルメモ" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="Ok" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="ページへ移動" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Internet Explorerが開けません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="((E-MGL-EM008) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ALL">
+      <Resources Name ="LABEL">
+        <Resource Name ="ALL_MEMO" Value ="全て" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="Ok" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="ページへ移動" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Internet Explorerが開けません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="((E-MGL-EM008) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ADMIN">
+      <Resources Name ="LABEL">
+        <Resource Name ="ADMIN_MEMO" Value ="管理者メモ" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="プログラムメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日：" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="プログラムパス" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="コマンドライン" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="ハイパーリンクメモ" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="URL_DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL_NEW" Value ="プレビューすることはできません。 [参照]ボタンを押すことで直接参照してください。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Webページのアドレス（URL）を入力してください" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="リファレンスメモ" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="サーバーキー" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="ブックID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="その他の文献" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(スペース区切り)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="テキストメモ" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日：" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="説明" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="タイプ" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="参照" ToolTip ="" />
+        <!--Update#119: "New Code" -->
+        <Resource Name="BROWSE_HYP" Value ="Browse" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="Ok" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="キャンセル" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="ページへ移動" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <!--Update#119: "New Code" -->
+        <Resource Name ="HYP_DJVU_LOAD_ERROR" Value ="インフォメーション：イメージは、指定されたパスでは使用できません。" ToolTip ="" />
+        <!--Update#119:: "New Code End" -->
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Internet Explorerが開けません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定された情報が存在しません" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 指定されたファイル・フォルダを開けませんでした" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 情報ロード中にエラーが発生しました" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="MEMO_RECOVERY" Value="メモ">
+    <Resources Name="BUTTON">
+      <Resource Name="BROWSE" Value="参照" ToolTip="" />
+      <Resource Name="RECOVER" Value="復元" ToolTip="" />
+      <Resource Name="CANCEL" Value="キャンセル" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="LOCAL_MEMO_RECOVERY" Value="ローカルメモの復元" ToolTip="" />
+      <Resource Name="RECOVERY_FILE" Value="バックアップファイル" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MEMO_RECOVERY" Value="ローカルメモの復元を行います　現行のメモは、削除されますがよろしいでしょうか?" ToolTip="" />
+      <Resource Name="(E-MRC-EM001)_FAILED" Value="(E-MRC-EM001) 情報ロード中にエラーが発生しました" ToolTip="" />
+      <Resource Name="(E-MRC-EM002)_INFORMATION" Value="(E-MRC-EM002) 指定された情報が存在しません" ToolTip="" />
+      <Resource Name="(E-MRC-EM003)_FORMAT" Value ="(E-MRC-EM003) フォーマットが規定外です" ToolTip ="" />
+    </Resources>
+  </Screen>
+
+  <!--Update 111: "New Code" -->
+  <Screen Name="PREVIEW_PROCESSING" Value="印刷プレビュー">
+    <Resources Name="LABEL">
+      <Resource Name="PREVIEW" Value="印刷プレビュー" ToolTip="" />
+      <Resource Name="PREVIEW_PROC_MSG" Value="処理中です。お待ちください。" ToolTip="" />
+    </Resources>
+  </Screen>
+  <!--Update 111: "New Code End" -->
+
+  <!--This Screen contains all the messages shown before launch of GSPc Local Viewer-->
+
+  <Screen Name="APPLICATION" Value ="">
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DJVU_UNREGISTERED" Value ="DjVuのコントロールは、このマシンに登録されていません" ToolTip ="" />
+      <Resource Name="UPDATES_AVAILABLE" Value ="更新プログラムが使用可能です。アプリケーションの更新を行います。" ToolTip ="" />
+      <Resource Name="INCORRECT_CONFIGURATION" Value ="アプリケーションの設定が間違っています。それを再インストールするか、システム管理者に連絡してください。" ToolTip ="" />
+      <Resource Name="INI_NOT_FOUND" Value ="GSPcLocal.iniファイルが見つかりません" ToolTip ="" />
+      <Resource Name="NO_SERVER_INI" Value ="サーバのiniファイルがない見つからない" ToolTip ="" />
+      <Resource Name="DIRECT_EXECUTION" Value ="アプリケーションを直接実行は許可されていません" ToolTip ="" />
+      <Resource Name="E-OB-EM001" Value ="(E-OB-EM001) ブックを開くことができませんでした。" ToolTip ="" />
+    </Resources>
+    <Resources Name ="LABEL">
+      <Resource Name="GSPCLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />
+      <Resource Name="UPDATE_MANAGER" Value ="アップデートマネージャ" ToolTip ="" />
+    </Resources>
+  </Screen>
+
+</GSPcLocalViewer>

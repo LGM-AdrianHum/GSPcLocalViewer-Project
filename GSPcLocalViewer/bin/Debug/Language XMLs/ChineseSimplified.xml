@@ -1,0 +1,1639 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GSPcLocalViewer Language ="中国语 简体" EN_NAME="Chinese: Simplified">
+  
+  <Screen Name="MAIN_FORM" Value="GSPcLocal Viewer 3.3">
+    <Resources Name="MENU_BAR">
+      <Resource Name="FILE" Value="文件" ToolTip="" />
+      <Resource Name="OPEN" Value="打开 …" ToolTip="" />
+      <Resource Name="GO_TO_PORTAL" Value="前往門戶" ToolTip="" />
+      <Resource Name="PRINT" Value="打印 …" ToolTip="" />
+      <Resource Name="PRINT_PAGE" Value="打印此页…" ToolTip="" />
+      <Resource Name="PRINT_PICTURE" Value="打印图像…" ToolTip="" />
+      <Resource Name="PRINT_PARTSLIST" Value="打印列表…" ToolTip="" />
+      <Resource Name="PRINT_SELECTIONLIST" Value="打印选择名单…" ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="脱机工作" ToolTip="" />
+      <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+      <Resource Name="CLOSE_ALL" Value="关闭全部" ToolTip="" />
+      <Resource Name="NAVIGATION" Value="導航" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="第一頁" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="最後一頁" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="上一頁" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="下一頁" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="前一視圖" ToolTip="" />
+      <Resource Name="NEXT_VIEW" Value="下一頁查看" ToolTip="" />
+      <Resource Name="VIEW" Value="浏览" ToolTip="" />
+      <Resource Name="CONTENTS" Value="内容" ToolTip="" />
+      <Resource Name="PICTURE" Value="图片" ToolTip="" />
+      <Resource Name="MINI_MAP" Value="迷你地图" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="部件清单" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="选择清单" ToolTip="" />
+      <Resource Name="INFORMATION" Value="信息" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="恢复默认值" ToolTip="" />
+      <Resource Name="SAVE_DEFAULTS" Value="默认保存" ToolTip="" />
+      <Resource Name="BOOKMARKS" Value="书签" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="添加书签" ToolTip="" />
+      <Resource Name="MEMOS" Value="備忘錄" ToolTip="" />
+      <Resource Name="MEMOS_SETTINGS" Value="备忘录 …" ToolTip=""/>
+      <Resource Name="ADD_PICTURE_MEMO" Value="添加圖片備忘錄…" ToolTip="" />
+      <Resource Name="ADD_PART_MEMO" Value="新增部分備忘錄…" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value="查看記事列表…" ToolTip="" />
+      <Resource Name="MEMO_RECOVERY" Value="备忘录恢复 …" ToolTip="" />
+      <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+      <Resource Name="PAGE_NAME" Value="页码名称 …" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="文本搜索 …" ToolTip="" />
+      <Resource Name="PART_NAME" Value="部件名称 …" ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="部件编号 …" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高級搜索…" ToolTip="" />
+      <Resource Name="SETTINGS" Value="设置" ToolTip="" />
+      <Resource Name="FONT" Value="字体 …" ToolTip="" />
+      <Resource Name="COLOR" Value="色彩…" ToolTip="" />
+      <Resource Name="GENERAL" Value="普通 …" ToolTip="" />
+      <Resource Name="MEMOS" Value="备忘录 …" ToolTip="" />
+      <Resource Name="PAGENAME_SETTINGS" Value="页码名称 …" ToolTip="" />
+      <Resource Name="TEXTSEARCH_SETTINGS" Value="文本搜索 …" ToolTip="" />
+      <Resource Name="PARTNAME_SETTINGS" Value="部件名称 …" ToolTip="" />
+      <Resource Name="PARTNUMBER_SETTINGS" Value="部件编号 …" ToolTip="" />
+      <Resource Name="ADVANCEDSEARCH_SETTINGS" Value="高級搜索 …" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="管理磁盤空間…" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="連接設置 …" ToolTip="" />
+      <Resource Name="TOOLS" Value="工具" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="當前書下載 …" ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="下載多本書籍 …" ToolTip="" />
+      <Resource Name="HELP" Value="帮助" ToolTip="" />
+      <Resource Name="GSPCLOCALHELP" Value="GSPcLocal帮助" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="关于 GSPcLocal" ToolTip="" />
+      <Resource Name="ADD_ON" Value="添加" ToolTip="" />
+    </Resources>
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="GO_TO_PORTAL" Value="前往門戶" ToolTip="" />
+      <Resource Name="OPEN_NEW_BOOK" Value="打开新书" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="當前書下載" ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="下載多本書籍" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="管理磁盤空間" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="連接設置" ToolTip="" />
+      <Resource Name="VIEW_CONTENTS" Value="浏览内容" ToolTip="" />
+      <Resource Name="VIEW_PICTURE" Value="浏览图片" ToolTip="" />
+      <Resource Name="VIEW_PARTSLIST" Value="浏览部件清单" ToolTip="" />
+      <Resource Name="VIEW_INFORMATION" Value="浏览信息" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="恢复默认值" ToolTip="" />
+      <Resource Name="PRINT" Value="打印" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="添加书签" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value="查看記事列表" ToolTip="" />
+      <Resource Name="RECOVER_MEMOS" Value="恢復備忘錄" ToolTip="" />
+      <Resource Name="CONFIGURATION" Value="配置" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="关于 GSPcLocal" ToolTip="" />
+      <Resource Name="GSPCLOCAL_HELP" Value="GSPcLocal帮助" ToolTip="" />
+      <Resource Name="ADDON" Value="添加" ToolTip="" />
+      <Resource Name="BACKWARD" Value="向后" ToolTip="" />
+      <Resource Name="FORWARD" Value="向前" ToolTip="" />
+      <Resource Name="HISTORY_LIST" Value="历史记录" ToolTip="" />
+      <Resource Name="PAGE_NAME_SEARCH" Value="页码名称搜索" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="文本搜索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部件名称搜索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部件编号搜索" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高级搜索" ToolTip="" />
+      <Resource Name="PICTURE" Value="图片" ToolTip="" />
+      <Resource Name="PREVIOUS_PICTURE" Value="前一张图片" ToolTip="" />
+      <Resource Name="NEXT_PICTURE" Value="下张图片" ToolTip="" />
+      <Resource Name="PAN_MODE" Value="平移模式" ToolTip="" />
+      <Resource Name="COPY_IMAGE" Value="复制图像" ToolTip="" />
+      <Resource Name="SELECT_TEXT" Value="テキストを選択" ToolTip="" />
+      <Resource Name="ZOOM_IN" Value="放大" ToolTip="" />
+      <Resource Name="SELECT_ZOOM" Value="选定的区域放大" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="适合页面" ToolTip="" />
+      <Resource Name="ZOOM_OUT" Value="缩小" ToolTip="" />
+      <Resource Name="ROTATE_LEFT" Value="向左" ToolTip="" />
+      <Resource Name="ROTATE_RIGHT" Value="右回転" ToolTip="" />
+      <Resource Name="ADD_PICTURE_MEMO" Value="添加图片备忘录" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="第一页" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="上一页" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="前一页" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="下一页" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="前一視圖" ToolTip="" />
+      <Resource Name="BASKET" Value="篮" ToolTip="" />
+      <Resource Name="FIND_TEXT" Value="查找文本" ToolTip="" />
+      <Resource Name="SHOW_THUMBNAIL" Value="显示缩略图" ToolTip="" />
+      <Resource Name="READY" Value="就绪 " ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="脱机工作" ToolTip="" />
+      <Resource Name="PICTURE_INDEX" Value="图片索引" ToolTip="" />
+      <Resource Name="LIST_INDEX" Value="清单索引" ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="部件编号" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="DOWNLOADING" Value ="下载 …" ToolTip ="" />
+      <Resource Name="SEARCING_SERIES_XML" Value ="搜索…" ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE " Value ="(E-VWR-EM008) 保存失败" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) 无法下载" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) 指定的文件夹不存在" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) 命令未返回任意结果" ToolTip ="" />
+      <Resource Name="(E-VWR-EM005)_FAILED_SAVE" Value ="(E-VWR-EM005) 保存失败" ToolTip ="" />
+      <Resource Name="READY" Value ="就绪 " ToolTip ="" />
+      <Resource Name="LOADING" Value ="載入中" ToolTip ="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(E-VWR-EM013)_URL" Value ="(E-VWR-EM013) URL未发现" ToolTip ="" />
+      <Resource Name="(E-VWR-EM001)_FILE/FOLDER" Value ="(E-VWR-EM001) 数据路径无法创建" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) 命令未返回任意结果" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) 指定的文件夹不存在" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) 无法下载" ToolTip ="" />
+      <Resource Name="(E-VWR-EM003)_INVALIDCOMMAND" Value ="(E-VWR-EM003) 命令未返回任意结果" ToolTip ="" />
+      <Resource Name="DELETE_BOOKMARK?" Value ="您确定要删除此书签吗?" ToolTip ="" />
+      <Resource Name="(E-VWR-EM006)_FAILED_DELETE" Value ="(E-VWR-EM006) 删除失败" ToolTip ="" />
+      <Resource Name="(E-VWR-EM007)_FAILED_RECOVER" Value ="(E-VWR-EM007) 恢复本地备忘录时出现问题" ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE" Value ="(E-VWR-EM008) 保存失败" ToolTip ="" />
+      <Resource Name="(E-VWR-EM009)_FAILED_LOAD" Value ="(E-VWR-EM009) 无法载入指定的对象" ToolTip ="" />
+      <Resource Name="(E-VWR-EM010)_FAILED_LOAD" Value ="(E-VWR-EM010) 无法载入指定的对象" ToolTip ="" />
+      <Resource Name="(E-VWR-EM011)_FAILED_SAVE" Value ="(E-VWR-EM011) 保存失败" ToolTip ="" />
+      <Resource Name="(E-VWR-EM012)_FAILED_SAVE" Value ="(E-VWR-EM012) 保存失败" ToolTip ="" />
+      <Resource Name="MEMO_DISABLED" Value ="所有备忘录都不可用从设置屏幕激活备忘录" ToolTip ="" />
+      <Resource Name="FREE_SPACE" Value ="不能執行書下載" ToolTip ="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value ="當前書下載" ToolTip ="" />
+      <Resource Name="LOW_DISK" Value ="磁盤空間不足" ToolTip ="" />
+      <Resource Name="LESS_THAN" Value ="小於" ToolTip ="" />
+      <Resource Name="LEFT_FROM" Value ="遺留" ToolTip ="" />
+      <Resource Name="OF_ALLOWED" Value ="允許的空間" ToolTip ="" />
+      <Resource Name="MANAGE_FREE_SPACE" Value ="管理磁盤以釋放一些空間" ToolTip ="" />
+      <Resource Name="UPDATE_DJVU" Value ="CSS的DjVu控制安裝的版本不支持此功能" ToolTip ="" />
+      <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.3" ToolTip ="" />
+      <Resource Name="(E-VWR-EM013)_URL" Value ="(E-VWR-EM013) URL未发现" ToolTip ="" />
+      <Resource Name="FAILED_XML" Value ="無法加載語言XML。" ToolTip ="" />
+    </Resources>
+    <Screen Name="PICTURE" Value="Picture">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="PREVIOUS_PICTURE" Value ="前一张图片" ToolTip ="" />
+        <Resource Name="NEXT_PICTURE" Value ="下张图片" ToolTip ="" />
+        <Resource Name="COPY_IMAGE" Value ="复制图像" ToolTip ="" />
+        <Resource Name="ZOOM_IN" Value="放大" ToolTip="" />
+        <Resource Name="ZOOM_OUT" Value="缩小" ToolTip="" />
+        <Resource Name="SELECT_ZOOM" Value ="选定的区域放大" ToolTip ="" />
+        <Resource Name="PAN_MODE" Value="平移模式" ToolTip="" />
+        <Resource Name="ADD_PICTURE_MEMO" Value ="添加图片备忘录" ToolTip ="" />
+        <Resource Name="FIT_PAGE" Value ="适合页面" ToolTip ="" />
+        <Resource Name="ROTATE_LEFT" Value="向左" ToolTip="" />
+        <Resource Name="ROTATE_RIGHT" Value="右回転" ToolTip="" />
+        <Resource Name="SELECT_TEXT" Value="テキストを選択" ToolTip="" />
+        <Resource Name="SHOW_THUMBNAIL" Value="显示缩略图" ToolTip="" />
+        <Resource Name="FIND_TEXT" Value="查找文本" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="就绪 " ToolTip="" />
+        <Resource Name="LOADING_PICTURE" Value="上载图片" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="复印的图像" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPC-EM001)_FORMAT" Value="(E-VPC-EM001) 文件格式不正确" ToolTip="" />
+        <Resource Name="(E-VPC-EM002)_FAILED" Value="(E-VPC-EM002) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="复印的图像" ToolTip="" />
+        <Resource Name="UPDATE_DJVU" Value ="CSS的DjVu控制安裝的版本不支持此功能" ToolTip ="" />
+        <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.3" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="SELECTION_LIST" Value="选择清单">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="ADD_RECORD" Value="添加记录" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="清除选中的部分" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="选择全部" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="删除选中的部分" ToolTip="" />
+        <Resource Name="DELETE_ALL" Value="删除全部" ToolTip="" />
+        <Resource Name="PRINT" Value="打印" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="移动到页" ToolTip="" />
+        <Resource Name="BASKET" Value ="篮" ToolTip ="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="SELECT_ALL" Value="选择全部" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="清除选中的部分" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="拷贝至粘贴板" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="导出到文件" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="逗号分隔" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="Tab分隔" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="逗号分隔" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="Tab分隔" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="删除选中的部分" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="移动到页" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SLT-EM001)_EXPORT" Value="(E-SLT-EM001) 出到文件失败" ToolTip="" />
+        <Resource Name="(E-SLT-EM002)_FAILED" Value="(E-SLT-EM002) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SLT-EM003)_FAILED" Value="(E-SLT-EM003) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SLT-EM004)_FAILED" Value="(E-SLT-EM004) 无法载入指定的对象" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="SELECTION_LIST_QUANTITY" Value ="改变数量" >
+      <Resources Name="LABEL">
+        <Resource Name="QUANTITY" Value ="数量" ToolTip ="" />
+        <Resource Name="PART_NUMBER" Value ="部件编号" ToolTip ="" />
+      </Resources>
+      <Resources Name="BUTTON">
+        <Resource Name="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name="CHANGE" Value ="变更" ToolTip ="" />
+        <Resource Name="DELETE" Value ="删除" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PARTS_LIST" Value="部件清单">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="CLEAR_SELECTED" Value="清除选中的部分" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="选择全部" ToolTip="" />
+        <Resource Name="ADD_PART_MEMO" Value="添加部件备忘录" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="添加到选定的清单" ToolTip="" />
+        <Resource Name="INFORMATION" Value="信息" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="下一清单" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="上一清单" ToolTip="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="ADD_PART_MEMO" Value="添加部件备忘录" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="添加到选定的清单" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="清除选中的部分" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="选择全部" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="拷贝至粘贴板" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="导出到文件" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="逗号分隔" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="Tab分隔" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="逗号分隔" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="Tab分隔" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="下一清单" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="上一清单" ToolTip="" />
+        <Resource Name ="INFORMATION" Value ="信息" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="就绪 " ToolTip="" />
+        <Resource Name="LOADING_PARTSLIST" Value="上载部件清单" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPL-EM001)_FAILED" Value="(E-VPL-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-VPL-EM003)_FAILED" Value="(E-VPL-EM003) 数据路径无法创建" ToolTip="" />
+        <Resource Name="(E-VPL-EM002)_FAILED" Value="(E-VPL-EM002) 将数据导出到文件时发生问题" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="CONTENTS" Value="内容">
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="PRINT_TO" Value="打印至..." ToolTip="" />
+        <Resource Name="PRINT_FROM" Value="从   打印" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="导出到文件" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="拷贝至粘贴板" ToolTip="" />
+        <Resource Name="TAB_SEPARATED" Value="Tab分隔" ToolTip="" />
+        <Resource Name="TAB_SEPARATED_FILE" Value="Tab分隔" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED" Value="逗号分隔" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED_FILE" Value="逗号分隔" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value ="就绪 " ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value ="下载…" ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value=".xml上载完成" ToolTip="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-VTV-EM006)_FAILED" Value ="(E-VTV-EM006) 无法下载" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VTV-EM004)_FAILED" Value ="(E-VTV-EM004) 数据路径无法创建" ToolTip ="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value ="拷贝至粘贴板" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="INFORMATION" Value="语言">
+      <Resources Name="LABEL">
+        <Resource Name="BOOK_INFORMATION" Value="书籍信息" ToolTip="" />
+        <Resource Name="PAGE_INFORMATION" Value="页码信息" ToolTip="" />
+        <Resource Name="(E-INF-EM001)_FAILED" Value="(E-INF-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-INF-EM002)_FAILED" Value="(E-INF-EM002) 无法载入指定的对象" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADD_RECORD" Value="添加记录">
+      <Resources Name="BUTTON" >
+        <Resource Name="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name="SAVE" Value ="保存" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(W-ARD-WM001)_EMPTY" Value ="(W-ARD-WM001) 產品編號字段不能為空。" ToolTip ="" />
+        <Resource Name="(W-ARD-WM004)_PART" Value ="(W-ARD-WM004) 部分已經存在，在選擇列表中。" ToolTip ="" />
+        <Resource Name="(W-ARD-WM002)_QUANTITY" Value ="(W-ARD-WM002) 數量字段不能為空。" ToolTip ="" />
+        <Resource Name="(W-ARD-WM003)_NUMERIC" Value ="(W-ARD-WM003) 數量必須是數字。" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+  
+  <Screen Name="ABOUT" Value ="关于 GSPcLocal">
+    <Resources Name="LABEL">
+      <Resource Name="GSP_LOCAL" Value="Graphical Solution Package content Local 3.3.0.13" ToolTip="" />
+      <Resource Name="WARNING" Value="警告:本程序受版权法保护未经授权复制本程序或本程序的任意部分将被视为违法行为,并将导致刑事惩罚" ToolTip="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name ="MEMO" Value ="部件备忘录">
+    <Resources Name="LABEL">
+      <Resource Name="FORM_TITLE_PICTURE" Value ="图片备忘录" ToolTip ="" />
+    </Resources>
+    <Screen Name="MEMO_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value ="任务" ToolTip ="" />
+        <Resource Name="VIEW_OPTIONS" Value ="浏览选项" ToolTip ="" />
+        <Resource Name="LOCAL_MEMO" Value ="本地备忘录" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="全球备忘录" ToolTip ="" />
+        <Resource Name="ADMIN_MEMO" Value ="管理备忘录" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="LOCAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name="GO" Value ="前进" ToolTip ="" />
+        <Resource Name="OK" Value ="完成" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="前进" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="取消" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="LOCAL_MEMO" Value ="本地备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="添加文本备忘录" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="添加参考备忘录" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="添加超联备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="添加程序备忘录" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="保存当前备忘录" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="保存所有备忘录" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="清除/刷新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="相关清单" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="删除已选中的 " ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="删除全部" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MLC-EM002)_FAILED" Value ="(E-MLC-EM002) 保存失败" ToolTip ="" />
+        <Resource Name="(E-MLC-EM003)_INFORMATION" Value ="(E-MLC-EM003) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="(E-MLC-EM004)_URL" Value ="(E-MLC-EM004) URL未发现" ToolTip ="" />
+        <Resource Name="(E-MLC-EM005)_INFORMATION" Value ="(E-MLC-EM005) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="(E-MLC-EM006)_SAVE" Value ="(E-MLC-EM006) 保存失败" ToolTip ="" />
+        <Resource Name="(E-MLC-EM007)_INTERNET" Value ="(E-MLC-EM007) 无法打开IE浏览器" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="您希望保存这里所做的任意修改吗?" ToolTip ="" />
+        <Resource Name="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 无法打开指定的文件" ToolTip ="" />
+        <Resource Name="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="您希望保存这里所做的任意修改吗?" ToolTip ="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="GLOBAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name="GO" Value ="前进" ToolTip ="" />
+        <Resource Name="OK" Value ="完成" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="前进" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="取消" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="GLOBAL_MEMO" Value ="全球备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日期::" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="添加文本备忘录" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="添加参考备忘录" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="添加超联备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="添加程序备忘录" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="保存当前备忘录" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="保存所有备忘录" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="清除/刷新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="相关清单" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="删除已选中的 " ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="删除全部" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) 保存失败" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="您希望保存这里所做的任意修改吗?" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADMIN_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name="GO" Value ="前进" ToolTip ="" />
+        <Resource Name="OK" Value ="完成" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="前进" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="取消" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="ADMIN_MEMO" Value ="管理备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="添加文本备忘录" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="添加参考备忘录" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="添加超联备忘录" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="添加程序备忘录" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="保存当前备忘录" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="保存所有备忘录" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="清除/刷新" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="相关清单" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="删除已选中的 " ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="删除全部" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) 无法载入指定的对象t" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) 保存失败" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="您希望保存这里所做的任意修改吗?" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>  
+
+  <Screen Name="SINGLE_BOOK_DOWNLOAD" Value="单本书下载">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="下载" ToolTip="" />
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="就绪 " ToolTip="" />
+      <Resource Name="DOWNLOADING" Value="下载…" ToolTip="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="整个进程：" ToolTip="" />
+    </Resources>
+    <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="失败" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="文件名" ToolTip="" />
+      <Resource Name="SUCCESS" Value="成功" ToolTip="" />
+      <Resource Name="STATUS" Value="状态" ToolTip="" />
+    </Resources>
+    <Resources Name ="STATUS_MESSAGE">
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="检查要下载的文件……" ToolTip="" />
+      <Resource Name="READY" Value="就绪 " ToolTip="" />
+      <Resource Name="ALREADY_UPDATED" Value="本书已更新" ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="取消下载" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="圖書下載取消，因為已達到最大下載限制" ToolTip ="" />
+    </Resources>
+  </Screen>
+  
+  <Screen Name="MULTIPLE_BOOKS_DOWNLOAD" Value="已下载多本书">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="下载" ToolTip="" />
+      <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="就绪 " ToolTip="" />
+      <Resource Name ="DOWNLOADING" Value ="下载…" ToolTip ="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="整个进程：" ToolTip="" />
+    </Resources>
+    <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="失败" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="文件名" ToolTip="" />
+      <Resource Name="SUCCESS" Value="成功" ToolTip="" />
+      <Resource Name="STATUS" Value="状态" ToolTip="" />
+      <Resource Name="SELECT_ALL" Value="选择全部" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="READY" Value ="就绪" ToolTip ="" />
+      <Resource Name ="BOOKS_NOT_LOADED" Value ="本书未上载" ToolTip ="" />
+      <Resource Name ="(W-MBD-WM001)_SELECT" Value ="(W-MBD-WM001) 请选择至少一本书下载" ToolTip ="" />
+      <Resource Name ="ALREADY_UPDATED" Value ="本书已更新" ToolTip ="" />
+      <Resource Name ="READY" Value ="就绪……" ToolTip ="" />
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="检查准备下载的图书……" ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="取消下载" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="圖書下載取消，因為已達到最大下載限制" ToolTip ="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name="PRINT" Value="打印">
+    <Resources Name="BUTTON">
+      <Resource Name="PRINT" Value="打印" ToolTip="" />
+      <Resource Name="PREVIEW" Value="预览" ToolTip="" />
+      <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+      <Resource Name="PROPERTY" Value="打印设置" ToolTip="" />
+      <Resource Name="SPLIT_PATTERN" Value="拆分形式" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="POTRAIT" Value="垂直" ToolTip="" />
+      <Resource Name="LANDSCAPE" Value="风景" ToolTip="" />
+      <Resource Name="CURRENT_PAGE" Value="当前页" ToolTip="" />
+      <Resource Name="ALL_PAGE" Value="所有页" ToolTip="" />
+      <Resource Name="PAGES" Value="页码" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="适合页面" ToolTip="" />
+      <Resource Name="HALF_PAGE" Value="半页" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="PRINT_PICTURE" Value="图片" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="部件清单" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="选择清单" ToolTip="" />
+      <Resource Name="MAINTAIN_PICTURE_ZOOM" Value="保持图片缩放" ToolTip="" />
+      <Resource Name="PRINT_PAGE_NUMBERS" Value="打印页码编号" ToolTip="" />
+      <Resource Name="PRINT_HEADER_AND_FOOTER" Value="打印页眉和页脚" ToolTip="" />
+      <Resource Name="AUTO_ROTATE" Value="Auto-Rotate Picture" ToolTip="" />
+    </Resources>
+    <Resources Name="COMBO_BOX">
+      <Resource Name="1:1" Value="1 比 1" ToolTip="" />
+      <Resource Name="1:2" Value="1 比 2" ToolTip="" />
+      <Resource Name="1:4" Value="1 比 4" ToolTip="" />
+      <Resource Name="1:8" Value="1 比 8" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PRINTER" Value="打印机" ToolTip="" />
+      <Resource Name="NAME" Value="名称" ToolTip="" />
+      <Resource Name="STATUS" Value="状态" ToolTip="" />
+      <Resource Name="STATUSREADY" Value="就绪 " ToolTip="" />
+      <Resource Name="STATUSOTHER" Value="其他" ToolTip="" />
+      <Resource Name="STATUSUNKNOWN" Value="未知" ToolTip="" />
+      <Resource Name="STATUSPRINTING" Value="打印" ToolTip="" />
+      <Resource Name="STATUSWARMUP" Value="热身" ToolTip="" />
+      <Resource Name="STATUSOFFLINE" Value="脱机" ToolTip="" />
+      <Resource Name="STATUSSTOPPEDPRINTING" Value="停止打印" ToolTip="" />
+      <Resource Name="SPLIT_PRINTING" Value="斯普利特印刷" ToolTip="" />
+      <Resource Name="SETTINGS" Value="设置" ToolTip="" />
+      <Resource Name="ORIENTATION" Value="方向" ToolTip="" />
+      <Resource Name="ZOOM" Value="缩放" ToolTip="" />
+      <Resource Name="RANGE_PRINTING" Value="打印范围…" ToolTip="" />
+      <Resource Name="SELECTION_PRINTING" Value="列印网页" ToolTip="" />
+      <Resource Name="FROM" Value="开始" ToolTip="" />
+      <Resource Name="TO" Value="至" ToolTip="" />
+      <Resource Name="PAPER_SIZE" Value ="纸张尺寸:" ToolTip ="" />
+      <Resource Name="SPLITTING_OPTION" Value ="拆分选项:" ToolTip ="" />
+    </Resources>
+    
+    <Screen Name="PAGE_SPLITTING" Value="斯普利特印刷">
+      <Resources Name="BUTTON">
+        <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PREVIEW" Value="预览" ToolTip="" />
+        <Resource Name="POTRAIT_PICTURE" Value="肖像图片" ToolTip="" />
+        <Resource Name="LANDSCAPE_PICTURE" Value="风景图片" ToolTip="" />
+      </Resources>
+    </Screen> 
+    
+    <Screen Name="PRINT_PREVIEW" Value="打印预览">
+      <Resources Name="BUTTON">
+        <Resource Name="FIRST_PAGE" Value="第一頁" ToolTip="" />
+        <Resource Name="PREVIOUS_PAGE" Value="上一頁" ToolTip="" />
+        <Resource Name="LAST_PAGE" Value="最後一頁" ToolTip="" />
+        <Resource Name="NEXT_PAGE" Value="下一頁" ToolTip="" />
+        <Resource Name="ZOOM" Value="缩放" ToolTip="" />
+        <Resource Name="1:1" Value="1:1" ToolTip="" />
+        <Resource Name="FIT_PAGE" Value="适合页面" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="适合宽度" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+        <Resource Name="CLOSE" Value="关闭" ToolTip="" />
+      </Resources>
+     </Screen>
+
+    <Screen Name="PRINT_MANAGER">
+      <Resources Name="LABEL">
+        <Resource Name="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+        <Resource Name="PRINT_DATE" Value ="打印日期" ToolTip ="" />
+       </Resources>      
+    </Screen>    
+  </Screen> 
+  
+  <Screen Name="DATA_SIZE" Value="數據清理">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="完成" ToolTip="" />
+      <Resource Name="DELETE" Value="删除" ToolTip="" />  
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />      
+    </Resources>
+    <Resources Name= "TOOLSTRIP">
+      <Resource Name="SELECT_ALL" Value="選擇全部" ToolTip="" />
+      <Resource Name="UNSELECT_ALL" Value="取消選擇所有" ToolTip="" />
+      <Resource Name="DELETE_SELECTED" Value="删除已选中的 " ToolTip="" />            
+    </Resources>    
+    <Resources Name="LABEL">
+      <Resource Name="DISK_SPACE" Value ="磁盤空間" ToolTip ="" />
+      <Resource Name="DOWNLOADED_DATA" Value="下載的數據" ToolTip="" />
+      <Resource Name="BOOK_IN_USE" Value="阅览中" ToolTip="" />
+      <Resource Name="CANNOT_DELETE_BOOK" Value="阅览中无法删除" ToolTip="" />
+      <Resource Name="OVERFLOW" Value="溢出" ToolTip="" />     
+    </Resources>
+    <Resources Name="TREE_VIEW">
+      <Resource Name="FOLDER_NAME" Value="文件夾名稱" ToolTip="" />
+      <Resource Name="SIZE" Value="大小" ToolTip="" />
+      <Resource Name="MODIFIED_DATE" Value="更新日期" ToolTip="" />
+      <Resource Name="STATUS" Value="状态" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="ALLOCATE_SPACE" Value="分配空間數據下載" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="NO_BOOKS_EXIST" Value="沒有書存在" ToolTip="" />
+      <Resource Name="NO_PATH" Value="數據路徑不存在" ToolTip="" />
+      <Resource Name="PROCESSING_DISK_SPACE" Value="處理磁盤空間…" ToolTip="" />
+      <Resource Name="OVERFLOW" Value="溢出" ToolTip="" />
+      <Resource Name="REMAINING" Value ="剩餘" ToolTip ="" />
+     </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DELETE_DATA" Value ="你確定要刪除選定的數據" ToolTip ="" />
+      <Resource Name="(E-VDS-EM001)_FAILED" Value ="(E-VDS-EM001) 删除失败" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE" Value ="分配的數據的大小應大於現有數據空間" ToolTip ="" />
+      <Resource Name="NO_PATH" Value="數據路徑不存在" ToolTip="" />
+      <Resource Name="ALLOCATE_LESS" Value ="分配的數據的大小應小於可用空間" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE_SPACE" Value ="分配的數據的大小應大於 10MB" ToolTip ="" />
+    </Resources>
+  </Screen>  
+  
+  <Screen Name="DJVU_AUTHENTICATION" Value="认证">
+    <Resource Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />
+    </Resource>
+    <Resources Name="LABEL">
+      <Resource Name="USER_ID" Value="用户ID" ToolTip="" />
+      <Resource Name="PASSWORD" Value="密码" ToolTip="" />
+      <Resource Name="SECURED_DJVU" Value="安全的DjVu图象" ToolTip="" />
+    </Resources>
+  </Screen>  
+  
+  <Screen Name="CONNECTION" Value="连接">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PROXY_SERVER" Value="代理服务器" ToolTip="" />
+      <Resource Name="CONNECTION_TIMEOUT" Value="连接超时" ToolTip="" />
+      <Resource Name="SECONDS" Value="秒" ToolTip="" />
+      <Resource Name="PROXY_ADDRESS" Value="代理服务器地址" ToolTip="" />
+      <Resource Name="PROXY_PORT" Value="端口" ToolTip="" />
+      <Resource Name="PROXY_LOGIN" Value="登录ID" ToolTip="" />
+      <Resource Name="PROXY_PASSWORD" Value="密码" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="CONNECT_DIRECTLY" Value="不使用代理服务器" ToolTip="" />
+      <Resource Name="HTTP_PROXY" Value="使用HTTP代理" ToolTip="" />
+      <Resource Name="SOCKS4_PROXY" Value="使用SOCK4代理" ToolTip="" />
+      <Resource Name="SOCKS5_PROXY" Value="使用SOCK5代理" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(W-CVC-WM002)_ADDRESS_MISSING" Value="(W-CVC-WM002) 代理地址丟失" ToolTip="" />
+      <Resource Name="(W-CVC-WM001)_INVALID" Value="(W-CVC-WM001) 代理服務器地址無效" ToolTip="" />
+      <Resource Name="(W-CVC-WM003)_PROXY_MISSING" Value="(W-CVC-WM003) 缺少代理登錄" ToolTip="" />
+      <Resource Name="(W-CVC-WM004)_PASSWORD_MISSING" Value="(W-CVC-WM004) 代理密碼丟失" ToolTip="" />
+    </Resources>   
+  </Screen> 
+  
+  <Screen Name="OPEN_BOOKS" Value="打开书籍">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="BROWSE" Value="浏览" ToolTip=""/>
+      <Resource Name="BOOKMARKS" Value="书签" ToolTip=""/>
+      <Resource Name="SEARCH" Value="搜索" ToolTip=""/>
+      <Resource Name="PAGE_NAME_SEARCH" Value="页码名称搜索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部件名称搜索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部件编号搜索" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="管理磁盤空間" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="連接設置" ToolTip="" />
+      <Resource Name="TREE_VIEW" Value="树状浏览" ToolTip="" />
+      <Resource Name="GRID_VIEW" Value="网格视图" ToolTip="" />
+      <Resource Name="EXPLORER_VIEW" Value="浏览器视图" ToolTip="" />
+      <Resource Name="IMAGE_PREVIEW" Value="图象预览" ToolTip="" />
+    </Resources>
+    <Screen Name="OPEN_BOOK_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="任务" ToolTip="" />
+        <Resource Name="OPEN_BOOKS" Value="打开书籍" ToolTip="" />
+        <Resource Name="BROWSE" Value="浏览" ToolTip="" />
+        <Resource Name="BOOKMARKS" Value="书签" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高級搜索" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="页码名称" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部件名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部件编号" ToolTip="" />
+        <Resource Name="TREE_VIEW" Value="树状浏览" ToolTip="" />
+        <Resource Name="GRID_VIEW" Value="网格视图" ToolTip="" />
+        <Resource Name="EXPLORER_VIEW" Value="浏览器视图" ToolTip="" />
+        <Resource Name="IMAGE_PREVIEW" Value="图象预览" ToolTip="" />
+        <Resource Name="SELECT_VIEWS" Value ="选择视图" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="BROWSE_BOOK" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="BROWSE" Value="浏览" ToolTip="" />
+        <Resource Name="DETAILS" Value="细节" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="服务器信息" ToolTip="" />
+        <Resource Name="BOOK_INFORMATION" Value="书籍信息" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="选择一个服务器" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="选择一本书" ToolTip="" />
+        <Resource Name="OPEN_BOOKS_BY_BROWSING" Value="通过浏览的方式打开书籍" ToolTip="" />
+        <Resource Name="LOADING" Value="载入中……" ToolTip="" />        
+        <Resource Name="SERVER_KEY" Value="服务器信息" ToolTip="" />
+        <Resource Name="CONTENT_PATH" Value="内容路径" ToolTip="" />
+        <Resource Name ="(E-OBB-EM003)_FAILED_LOAD" Value ="(E-OBB-EM003) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM004)_FAILED_LOAD" Value ="(E-OBB-EM004) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM008)_INFORMATION_NOEXIST" Value ="(E-OBB-EM008) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM003)_FAILED_LOAD" Value ="(E-OBM-EM003) 无法载入指定的对象" ToolTip ="" />
+      </Resources>      
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_BROWSING" Value="通过浏览的方式打开书籍" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="检查数据更新……" ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="下载…" ToolTip="" />
+        <Resource Name="(E-OBB-EM006)_FAILED_LOAD" Value="(E-OBB-EM006) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="LOADING" Value="载入中……" ToolTip="" />
+        <Resource Name="(E-OBB-EM007)_INFORMATION_NOEXIST" Value="(E-OBB-EM007) 指定的文件夹不存在" ToolTip="" />
+        <Resource Name="FINISHED_LOADING" Value="载入完成" ToolTip="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBB-EM001)_FAILED_LOAD" Value="(E-OBB-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-OBB-EM002)_FAILED_FOLDER" Value="(E-OBB-EM002) 数据路径无法创建" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="OPENBOOKBOOKMARKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="OPEN_BOOKMARKS_BROWSING" Value="通过浏览打开书签" ToolTip="" />     
+        <Resource Name="BOOKMARKS_INFORMATION" Value="书签信息" ToolTip="" />
+        <Resource Name="BROWSE" Value="浏览" ToolTip="" />
+        <Resource Name="CONTENT_PATH:" Value="内容路径:" ToolTip="" />
+        <Resource Name="DETAILS" Value="细节" ToolTip="" />
+        <Resource Name="SELECT_A_BOOKMARK" Value="选择一个书签" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="选择一个服务器…" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="书签已完全上载" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="服务器信息" ToolTip="" />
+        <Resource Name="SERVER_KEY" Value="服务器密钥" ToolTip="" />
+        <Resource Name="BROWSE" Value="浏览" ToolTip="" />
+        <Resource Name="(E-OBM-EM002)_FAILED_LOAD" Value="(E-OBM-EM002) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-OBM-EM003)_FAILED_LOAD" Value="(E-OBM-EM003) 无法载入指定的对象" ToolTip="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-OBM-EM001)_FAILED_LOAD" Value ="(E-OBM-EM001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM004)_FAILED_LOAD" Value ="(E-OBM-EM004) 无法载入指定的对象" ToolTip ="" />
+       </Resources>
+      <Resources Name ="STATUS_MESSAGE" >   
+        <Resource Name="LOADING_BOOKMARKS" Value="上载书签" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="书签已完全上载" ToolTip="" />
+      </Resources>      
+    </Screen>
+    <Screen Name="OPENBOOKSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="EXACT_CASE" Value="匹配案例" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="BOOK_CODE" Value="书代码" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value="出版Id" ToolTip="" />
+        <Resource Name="UPDATEDATE" Value="更新日期" ToolTip="" />
+      </Resources>
+     <Resources Name="LABEL">       
+        <Resource Name="SEARCH_A_BOOK" Value="搜索一本书" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="选择一本书" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="输入搜索标准" ToolTip="" />      
+        <Resource Name="KEYWORD" Value="關鍵字" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="SEARCH_CRITERIA" Value="搜索标准" ToolTip="" />
+        <Resource Name="BOOK_CODE" Value="书代码" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value ="出版Id" ToolTip ="" />
+        <Resource Name ="ADVANCED_SEARCH" Value ="高級搜索" ToolTip ="" />
+        <Resource Name="BOOK_INFORMATION" Value ="书籍信息" ToolTip ="" />
+        <Resource Name ="DETAILS" Value ="细节" ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value="下载……" ToolTip="" />
+        <Resource Name ="(E-OBS-EM011)_FAILED_LOAD" Value ="(E-OBS-EM011) 无法载入指定的对象" ToolTip ="" />
+       </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_SEARCHING" Value="通过搜索打开书籍" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="输入搜索标准" ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="下载……" ToolTip="" />
+        <Resource Name="LOADING" Value="载入中……" ToolTip="" />
+        <Resource Name ="(E-OBS-EM005)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM005) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value="载入完成" ToolTip="" />
+        <Resource Name ="(E-OBS-EM006)_FAILED_FOLDER" Value ="(E-OBS-EM006) 数据路径无法创建" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM007) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM008)_NOT_FORMAT" Value ="(E-OBS-EM008) 文件格式不正确" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM009)_FAILED_LOAD" Value ="(E-OBS-EM009) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM010)_ENCOUNTERED_PROBLEM" Value ="(E-OBS-EM010) 搜索时遇到的问题" ToolTip ="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBS-EM001)_FAILED_LOAD" Value="(E-OBS-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name ="(E-OBS-EM002)_FAILED_FOLDER" Value ="(E-OBS-EM002) 数据路径无法创建" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM007) 指定的文件夹不存在" ToolTip ="" />
+       </Resources>
+    </Screen>
+    <Screen Name="PART_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECKBOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="匹配案例" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">  
+        <Resource Name="SELECT_A_SERVER" Value="选择一个服务器…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />        
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web服務的路徑未找到" ToolTip="" />
+        <Resource Name="ENTER_PARTNAME" Value="輸入部分名稱來搜索" ToolTip="" />        
+         <Resource Name="SELECT_BOOKS" Value="選擇圖書進行搜索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="文件架構服務器上找不到" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="沒有找到結果" ToolTip="" />    
+        <Resource Name="NO_WEBSERVICE" Value="Web服務在指定的路徑未找到" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web服務指定的路徑無效" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="溝通中存在的問題與 Web服務" ToolTip="" />
+        <Resource Name="DETAILS" Value="细节" ToolTip="" />
+        <Resource Name="KEYWORD" Value="關鍵字" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name ="PUBLISHING_ID" Value ="出版Id" ToolTip ="" />
+      </Resources>
+        <Resources Name ="STATUS_MESSAGE">
+       <Resource Name="SEARCH_ON_SERVER" Value="在服務器上搜索零件" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="检查数据更新" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="下載 Series.xml" ToolTip="" />
+        <Resource Name="NO_SERIES" Value="Series.xml無法下載" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml完全加載" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="載入 Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml無法加載" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定的文件夹不存在" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="搜索零件" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="搜索完成" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="搜索停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="搜索失敗" ToolTip="" />
+        </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) 不完全信息，無法打開的書。" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 数据路径无法创建" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) 搜索結果存在的問題，不能打開的書。" ToolTip ="" />
+      </Resources>      
+    </Screen>    
+    <Screen Name="PART_NUMBER_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_PARTS_ON_SERVER" Value="在服務器上搜索零件" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="选择一个服务器…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />
+        <Resource Name="SEARCH_PARTS_ON_SERVER" Value="在服務器上搜索零件" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web服務的路徑未找到" ToolTip="" />
+        <Resource Name="ENTER_PARTNUMBER" Value="輸入零件編號搜索" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web服務指定的路徑無效" ToolTip="" />   
+        <Resource Name="SELECT_BOOKS" Value="選擇圖書進行搜索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="文件架構服務器上找不到" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="沒有找到結果" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="溝通中存在的問題與 Web服務" ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Web服務在指定的路徑未找到" ToolTip="" />       
+        <Resource Name="DETAILS" Value="细节" ToolTip="" />
+        <Resource Name="KEYWORD" Value="關鍵字" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+      </Resources>
+       <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_ON_SERVER" Value="在服務器上搜索零件" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="检查数据更新" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="下載 Series.xml" ToolTip="" />
+        <Resource Name="NO_SERIES" Value="Series.xml無法下載" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml完全加載" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="載入 Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml無法加載" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定的文件夹不存在" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="搜索零件" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="搜索完成" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="搜索停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="搜索失敗" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE" >
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) 不完全信息，無法打開的書。" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 数据路径无法创建" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) 搜索結果存在的問題，不能打開的書。" ToolTip ="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PAGE_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECKBOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="匹配案例" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">   
+        <Resource Name="SELECT_SERVER" Value="选择一个服务器…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web服務的路徑未找到" ToolTip="" />          
+        <Resource Name="ENTER_PAGENAME" Value="輸入網頁名稱進行搜索" ToolTip="" />
+        <Resource Name="SELECT_BOOKS" Value="選擇圖書進行搜索" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="文件架構服務器上找不到" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="沒有找到結果" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="溝通中存在的問題與 Web服務" ToolTip="" />
+        <Resource Name="CHECKING_FOR_DATA_UPDATES" Value="检查数据更新" ToolTip="" />
+        <Resource Name="SERIES.XML_COULD_NOT_BE_DOWNLOADED" Value="Series.xml無法下載" ToolTip="" />
+        <Resource Name="LOADING_SERIES.XML" Value="載入 Series.xml" ToolTip="" />
+        <Resource Name="SPECIFIED_INFORMATION_DOES_NOT_EXIST" Value="指定的文件夹不存在" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="搜索頁面" ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Web服務在指定的路徑未找到" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web服務指定的路徑無效" ToolTip="" />      
+        <Resource Name="DETAILS" Value="细节" ToolTip="" />
+        <Resource Name="KEYWORD" Value="關鍵字" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_PAGES" Value="在服務器上搜索頁" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="搜查任何書籍" ToolTip="" />        
+        <Resource Name="CHECKING_UPDATES" Value="检查数据更新" ToolTip="" />        
+        <Resource Name="DOWNLOADING_SERIES" Value="下載 Series.xml" ToolTip="" />        
+        <Resource Name="NO_SERIES" Value="Series.xml無法下載" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml完全加載" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="載入 Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml無法加載" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="指定的文件夹不存在" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="搜索頁面" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="搜索完成" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="搜索停止" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="搜索失敗" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) 无法载入指定的对象" ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) 不完全信息，無法打開的書" ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) 数据路径无法创建" ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) 搜索結果存在的問題，不能打開的書。" ToolTip ="" />
+      </Resources>
+    </Screen>    
+  </Screen>
+  
+  <Screen Name="CONFIGURATION" Value="配置">
+    
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="页码名称搜索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部件名称搜索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部件编号搜索" ToolTip="" />
+      <Resource Name="FONT" Value="字体" ToolTip="" />
+      <Resource Name="COLOR" Value="色彩" ToolTip="" />
+      <Resource Name="VIEWER_GENERAL" Value="阅读器字体" ToolTip="" />
+      <Resource Name="MEMO_SETTINGS" Value="备忘录设置" ToolTip="" />
+    </Resources>
+    
+    <Screen Name="CONFIGURATION_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="任务" ToolTip="" />
+        <Resource Name="VIEWER" Value="阅读器" ToolTip="" />
+        <Resource Name="FONT" Value="字体" ToolTip="" />
+        <Resource Name="COLOR" Value="色彩" ToolTip="" />
+        <Resource Name="GENERAL" Value="普通" ToolTip="" />
+        <Resource Name="MEMOS" Value="备忘录" ToolTip="" />
+        <Resource Name="SETTINGS" Value="设置" ToolTip="" />
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="页码名称" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="文本搜索" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部件名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部件编号 " ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高級搜索" ToolTip="" />
+        <Resource Name="TEXT" Value="文本" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="FONT" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="FONT:" Value="字体" ToolTip="" />
+        <Resource Name="GENERAL" Value="普通" ToolTip="" />
+        <Resource Name="FONT" Value="字体" ToolTip="" />
+        <Resource Name="SIZE" Value="尺寸" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="COLOR" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="COLOR" Value="色彩" ToolTip="" />
+        <Resource Name="GENERAL" Value="一般" ToolTip="" />
+        <Resource Name="PARTLIST_INFORMATION" Value="部件清单 信息" ToolTip="" />
+        <Resource Name="BACKCOLOR_GENERAL" Value="突出背景色" ToolTip="" />
+        <Resource Name="FORECOLOR_GENERAL" Value="突出前景色" ToolTip="" />
+        <Resource Name="BACKCOLOR_PART" Value="突出背景色" ToolTip="" />
+        <Resource Name="FORECOLOR_PART" Value="突出前景色" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="GENERAL" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="GENERAL" Value="普通" ToolTip="" />
+        <Resource Name="PICTURE" Value="图片" ToolTip="" />
+        <Resource Name="PARTS_LIST" Value="部件清单" ToolTip="" />
+        <Resource Name="LANGUAGE" Value="语言" ToolTip="" />
+        <Resource Name="DEFAULT_LANGUAGE" Value="默认语言" ToolTip="" />
+        <Resource Name="OTHER" Value="其他" ToolTip="" />
+        <Resource Name="HISTORY_SIZE" Value="历史尺寸" ToolTip="" />
+        <Resource Name="DEFAULT_ZOOM" Value="默认缩放" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="步长放大" ToolTip="" />
+        <!-- 3.3.0.37 Start-->.
+        <Resource Name="CONTENTS_EXPAND_LEVEL" Value="显示级别" ToolTip="" />
+        <!-- 3.3.0.37 End-->
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="PARTSLIST_TOOLBAR_FRAME" Value="以框架形式显示部件清单工具栏" ToolTip="" />
+        <Resource Name="PICTURE_TOOLBAR_FRAME" Value="以框架形式显示图片工具栏" ToolTip="" />
+        <Resource Name="MAINTAIN_ZOOM" Value="导航时在图片上保持缩放级别" ToolTip="" />
+        <Resource Name="ZOOMFIT_MULTIPARTS" Value="如果多点突出，适合图片页" ToolTip="" />
+        <Resource Name="OPEN_BOOK_CURRENT" Value="在當前窗口打開的書" ToolTip="" />
+        <Resource Name="SIDE_BY_SIDE_PRINTING" Value="并列印刷" ToolTip="" />
+        <Resource Name="MOUSEWHEEL_CONTENTS" Value="使用鼠标滚轮上的内容" ToolTip="" />
+        <Resource Name="WHEELSCROLL_IMAGES" Value="使用鼠标滚轮的滚动图片" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="步长放大" ToolTip="" />
+        <!-- 3.3.0.37 Start-->.
+        <Resource Name="HANKAKU_ZENKAKU" Value="不区分半角和全角" ToolTip="" />
+        <Resource Name="CONTENTS_EXPAND_ALL" Value="显示为打开所有目录的状态" ToolTip="" />
+        <!-- 3.3.0.37 End-->
+      </Resources>
+      <Resources Name="COMBO_BOX">
+        <Resource Name="FIT_PAGE" Value="适合页面" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="适合宽度" ToolTip="" />
+        <Resource Name="ONE_TO_ONE" Value="一对一" ToolTip="" />
+        <Resource Name="STRETCH" Value="拉伸" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="MEMO" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+        <Resource Name="BROWSEGLOBAL" Value="浏览" ToolTip="" />
+        <Resource Name="BROWSELOCAL" Value="浏览" ToolTip="" />        
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="MEMO" Value="备忘录" ToolTip="" />
+        <Resource Name="BEHAVIOUR" Value="特性" ToolTip="" />
+        <Resource Name="DETAIL" Value="细节" ToolTip="" />
+        <Resource Name="LOCAL_MEMO_BACKUP_FILE" Value="本地备忘录备份文件" ToolTip="" />
+        <Resource Name="BOOKMARKS_INFORMATION" Value ="书签信息" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="全球备忘录文件夹" ToolTip ="" /> 
+        <Resource Name="SELECT_FOLDER" Value ="选择全球备忘录文件夹" ToolTip ="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="POPUP_PICTURE_MEMOS" Value="弹出图片备忘录" ToolTip="" />
+        <Resource Name="ENABLE_GLOBAL_MEMOS" Value="激活全球备忘录" ToolTip="" />
+        <Resource Name="ENABLE_LOCAL_MEMOS" Value="激活本地备忘录" ToolTip="" />
+        <Resource Name="TAKE_BACKUP_OF_LOCAL_MEMOS" Value="取本地备忘录备份" ToolTip="" />
+        <Resource Name="ENABLE_ADMINISTRATOR_MEMOS" Value="激活管理员备忘录" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-CMS-EM001)_FAILED" Value ="(E-CMS-EM001) 保存失败" ToolTip ="" />
+        <Resource Name="(E-CMS-EM002)_INFORMATION" Value ="(E-CMS-EM002) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="(E-CMS-EM003)_FORMAT" Value ="(E-CMS-EM003) 文件格式不正确" ToolTip ="" />
+        <Resource Name="(E-CMS-EM004)_FAILED" Value ="(E-CMS-EM004) 数据路径无法创建" ToolTip ="" />
+       </Resources>      
+    </Screen>    
+    <Screen Name="PAGE_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="搜索设置" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列身份" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="顯示名稱" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列寬" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列對齊" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">        
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) 文件格式不正确" ToolTip="" />
+      </Resources>
+    </Screen>    
+    <Screen Name="PART_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="搜索设置" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列身份" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="顯示名稱" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列寬" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列對齊" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPT-EM001)_FAILED" Value="(E-SPT-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SPT-EM002)_FORMAT" Value="(E-SPT-EM002) 文件格式不正确" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PART_NUMBER" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="搜索设置" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列身份" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="顯示名稱" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列寬" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列對齊" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPN-EM001)_FAILED" Value="(E-SPN-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SPN-EM002)_FORMAT" Value="(E-SPN-EM002) 文件格式不正确" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="ADVANCED_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="搜索设置" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列身份" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="顯示名稱" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列寬" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列對齊" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) 文件格式不正确" ToolTip="" />
+      </Resources>
+    </Screen>    
+    <Screen Name="TEXT_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="取消" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="搜索设置" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="列身份" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="顯示名稱" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="列寬" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="列對齊" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) 无法载入指定的对象" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) 文件格式不正确" ToolTip="" />
+      </Resources>
+    </Screen>     
+  </Screen>
+  
+  <Screen Name="SEARCH" Value="搜索">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="页码名称搜索" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="文本搜索" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="部件名称搜索" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="部件编号搜索" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="高級搜索" ToolTip="" />
+    </Resources>    
+    <Screen Name="SEARCH_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="PAGE" Value="页码" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="页码名称" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="文本搜索" ToolTip="" />
+        <Resource Name="PART" Value="部件" ToolTip="" />
+        <Resource Name="PART_NAME" Value="部件名称" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="部件编号" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高級搜索" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PAGE_NAME_SEARCH" Value="搜索">
+     <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="清除搜索历史记录" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PAGE_NAME" Value="页码名称" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="未发现" ToolTip="" />        
+       </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) 文件格式不正确" ToolTip ="" />
+        <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 数据路径无法创建" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="RESULT_FOUND" Value ="发现结果" ToolTip ="" />
+        <Resource Name="NO_RESULT" Value ="未发现结果" ToolTip ="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name="SEARCHING" Value="搜索…" ToolTip="" />
+      </Resources>      
+    </Screen>  
+    
+    <Screen Name="PART_NAME_SEARCH" Value="搜索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="清除搜索历史记录" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NAME" Value="部件名称" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="未发现" ToolTip="" />       
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="搜索当前书籍" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="未发现结果" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="发现结果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="搜索…" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定的文件夹不存在" ToolTip ="" />
+      <Resources Name ="POPUP_MESSAGE">
+          <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) 文件格式不正确" ToolTip ="" />
+          <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 数据路径无法创建" ToolTip ="" />
+        </Resources>
+      </Resources>
+    </Screen>    
+    <Screen Name="PART_NUMBER_SEARCH" Value="搜索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="清除搜索历史记录" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NUMBER" Value="部件编号" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="未发现" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="搜索当前书籍" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="未发现结果" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="发现结果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="搜索…" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定的文件夹不存在" ToolTip ="" />
+      </Resources>
+        <Resources Name ="POPUP_MESSAGE">
+          <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) 文件格式不正确" ToolTip ="" />
+          <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) 数据路径无法创建" ToolTip ="" />
+        </Resources>
+     </Screen>    
+    <Screen Name="TEXT_SEARCH" Value="搜索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="清除搜索历史记录" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="未发现" ToolTip="" />
+        <Resource Name="TEXT" Value="文本 " ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="搜索当前书籍" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="未发现结果" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="发现结果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="搜索…" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定的文件夹不存在" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="搜索的settings.xml是不是需要的格式。" ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridView控件不能完全加載" ToolTip ="" />
+      </Resources>     
+    </Screen>
+    <Screen Name="ADVANCED_SEARCH" Value="搜索">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="搜索" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="清除搜索历史记录" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="未发现" ToolTip="" />
+        <Resource Name="TEXT" Value="文本 " ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="高级搜索" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="完全匹配" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="未发现" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="搜索当前书籍" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="未发现结果" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="发现结果" ToolTip="" />
+        <Resource Name="SEARCHING" Value="搜索…" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) 指定的文件夹不存在" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="搜索的settings.xml是不是需要的格式。" ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridView控件不能完全加載" ToolTip ="" />
+      </Resources>
+   </Screen>    
+  </Screen>
+
+  <Screen Name="MEMO_LIST" Value ="记事列表">
+    <Screen Name ="MEMOLIST_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name ="TASKS" Value ="任务" ToolTip ="" />
+        <Resource Name ="VIEW_OPTIONS" Value ="浏览选项" ToolTip ="" />
+        <Resource Name ="LOCAL_MEMOS" Value ="本地备忘录" ToolTip ="" />
+        <Resource Name ="GLOBAL_MEMO" Value ="全球备忘录" ToolTip ="" />
+        <Resource Name ="PART_MEMO" Value ="部件备忘录" ToolTip ="" />
+        <Resource Name ="PICTURE_MEMO" Value="图片备忘录" ToolTip ="" />
+        <Resource Name ="ALL" Value ="全部" ToolTip ="" />
+        <Resource Name ="BOTH" Value ="两者" ToolTip ="" />
+        <Resource Name ="ADMIN_MEMOS" Value ="管理备忘录" ToolTip ="" />
+        <Resource Name ="MEMO_TYPE" Value ="备注类型" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_LOCAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="LOCAL_MEMO" Value ="本地备忘录" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name ="GO" Value ="前进" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name ="OK" Value ="完成" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="前进" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="移动到页" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) 无法打开IE浏览器" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 无法打开指定的文件" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 无法载入指定的对象" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_GLOBAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="GLOBAL_MEMO" Value ="全球备忘录" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name ="GO" Value ="前进" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name ="OK" Value ="完成" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="前进" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="移动到页" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) 无法打开IE浏览器" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 无法载入指定的对象" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ALL">
+      <Resources Name ="LABEL">
+        <Resource Name ="ALL_MEMO" Value ="全部" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name ="GO" Value ="前进" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name ="OK" Value ="完成" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="前进" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="移动到页" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) 无法打开IE浏览器" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 无法载入指定的对象" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ADMIN">
+      <Resources Name ="LABEL">
+        <Resource Name ="ADMIN_MEMO" Value ="管理备忘录" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="程序备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="更新日期:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="执行路径" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="命令行" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="超联备忘录" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="将上域中的网页地址(URL)提供给超联接" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="参考备忘录" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="服务器密钥" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="书籍出版ID" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="其它参考" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(以空格分离的值)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="文本备忘录" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="更新日期:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="描述" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="输入" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="更新日期" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="浏览" ToolTip ="" />
+        <Resource Name ="GO" Value ="前进" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="前进" ToolTip ="" />
+        <Resource Name ="OK" Value ="完成" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="取消" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="前进" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="移动到页" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) 无法打开IE浏览器" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) 指定的文件夹不存在" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) 无法打开指定的文件" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) 无法载入指定的对象" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+  
+  <Screen Name="MEMO_RECOVERY" Value="备忘录">
+    <Resources Name="BUTTON">
+      <Resource Name="BROWSE" Value="浏览" ToolTip="" />
+      <Resource Name="RECOVER" Value="恢复" ToolTip="" />
+      <Resource Name="CANCEL" Value="取消" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="LOCAL_MEMO_RECOVERY" Value="本地备忘录恢复" ToolTip="" />
+      <Resource Name="RECOVERY_FILE" Value="恢复文件" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MEMO_RECOVERY" Value="当前本地备忘录将丢失,您是否继续备忘录?" ToolTip="" />
+      <Resource Name="(E-MRC-EM001)_FAILED" Value="(E-MRC-EM001) 无法载入指定的对象" ToolTip="" />
+      <Resource Name="(E-MRC-EM002)_INFORMATION" Value="(E-MRC-EM002) 指定的文件夹不存在" ToolTip="" />
+      <Resource Name="(E-MRC-EM003)_FORMAT" Value ="(E-MRC-EM003) 文件格式不正确" ToolTip ="" />
+    </Resources>
+  </Screen>
+  
+  <!--This Screen contains all the messages shown before lauch of GSPc Local Viewer-->
+  
+  <Screen Name="APPLICATION" Value ="">
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DJVU_UNREGISTERED" Value ="DjVu的控制這台機器上未註冊" ToolTip ="" />
+      <Resource Name="UPDATES_AVAILABLE" Value ="有可用的更新。應用程序要更新。" ToolTip ="" />
+      <Resource Name="INCORRECT_CONFIGURATION" Value ="应用程序配置不正确。请重新安装，或与系统管理员联系。" ToolTip ="" />
+      <Resource Name="INI_NOT_FOUND" Value ="GSPcLocal.ini文件沒有找到" ToolTip ="" />
+      <Resource Name="NO_SERVER_INI" Value ="無服務器ini文件發現" ToolTip ="" />
+      <Resource Name="DIRECT_EXECUTION" Value ="不允許直接申請執行" ToolTip ="" />
+    </Resources>    
+    <Resources name ="LABEL">
+    <Resource Name="GSPCLOCAL" Value ="GSPcLocal Viewer 3.3" ToolTip ="" />
+    <Resource Name="UPDATE_MANAGER" Value ="更新管理器" ToolTip ="" />
+    </Resources>    
+  </Screen> 
+  
+</GSPcLocalViewer>

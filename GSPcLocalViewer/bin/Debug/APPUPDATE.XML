@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<update>
+  <file name="DjVuPrint.ocx">
+    <sourcepath>DjVuPrint.ocx</sourcepath>
+    <destinationpath>DjVuPrint.ocx</destinationpath>
+    <version>1.0.0.3</version>
+    <lastmodified>27/04/2018 15:11</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="GSPcLocalViewer.exe">
+    <sourcepath>GSPcLocalViewer.exe</sourcepath>
+    <destinationpath>GSPcLocalViewer.exe</destinationpath>
+    <version>3.3.0.66</version>
+    <lastmodified>29/05/2018 10:06</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="GSP_ISUZU_E_MANUAL.ini">
+    <sourcepath>GSP_ISUZU_E_MANUAL.ini</sourcepath>
+    <destinationpath>GSP_ISUZU_E_MANUAL.ini</destinationpath>
+    <lastmodified>09/03/2018 16:20</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="Interop.DjVuPrintLib.dll">
+    <sourcepath>Interop.DjVuPrintLib.dll</sourcepath>
+    <destinationpath>Interop.DjVuPrintLib.dll</destinationpath>
+    <version>1.0.0.0</version>
+    <lastmodified>23/06/2018 01:00</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="ISUZU_help_en.chm">
+    <sourcepath>ISUZU_help_en.chm</sourcepath>
+    <destinationpath>ISUZU_help_en.chm</destinationpath>
+    <lastmodified>15/12/2014 16:24</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="PrintManager.exe">
+    <sourcepath>PrintManager.exe</sourcepath>
+    <destinationpath>PrintManager.exe</destinationpath>
+    <version>3.1.0.35</version>
+    <lastmodified>27/04/2018 15:27</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="UserSet.ini">
+    <sourcepath>UserSet.ini</sourcepath>
+    <destinationpath>UserSet.ini</destinationpath>
+    <lastmodified>15/12/2014 16:24</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="ChineseSimplified.xml">
+    <sourcepath>Language XMLs/ChineseSimplified.xml</sourcepath>
+    <destinationpath>Language XMLs/ChineseSimplified.xml</destinationpath>
+    <lastmodified>15/12/2014 16:24</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="ChineseTraditional.xml">
+    <sourcepath>Language XMLs/ChineseTraditional.xml</sourcepath>
+    <destinationpath>Language XMLs/ChineseTraditional.xml</destinationpath>
+    <lastmodified>15/12/2014 16:24</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="Japanese.xml">
+    <sourcepath>Language XMLs/Japanese.xml</sourcepath>
+    <destinationpath>Language XMLs/Japanese.xml</destinationpath>
+    <lastmodified>05/09/2017 18:59</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+  <file name="GSPcLocal.ini">
+    <sourcepath>INI_Settings/ISUZU_E_MANUAL/GSPcLocal.ini</sourcepath>
+    <destinationpath>INI_Settings/ISUZU_E_MANUAL/GSPcLocal.ini</destinationpath>
+    <lastmodified>23/06/2018 01:00</lastmodified>
+    <operations>00000001</operations>
+    <forcefullyupdate>False</forcefullyupdate>
+  </file>
+</update>

@@ -1,0 +1,1648 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<GSPcLocalViewer Language ="English" EN_NAME="English">
+
+  <Screen Name="MAIN_FORM" Value="GSPcLocal Viewer 3.0">
+    <Resources Name="MENU_BAR">
+      <Resource Name="FILE" Value="File" ToolTip="" />
+      <Resource Name="OPEN" Value="Open …" ToolTip="" />
+      <Resource Name="GO_TO_PORTAL" Value="Go To Portal" ToolTip="" />
+      <Resource Name="PRINT" Value="Print …" ToolTip="" />
+      <Resource Name="PRINT_PAGE" Value="Print Page …" ToolTip="" />
+      <Resource Name="PRINT_PICTURE" Value="Print Picture …" ToolTip="" />
+      <Resource Name="PRINT_PARTSLIST" Value="Print Partslist …" ToolTip="" />
+      <Resource Name="PRINT_SELECTIONLIST" Value="Print Selectionlist …" ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="Work Offline" ToolTip="" />
+      <Resource Name="CLOSE" Value="Close" ToolTip="" />
+      <Resource Name="CLOSE_ALL" Value="Close All" ToolTip="" />
+      <Resource Name="NAVIGATION" Value="Navigation" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="First Page" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="Last Page" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="Previous Page" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="Next Page" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="Previous View" ToolTip="" />
+      <Resource Name="NEXT_VIEW" Value="Next View" ToolTip="" />
+      <Resource Name="VIEW" Value="View" ToolTip="" />
+      <Resource Name="CONTENTS" Value="Contents" ToolTip="" />
+      <Resource Name="PICTURE" Value="Picture" ToolTip="" />
+      <Resource Name="MINI_MAP" Value="Mini Map" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="Parts List" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="Selection List" ToolTip="" />
+      <Resource Name="INFORMATION" Value="Information" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="Restore Defaults" ToolTip="" />
+      <Resource Name="SAVE_DEFAULTS" Value="Save Defaults" ToolTip="" />
+      <Resource Name="BOOKMARKS" Value="Bookmarks" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="Add Bookmarks" ToolTip="" />
+      <Resource Name="MEMOS" Value="Memos" ToolTip=""/>
+      <Resource Name="MEMOS_SETTINGS" Value="Memos …" ToolTip="" />
+      <Resource Name="ADD_PICTURE_MEMO" Value="Add Picture Memo …" ToolTip="" />
+      <Resource Name="ADD_PART_MEMO" Value="Add Part Memo …" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value="View Memo List …" ToolTip="" />
+      <Resource Name="MEMO_RECOVERY" Value="Memo Recovery …" ToolTip="" />
+      <Resource Name="SEARCH" Value="Search" ToolTip="" />
+      <Resource Name="PAGE_NAME" Value="Page Name …" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="Text Search …" ToolTip="" />
+      <Resource Name="PART_NAME" Value="Part Name …" ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="Part Number …" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="Advanced Search …" ToolTip="" />
+      <Resource Name="SETTINGS" Value="Settings" ToolTip="" />
+      <Resource Name="FONT" Value="Font …" ToolTip="" />
+      <Resource Name="COLOR" Value="Color …" ToolTip="" />
+      <Resource Name="GENERAL" Value="General …" ToolTip="" />
+      <Resource Name="MEMOS" Value="Memos …" ToolTip="" />
+      <Resource Name="PAGENAME_SETTINGS" Value="Page Name …" ToolTip="" />
+      <Resource Name="TEXTSEARCH_SETTINGS" Value="Text Search …" ToolTip="" />
+      <Resource Name="PARTNAME_SETTINGS" Value="Part Name …" ToolTip="" />
+      <Resource Name="PARTNUMBER_SETTINGS" Value="Part Number …" ToolTip="" />
+      <Resource Name="ADVANCEDSEARCH_SETTINGS" Value="Advanced Search …" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="Manage Disk Space …" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="Connection Settings …" ToolTip="" />
+      <Resource Name="TOOLS" Value="Tools" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="Single Book Download …" ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="Multiple Books Download …" ToolTip="" />
+      <Resource Name="HELP" Value="Help" ToolTip="" />
+      <Resource Name="GSPCLOCALHELP" Value="GSPcLocalHELP" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="About GSPcLocal" ToolTip="" />
+      <Resource Name="ADD_ON" Value="AddOn" ToolTip="" />
+    </Resources>
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="GO_TO_PORTAL" Value="Jump To Portal" ToolTip="" />
+      <Resource Name="OPEN_NEW_BOOK" Value="Open New Book" ToolTip="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value="Single Book Download" ToolTip="" />
+      <Resource Name="MULTIPLE_BOOKS_DOWNLOAD" Value="Multiple Books Download" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="Manage Disk Space" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="Connection Settings" ToolTip="" />
+      <Resource Name="VIEW_CONTENTS" Value="View Contents" ToolTip="" />
+      <Resource Name="VIEW_PICTURE" Value="View Picture" ToolTip="" />
+      <Resource Name="VIEW_PARTSLIST" Value="View PartsList" ToolTip="" />
+      <Resource Name="VIEW_INFORMATION" Value="View Information" ToolTip="" />
+      <Resource Name="RESTORE_DEFAULTS" Value="Restore Defaults" ToolTip="" />
+      <Resource Name="PRINT" Value="Print" ToolTip="" />
+      <Resource Name="ADD_BOOKMARKS" Value="Add Bookmarks" ToolTip="" />
+      <Resource Name="VIEW_MEMO_LIST" Value="View Memo List" ToolTip="" />
+      <Resource Name="RECOVER_MEMOS" Value="Recover Memos" ToolTip="" />
+      <Resource Name="CONFIGURATION" Value="Configuration" ToolTip="" />
+      <Resource Name="ABOUT_GSPCLOCAL" Value="About GSPcLocal" ToolTip="" />
+      <Resource Name="GSPCLOCAL_HELP" Value="GSPcLocal Help" ToolTip="" />
+      <Resource Name="ADDON" Value="AddOn" ToolTip="" />
+      <Resource Name="BACKWARD" Value="Backward" ToolTip="" />
+      <Resource Name="FORWARD" Value="Forward" ToolTip="" />
+      <Resource Name="HISTORY_LIST" Value="History List" ToolTip="" />
+      <Resource Name="PAGE_NAME_SEARCH" Value="Page Name Search" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="Text Search" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="Part Name Search" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="Part Number Search" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+      <Resource Name="PICTURE" Value="Picture" ToolTip="" />
+      <Resource Name="PREVIOUS_PICTURE" Value="Previous Picture" ToolTip="" />
+      <Resource Name="NEXT_PICTURE" Value="Next Picture " ToolTip="" />
+      <Resource Name="PAN_MODE" Value="Pan Mode" ToolTip="" />
+      <Resource Name="COPY_IMAGE" Value="Copy Image" ToolTip="" />
+      <Resource Name="SELECT_TEXT" Value="Select Text" ToolTip="" />
+      <Resource Name="ZOOM_IN" Value="Zoom In" ToolTip="" />
+      <Resource Name="SELECT_ZOOM" Value="Select Zoom" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="Fit Page" ToolTip="" />
+      <Resource Name="ZOOM_OUT" Value="Zoom Out" ToolTip="" />
+      <Resource Name="ROTATE_LEFT" Value="Rotate Left" ToolTip="" />
+      <Resource Name="ROTATE_RIGHT" Value="Rotate Right" ToolTip="" />
+      <Resource Name="ADD_PICTURE_MEMO" Value="Add Picture Memo" ToolTip="" />
+      <Resource Name="FIRST_PAGE" Value="First Page" ToolTip="" />
+      <Resource Name="LAST_PAGE" Value="Last Page" ToolTip="" />
+      <Resource Name="PREVIOUS_PAGE" Value="Previous Page" ToolTip="" />
+      <Resource Name="NEXT_PAGE" Value="Next Page" ToolTip="" />
+      <Resource Name="PREVIOUS_VIEW" Value="Previous View" ToolTip="" />
+      <Resource Name="BASKET" Value="Basket" ToolTip="" />
+      <Resource Name="FIND_TEXT" Value="Find Text" ToolTip="" />
+      <Resource Name="SHOW_THUMBNAIL" Value="Show Thumbnails" ToolTip="" />
+      <Resource Name="READY" Value="Ready" ToolTip="" />
+      <Resource Name="WORK_OFFLINE" Value="Work Offline" ToolTip="" />
+      <Resource Name="PICTURE_INDEX" Value="Picture Index" ToolTip="" />
+      <Resource Name="LIST_INDEX" Value="List Index" ToolTip="" />
+      <Resource Name="PART_NUMBER" Value="Part Number" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="DOWNLOADING" Value ="Downloading…" ToolTip ="" />
+      <Resource Name="SEARCING_SERIES_XML" Value ="Searching Series.xml" ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE " Value ="(E-VWR-EM008) Failed to save specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) Failed to download specified object" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) Specified information does not exist" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) Invalid command" ToolTip ="" />
+      <Resource Name="(E-VWR-EM005)_FAILED_SAVE" Value ="(E-VWR-EM005) Failed to save specified object" ToolTip ="" />
+      <Resource Name="READY" Value ="Ready" ToolTip ="" />
+      <Resource Name="LOADING" Value ="Loading" ToolTip ="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(E-VWR-EM013)_URL" Value ="(E-VWR-EM013) URL not found" ToolTip ="" />
+      <Resource Name="(E-VWR-EM001)_FILE/FOLDER" Value ="(E-VWR-EM001) Failed to create file/folder specified" ToolTip ="" />
+      <Resource Name="(E-VWR-EM002)_INVALIDCOMMAND" Value ="(E-VWR-EM002) Invalid command" ToolTip ="" />
+      <Resource Name="(E-OBB-EM008)_NOINFO" Value ="(E-OBB-EM008) Specified information does not exist" ToolTip ="" />
+      <Resource Name="(E-VWR-EM004)_OBJECT" Value ="(E-VWR-EM004) Failed to download specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM003)_INVALIDCOMMAND" Value ="(E-VWR-EM003) Invalid command" ToolTip ="" />
+      <Resource Name="DELETE_BOOKMARK?" Value ="Are you sure you want to delete this bookmark?" ToolTip ="" />
+      <Resource Name="(E-VWR-EM006)_FAILED_DELETE" Value ="(E-VWR-EM006) Failed to delete specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM007)_FAILED_RECOVER" Value ="(E-VWR-EM007) Failed to recover specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM008)_FAILED_SAVE" Value ="(E-VWR-EM008) Failed to save specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM009)_FAILED_LOAD" Value ="(E-VWR-EM009) Failed to load specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM010)_FAILED_LOAD" Value ="(E-VWR-EM010) Failed to load specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM011)_FAILED_SAVE" Value ="(E-VWR-EM011) Failed to save specified object" ToolTip ="" />
+      <Resource Name="(E-VWR-EM012)_FAILED_SAVE" Value ="(E-VWR-EM012) Failed to save specified object" ToolTip ="" />
+      <Resource Name="MEMO_DISABLED" Value ="All memos are disabled. Enable memo from settings screen" ToolTip ="" />
+      <Resource Name="FREE_SPACE" Value ="Manage disk to free some space" ToolTip ="" />
+      <Resource Name="SINGLE_BOOK_DOWNLOAD" Value ="Single Book Download" ToolTip ="" />
+      <Resource Name="LOW_DISK" Value ="Low Disk Space" ToolTip ="" />
+      <Resource Name="LESS_THAN" Value ="Less than" ToolTip ="" />
+      <Resource Name="LEFT_FROM" Value ="Left From" ToolTip ="" />
+      <Resource Name="OF_ALLOWED" Value ="of allowed space" ToolTip ="" />
+      <Resource Name="MANAGE_FREE_SPACE" Value ="Manage disk to free some space" ToolTip ="" />
+      <Resource Name="UPDATE_DJVU" Value ="The installed version of CSS DjVu Control does not support this functionality" ToolTip ="" />
+      <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />
+      <Resource Name="(E-VWR-EM013)_URL" Value ="(E-VWR-EM013) URL not found" ToolTip ="" />
+      <Resource Name="FAILED_XML" Value ="Failed to load Language XML." ToolTip ="" />
+
+    </Resources>
+    <Screen Name="PICTURE" Value="Picture">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="PREVIOUS_PICTURE" Value ="Previous Picture" ToolTip ="" />
+        <Resource Name="NEXT_PICTURE" Value ="Next Picture" ToolTip ="" />
+        <Resource Name="COPY_IMAGE" Value ="Copy Image" ToolTip ="" />
+        <Resource Name="ZOOM_IN" Value="Zoom In" ToolTip="" />
+        <Resource Name="ZOOM_OUT" Value="Zoom Out" ToolTip="" />
+        <Resource Name="SELECT_ZOOM" Value ="Select Zoom" ToolTip ="" />
+        <Resource Name="PAN_MODE" Value="Pan Mode" ToolTip="" />
+        <Resource Name="ADD_PICTURE_MEMO" Value ="Add Picture Memo" ToolTip ="" />
+        <Resource Name="FIT_PAGE" Value ="Fit Page" ToolTip ="" />
+        <Resource Name="ROTATE_LEFT" Value="Rotate Left" ToolTip="" />
+        <Resource Name="ROTATE_RIGHT" Value="Rotate Right" ToolTip="" />
+        <Resource Name="SELECT_TEXT" Value="Select Text" ToolTip="" />
+        <Resource Name="SHOW_THUMBNAIL" Value="Show Thumbnail" ToolTip="" />
+        <Resource Name="FIND_TEXT" Value="Find Text" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="Ready" ToolTip="" />
+        <Resource Name="LOADING_PICTURE" Value="Loading picture……" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="Image Copied" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPC-EM001)_FORMAT" Value="(E-VPC-EM001) Not in required format" ToolTip="" />
+        <Resource Name="(E-VPC-EM002)_FAILED" Value="(E-VPC-EM002) Failed to load specified object" ToolTip="" />
+        <Resource Name="IMAGE_COPIED" Value="Image Copied" ToolTip="" />
+        <Resource Name="UPDATE_DJVU" Value ="The installed version of CSS DjVu Control does not support this functionality" ToolTip ="" />
+        <Resource Name="GSPcLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="SELECTION_LIST" Value="Selection List">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="ADD_RECORD" Value="Add Record" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="Clear Selected" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="Delete Selection" ToolTip="" />
+        <Resource Name="DELETE_ALL" Value="Delete All" ToolTip="" />
+        <Resource Name="PRINT" Value="Print" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="Go To Page" ToolTip="" />
+        <Resource Name="BASKET" Value ="Basket" ToolTip ="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="Clear Selected" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="Copy To Clipboard" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="Export To File" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="Comma Seperated" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="Tab Seperated" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="Comma Seperated" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="Tab Seperated" ToolTip="" />
+        <Resource Name="DELETE_SELECTION" Value="Delete Selection" ToolTip="" />
+        <Resource Name="GO_TO_PAGE" Value="Go To Page" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SLT-EM001)_EXPORT" Value="(E-SLT-EM001) Failed to export specified object" ToolTip="" />
+        <Resource Name="(E-SLT-EM002)_FAILED" Value="(E-SLT-EM002) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SLT-EM003)_FAILED" Value="(E-SLT-EM003) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SLT-EM004)_FAILED" Value="(E-SLT-EM004) Failed to load specified object" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="SELECTION_LIST_QUANTITY" Value ="Change Quantity" >
+      <Resources Name="LABEL">
+        <Resource Name="QUANTITY" Value ="Quantity" ToolTip ="" />
+        <Resource Name="PART_NUMBER" Value ="Part Number" ToolTip ="" />
+      </Resources>
+      <Resources Name="BUTTON">
+        <Resource Name="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name="CHANGE" Value ="Change" ToolTip ="" />
+        <Resource Name="DELETE" Value ="Delete" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="PARTS_LIST" Value="Parts List">
+      <Resources Name="TOOLSTRIP">
+        <Resource Name="CLEAR_SELECTED" Value="Clear Selected" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+        <Resource Name="ADD_PART_MEMO" Value="Add Part Memo" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="Add to Selection List" ToolTip="" />
+        <Resource Name="INFORMATION" Value="Information" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="Next List" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="Previous List" ToolTip="" />
+      </Resources>
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="ADD_PART_MEMO" Value="Add Part Memo" ToolTip="" />
+        <Resource Name="ADD_TO_SELECTION_LIST" Value="Add To Selection List" ToolTip="" />
+        <Resource Name="CLEAR_SELECTED" Value="Clear Selected" ToolTip="" />
+        <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="Copy To Clipboard" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="Export To File" ToolTip="" />
+        <Resource Name="COMMA_SEPERATED" Value="Comma Seperated" ToolTip="" />
+        <Resource Name="TAB_SEPERATED" Value="Tab Seperated" ToolTip="" />
+        <Resource Name="COMMA_SEPERATEDFILE" Value="Comma Seperated" ToolTip="" />
+        <Resource Name="TAB_SEPERATEDFILE" Value="Tab Seperated" ToolTip="" />
+        <Resource Name="NEXT_LIST" Value="Next List" ToolTip="" />
+        <Resource Name="PREVIOUS_LIST" Value="Previous List" ToolTip="" />
+        <Resource Name ="INFORMATION" Value ="Information" ToolTip ="" />
+        <Resource Name ="Row_Selection_Mode" Value ="Row Selection Mode" ToolTip ="" />
+
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value="Ready" ToolTip="" />
+        <Resource Name="LOADING_PARTSLIST" Value="Loading Parts List……" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VPL-EM001)_FAILED" Value="(E-VPL-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-VPL-EM003)_FAILED" Value="(E-VPL-EM003) Failed to create file/folder specified" ToolTip="" />
+        <Resource Name="(E-VPL-EM002)_FAILED" Value="(E-VPL-EM002) Failed to export specified object" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="CONTENTS" Value="Contents">
+      <Resources Name="CONTEXT_MENU">
+        <Resource Name="PRINT_TO" Value="Print To" ToolTip="" />
+        <Resource Name="PRINT_FROM" Value="Print From" ToolTip="" />
+        <Resource Name="EXPORT_TO_FILE" Value="Export To File" ToolTip="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value="Copy To Clipboard" ToolTip="" />
+        <Resource Name="TAB_SEPARATED" Value="Tab Separated" ToolTip="" />
+        <Resource Name="TAB_SEPARATED_FILE" Value="Tab Separated" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED" Value="Comma Separated" ToolTip="" />
+        <Resource Name="COMMA_SEPARATED_FILE" Value="Comma Separated" ToolTip="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="READY" Value ="Ready" ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value ="Downloading" ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value="Finished loading" ToolTip="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-VTV-EM006)_FAILED" Value ="(E-VTV-EM006) Failed to download specified object" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-VTV-EM004)_FAILED" Value ="(E-VTV-EM004) Failed to create file/folder specified" ToolTip ="" />
+        <Resource Name="(E-VTV-EM005)_FAILED" Value ="(E-VTV-EM005) Failed to load specified object" ToolTip ="" />
+        <Resource Name="COPY_TO_CLIPBOARD" Value ="Copy To Clipboard" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="INFORMATION" Value="Information">
+      <Resources Name="LABEL">
+        <Resource Name="BOOK_INFORMATION" Value="Book Information" ToolTip="" />
+        <Resource Name="PAGE_INFORMATION" Value="Page Information" ToolTip="" />
+        <Resource Name="(E-INF-EM001)_FAILED" Value="(E-INF-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-INF-EM002)_FAILED" Value="(E-INF-EM002) Failed to load specified object" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADD_RECORD" Value="Add Record">
+      <Resources Name="BUTTON" >
+        <Resource Name="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name="SAVE" Value ="Save" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE" >
+        <Resource Name="(W-ARD-WM001)_EMPTY" Value ="(W-ARD-WM001) Part number field must not be empty" ToolTip ="" />
+        <Resource Name="(W-ARD-WM004)_PART" Value ="(W-ARD-WM004) Part already exists in selection list" ToolTip ="" />
+        <Resource Name="(W-ARD-WM002)_QUANTITY" Value ="(W-ARD-WM002) Quantity field must not be empty" ToolTip ="" />
+        <Resource Name="(W-ARD-WM003)_NUMERIC" Value ="(W-ARD-WM003) Quantity must be numeric" ToolTip ="" />
+	    <Resource Name="(W-ARD-WM005)_EMPTY" Value ="(W-ARD-WM005) All fields must not be empty" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+  
+  <Screen Name="ABOUT" Value ="About GSPcLocal">
+    <Resources Name="LABEL">
+      <Resource Name="GSP_LOCAL" Value="Graphical Solution Package content Local" ToolTip="" />
+      <Resource Name="WARNING" Value="Warning: This program is protected by copyright law. Unauthorized reproduction of this program or any portion of it, is considered as illegal and may result in criminal penalities." ToolTip="" />
+    </Resources>
+  </Screen>
+
+  <Screen Name ="MEMO" Value ="Part Memo">
+    <Resources Name="LABEL">
+      <Resource Name="FORM_TITLE_PICTURE" Value ="Picture Memo" ToolTip ="" />
+    </Resources>
+    <Screen Name="MEMO_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value ="TASKS" ToolTip ="" />
+        <Resource Name="VIEW_OPTIONS" Value ="View Options" ToolTip ="" />
+        <Resource Name="LOCAL_MEMO" Value ="Local Memos" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="Global Memo" ToolTip ="" />
+        <Resource Name="ADMIN_MEMO" Value ="Admin Memos" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="LOCAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name="GO" Value ="Go" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="Go" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="Go" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="Cancel" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="LOCAL_MEMO" Value ="Local Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="Add Text Memo" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Add Reference Memo" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Add Hyperlink Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Add Program Memo" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="Save Current Memo" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="Save All Memos" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="Clear / Refresh" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="List Related" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="Delete Selected" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="Delete All" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MLC-EM002)_FAILED" Value ="(E-MLC-EM002) Failed to save specified object" ToolTip ="" />
+        <Resource Name="(E-MLC-EM003)_INFORMATION" Value ="(E-MLC-EM003) Specified information does not exist" ToolTip ="" />
+        <Resource Name="(E-MLC-EM004)_URL" Value ="(E-MLC-EM004) URL not found" ToolTip ="" />
+        <Resource Name="(E-MLC-EM005)_INFORMATION" Value ="(E-MLC-EM005) Specified information does not exist" ToolTip ="" />
+        <Resource Name="(E-MLC-EM006)_SAVE" Value ="(E-MLC-EM006) Failed to save specified object" ToolTip ="" />
+        <Resource Name="(E-MLC-EM007)_INTERNET" Value ="(E-MLC-EM007) Can not open Internet Explorer" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="Do you want to save any changes made here?" ToolTip ="" />
+        <Resource Name="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) Can not open file/folder specified" ToolTip ="" />
+        <Resource Name="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) Specified information does not exist" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="Do you want to save any changes made in memo" ToolTip ="" />
+      </Resources>
+
+    </Screen>
+
+    <Screen Name="GLOBAL_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name="GO" Value ="Go" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="Go" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="Go" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="Cancel" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="GLOBAL_MEMO" Value ="Global Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="Add Text Memo" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Add Reference Memo" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Add Hyperlink Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Add Program Memo" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="Save Current Memo" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="Save All Memos" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="Clear / Refresh" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="List Related" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="Delete Selected" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="Delete All" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) Failed to save specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) Specified information does not exist" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) Failed to load specified object" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="Do you want to save any changes made here?" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="ADMIN_MEMO" Value="">
+      <Resources Name ="BUTTON">
+        <Resource Name="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name="GO" Value ="Go" ToolTip ="" />
+        <Resource Name="OK" Value ="OK" ToolTip ="" />
+        <Resource Name="GO_HYP" Value ="Go" ToolTip ="" />
+        <Resource Name="GO_REF" Value ="Go" ToolTip ="" />
+        <Resource Name="CANCEL" Value ="Cancel" ToolTip ="" />
+      </Resources>
+      <Resources Name ="LABEL">
+        <Resource Name="ADMIN_MEMO" Value ="Admin Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name="URL" Value ="URL" ToolTip ="" />
+        <Resource Name="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name="SPACE_SEPARATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOLSTRIP">
+        <Resource Name="TEXT_MEMO" Value ="Add Text Memo" ToolTip ="" />
+        <Resource Name="REFERENCE_MEMO" Value ="Add Reference Memo" ToolTip ="" />
+        <Resource Name="HYPERLINK_MEMO" Value ="Add Hyperlink Memo" ToolTip ="" />
+        <Resource Name="PROGRAM_MEMO" Value ="Add Program Memo" ToolTip ="" />
+        <Resource Name="SAVE_MEMO" Value ="Save Current Memo" ToolTip ="" />
+        <Resource Name="SAVE_ALL" Value ="Save All Memos" ToolTip ="" />
+        <Resource Name="CLEAR_REFRESH" Value ="Clear / Refresh" ToolTip ="" />
+        <Resource Name="LIST_RELATED" Value ="List Related" ToolTip ="" />
+        <Resource Name="DELETE_SELECTED" Value ="Delete Selected" ToolTip ="" />
+        <Resource Name="DELETE_ALL" Value ="Delete All" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-MGL-EM001)_FAILED" Value ="(E-MGL-EM001) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM002)_FAILED" Value ="(E-MGL-EM002) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM003)_FAILED" Value ="(E-MGL-EM003) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM004)_FAILED" Value ="(E-MGL-EM004) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM005)_FAILED" Value ="(E-MGL-EM005) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM006)_FAILED" Value ="(E-MGL-EM006) Failed to save specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM007)_FAILED" Value ="(E-MGL-EM007) Failed to load specified object" ToolTip ="" />
+        <Resource Name="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) Specified information does not exist" ToolTip ="" />
+        <Resource Name="(E-MGL-EM009)_FAILED" Value ="(E-MGL-EM009) Failed to load specified object" ToolTip ="" />
+        <Resource Name="SAVE_CHANGE" Value ="Do you want to save any changes made here?" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>  
+  
+  <Screen Name="SINGLE_BOOK_DOWNLOAD" Value="Single Book Download">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="Download" ToolTip="" />
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      <Resource Name="CLOSE" Value="Close" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="Ready" ToolTip="" />
+      <Resource Name="DOWNLOADING" Value="Downloading" ToolTip="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="Overall Progress:" ToolTip="" />
+    </Resources>
+    <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="Failed" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="File Name" ToolTip="" />
+      <Resource Name="SUCCESS" Value="Success" ToolTip="" />
+      <Resource Name="STATUS" Value="Status" ToolTip="" />
+    </Resources>
+     <Resources Name ="STATUS_MESSAGE">
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="Checking files to download……" ToolTip="" />
+      <Resource Name="READY" Value="Ready" ToolTip="" />
+      <Resource Name="ALREADY_UPDATED" Value="Book is already updated." ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="Downloading cancelled" ToolTip="" />    
+      </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="Book download canceled because maximum download limit was reached" ToolTip ="" />
+    </Resources>   
+  </Screen>  
+  
+  <Screen Name="MULTIPLE_BOOKS_DOWNLOAD" Value="Multiple Books Download">
+    <Resources Name="BUTTON">
+      <Resource Name="DOWNLOAD" Value="Download" ToolTip="" />
+      <Resource Name="CLOSE" Value="Close" ToolTip="" />
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="READY" Value="Ready" ToolTip="" />
+      <Resource Name ="DOWNLOADING" Value ="Downloading" ToolTip ="" />
+      <Resource Name ="OVERALL_PROGRESS" Value ="Overall Progress:" ToolTip="" />
+     </Resources>
+   <Resources Name="LIST_VIEW">
+      <Resource Name="FAILED" Value="Failed" ToolTip="" />
+      <Resource Name="FILE_NAME" Value="File Name" ToolTip="" />
+      <Resource Name="SUCCESS" Value="Success" ToolTip="" />
+      <Resource Name="STATUS" Value="Status" ToolTip="" />
+      <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="READY" Value ="Ready" ToolTip ="" />
+      <Resource Name ="BOOKS_NOT_LOADED" Value ="Books not Loaded" ToolTip ="" />
+      <Resource Name ="(W-MBD-WM001)_SELECT" Value ="(W-MBD-WM001) Please select at least 1 book to download" ToolTip ="" />
+      <Resource Name ="ALREADY_UPDATED" Value ="Books are already updated" ToolTip ="" />
+      <Resource Name ="READY" Value ="Ready……" ToolTip ="" />
+      <Resource Name="CHECKING_TO_DOWNLOAD" Value="Checking files to download……" ToolTip="" />
+      <Resource Name="DOWNLOADING_CANCELLED" Value="Downloading cancelled" ToolTip="" />
+   </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MAXIMUM_LIMIT_REACHED" Value ="Book download canceled because maximum download limit was reached" ToolTip ="" />
+    </Resources>   
+  </Screen>
+
+  <Screen Name="PRINT" Value="Print">
+    <Resources Name="BUTTON">
+      <Resource Name="PRINT" Value="Print" ToolTip="" />
+      <Resource Name="PREVIEW" Value="Preview" ToolTip="" />
+      <Resource Name="CLOSE" Value="Close" ToolTip="" />
+      <Resource Name="PROPERTY" Value="Property" ToolTip="" />
+      <Resource Name="SPLIT_PATTERN" Value="Split Pattern" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="POTRAIT" Value="Potrait" ToolTip="" />
+      <Resource Name="LANDSCAPE" Value="Landscape" ToolTip="" />
+      <Resource Name="CURRENT_PAGE" Value="Current Page" ToolTip="" />
+      <Resource Name="ALL_PAGE" Value="All Pages" ToolTip="" />
+      <Resource Name="PAGES" Value="Pages" ToolTip="" />
+      <Resource Name="FIT_PAGE" Value="Fit Page" ToolTip="" />
+      <Resource Name="HALF_PAGE" Value="Half Page" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="PRINT_PICTURE" Value="Picture" ToolTip="" />
+      <Resource Name="PARTS_LIST" Value="Parts List" ToolTip="" />
+      <Resource Name="SELECTION_LIST" Value="Selection List" ToolTip="" />
+      <Resource Name="MAINTAIN_PICTURE_ZOOM" Value="Maintain Picture Zoom" ToolTip="" />
+      <Resource Name="PRINT_PAGE_NUMBERS" Value="Print Page Numbers" ToolTip="" />
+      <Resource Name="PRINT_HEADER_AND_FOOTER" Value="Print Header and Footer" ToolTip="" />
+      <Resource Name="AUTO_ROTATE" Value="Auto-Rotate Picture" ToolTip="" />      
+    </Resources>
+    <Resources Name="COMBO_BOX">
+      <Resource Name="1:1" Value="1:1" ToolTip="" />
+      <Resource Name="1:2" Value="1:2" ToolTip="" />
+      <Resource Name="1:4" Value="1:4" ToolTip="" />
+      <Resource Name="1:8" Value="1:8" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PRINTER" Value="Printer" ToolTip="" />
+      <Resource Name="NAME" Value="Name" ToolTip="" />
+      <Resource Name="STATUS" Value="Status" ToolTip="" />
+      <Resource Name="STATUSREADY" Value="Ready" ToolTip="" />
+      <Resource Name="STATUSOTHER" Value="Other" ToolTip="" />
+      <Resource Name="STATUSUNKNOWN" Value="Unknown" ToolTip="" />
+      <Resource Name="STATUSPRINTING" Value="Printing" ToolTip="" />
+      <Resource Name="STATUSWARMUP" Value="Warm Up" ToolTip="" />
+      <Resource Name="STATUSOFFLINE" Value="Offline" ToolTip="" />
+      <Resource Name="STATUSSTOPPEDPRINTING" Value="Stopped Printing" ToolTip="" />
+      <Resource Name="SPLIT_PRINTING" Value="Split Printing" ToolTip="" />
+      <Resource Name="SETTINGS" Value="Settings" ToolTip="" />
+      <Resource Name="ORIENTATION" Value="Orientation" ToolTip="" />
+      <Resource Name="ZOOM" Value="Zoom" ToolTip="" />
+      <Resource Name="RANGE_PRINTING" Value="Range Printing" ToolTip="" />
+      <Resource Name="SELECTION_PRINTING" Value="Selection Printing" ToolTip="" />
+      <Resource Name="FROM" Value="From" ToolTip="" />
+      <Resource Name="TO" Value="To" ToolTip="" />
+      <Resource Name="PAPER_SIZE" Value ="Paper Size:" ToolTip ="" />
+      <Resource Name="SPLITTING_OPTION" Value ="Splitting Option:" ToolTip ="" />
+      <Resource Name="LIST_ORIENTATION" Value="Part List Orientation" ToolTip ="" />
+      
+    </Resources>
+
+    <Screen Name="PAGE_SPLITTING" Value="Split Printing">
+      <Resources Name="BUTTON">
+        <Resource Name="CLOSE" Value="Close" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PREVIEW" Value="Preview" ToolTip="" />
+        <Resource Name="POTRAIT_PICTURE" Value="For Potrait Picture" ToolTip="" />
+        <Resource Name="LANDSCAPE_PICTURE" Value="For Landscape Picture" ToolTip="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name="PRINT_PREVIEW" Value="Print Preview">
+      <Resources Name="BUTTON">
+        <Resource Name="FIRST_PAGE" Value="First Page" ToolTip="" />
+        <Resource Name="PREVIOUS_PAGE" Value="Previous Page" ToolTip="" />
+        <Resource Name="LAST_PAGE" Value="Last Page" ToolTip="" />
+        <Resource Name="NEXT_PAGE" Value="Next Page" ToolTip="" />
+        <Resource Name="ZOOM" Value="Zoom" ToolTip="" />
+        <Resource Name="1:1" Value="1:1" ToolTip="" />
+        <Resource Name="FIT_PAGE" Value="Fit Page" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="Fit Width" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+        <Resource Name="CLOSE" Value="Close" ToolTip="" />
+      </Resources>
+     </Screen>
+
+    <Screen Name="PRINT_MANAGER" >
+      <Resources Name="LABEL">
+        <Resource Name="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+        <Resource Name="PRINT_DATE" Value ="Print Date" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+
+  <Screen Name="DATA_SIZE" Value="Data Cleanup">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="DELETE" Value="Delete" ToolTip="" />  
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />      
+    </Resources>
+    <Resources Name= "TOOLSTRIP" >
+      <Resource Name="SELECT_ALL" Value="Select All" ToolTip="" />
+      <Resource Name="UNSELECT_ALL" Value="Unselect All" ToolTip="" />
+      <Resource Name="DELETE_SELECTED" Value="Delete Selected" ToolTip="" />            
+    </Resources>    
+    <Resources Name="LABEL">
+      <Resource Name="DISK_SPACE" Value ="Disk Space" ToolTip ="" />
+      <Resource Name="DOWNLOADED_DATA" Value="Downloaded Data" ToolTip="" />
+      <Resource Name="BOOK_IN_USE" Value="Book in use" ToolTip="" />
+      <Resource Name="CANNOT_DELETE_BOOK" Value="Books you are viewing can not be deleted." ToolTip="" />
+      <Resource Name="OVERFLOW" Value="Overflow" ToolTip="" />     
+    </Resources>
+    <Resources Name="TREE_VIEW">
+      <Resource Name="FOLDER_NAME" Value="Folder Name" ToolTip="" />
+      <Resource Name="SIZE" Value="Size" ToolTip="" />
+      <Resource Name="MODIFIED_DATE" Value="Modified Date" ToolTip="" />
+      <Resource Name="STATUS" Value="Status" ToolTip="" />
+    </Resources>
+    <Resources Name="CHECK_BOX">
+      <Resource Name="ALLOCATE_SPACE" Value="Allocate space for data download" ToolTip="" />
+    </Resources>
+    <Resources Name="STATUS_MESSAGE">
+      <Resource Name="NO_BOOKS_EXIST" Value="No books exist" ToolTip="" />
+      <Resource Name="NO_PATH" Value="Data path does not exist" ToolTip="" />
+      <Resource Name="PROCESSING_DISK_SPACE" Value="Processing disk space …" ToolTip="" />
+      <Resource Name="OVERFLOW" Value="Overflow" ToolTip="" />
+      <Resource Name="REMAINING" Value ="Remaining" ToolTip ="" />
+     </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DELETE_DATA" Value ="Are you sure you want to delete the selected data" ToolTip ="" />
+      <Resource Name="(E-VDS-EM001)_FAILED" Value ="(E-VDS-EM001) Failed to delete specified object" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE" Value ="Allocated data size should be greater than existing data space" ToolTip ="" />
+      <Resource Name="NO_PATH" Value="Data path does not exist" ToolTip="" />
+      <Resource Name="ALLOCATE_LESS" Value ="Allocated data size should be less than available space" ToolTip ="" />
+      <Resource Name="ALLOCATE_MORE_SPACE" Value ="Allocated data size should be greater than 10MB" ToolTip ="" />
+    </Resources>
+  </Screen>  
+  
+  <Screen Name="DJVU_AUTHENTICATION" Value="Authentication">
+    <Resource Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+    </Resource>
+    <Resources Name="LABEL">
+      <Resource Name="USER_ID" Value="User Id" ToolTip="" />
+      <Resource Name="PASSWORD" Value="Password" ToolTip="" />
+      <Resource Name="SECURED_DJVU" Value="SecuredDjVu" ToolTip="" />
+    </Resources>
+  </Screen>  
+  
+  <Screen Name="CONNECTION" Value="Connection">
+    <Resources Name="BUTTON">
+      <Resource Name="OK" Value="OK" ToolTip="" />
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="PROXY_SERVER" Value="Proxy Server" ToolTip="" />
+      <Resource Name="CONNECTION_TIMEOUT" Value="Connection TimeOut =" ToolTip="" />
+      <Resource Name="SECONDS" Value="seconds" ToolTip="" />
+      <Resource Name="PROXY_ADDRESS" Value="Proxy Address" ToolTip="" />
+      <Resource Name="PROXY_PORT" Value="Proxy Port" ToolTip="" />
+      <Resource Name="PROXY_LOGIN" Value="Proxy Login" ToolTip="" />
+      <Resource Name="PROXY_PASSWORD" Value="Proxy Password" ToolTip="" />
+    </Resources>
+    <Resources Name="RADIO_BUTTON">
+      <Resource Name="CONNECT_DIRECTLY" Value="Don't use proxy server (connect directly)" ToolTip="" />
+      <Resource Name="HTTP_PROXY" Value="Use HTTP proxy" ToolTip="" />
+      <Resource Name="SOCKS4_PROXY" Value="Use SOCKS4 proxy" ToolTip="" />
+      <Resource Name="SOCKS5_PROXY" Value="Use SOCKS5 proxy" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="(W-CVC-WM002)_ADDRESS_MISSING" Value="(W-CVC-WM002) Proxy address is missing" ToolTip="" />
+      <Resource Name="(W-CVC-WM001)_INVALID" Value="(W-CVC-WM001) Proxy address is not valid" ToolTip="" />
+      <Resource Name="(W-CVC-WM003)_PROXY_MISSING" Value="(W-CVC-WM003) Proxy login is missing" ToolTip="" />
+      <Resource Name="(W-CVC-WM004)_PASSWORD_MISSING" Value="(W-CVC-WM004) Proxy password is missing" ToolTip="" />
+    </Resources>   
+  </Screen> 
+  
+  <Screen Name="OPEN_BOOKS" Value="Open Books">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+      <Resource Name="BOOKMARKS" Value="Bookmarks" ToolTip="" />
+      <Resource Name="SEARCH" Value="Search" ToolTip="" />
+      <Resource Name="PAGE_NAME_SEARCH" Value="Page Name Search" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="Part Name Search" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="Part Number Search" ToolTip="" />
+      <Resource Name="MANAGE_DISK_SPACE" Value="Manage Disk Space" ToolTip="" />
+      <Resource Name="CONNECTION_SETTINGS" Value="Connection Settings …" ToolTip="" />
+      <Resource Name="TREE_VIEW" Value="Tree View" ToolTip="" />
+      <Resource Name="GRID_VIEW" Value="Grid View" ToolTip="" />
+      <Resource Name="EXPLORER_VIEW" Value="Explorer View" ToolTip="" />
+      <Resource Name="IMAGE_PREVIEW" Value="Image Preview" ToolTip="" />
+    </Resources>
+    <Screen Name="OPEN_BOOK_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="Tasks" ToolTip="" />
+        <Resource Name="OPEN_BOOKS" Value="Open Books" ToolTip="" />
+        <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+        <Resource Name="BOOKMARKS" Value="Bookmarks" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="Page Name" ToolTip="" />
+        <Resource Name="PART_NAME" Value="Part Name" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="Part Number" ToolTip="" />
+        <Resource Name="TREE_VIEW" Value="Tree View" ToolTip="" />
+        <Resource Name="GRID_VIEW" Value="Grid View" ToolTip="" />
+        <Resource Name="EXPLORER_VIEW" Value="Explorer View" ToolTip="" />
+        <Resource Name="IMAGE_PREVIEW" Value="Image Preview" ToolTip="" />
+        <Resource Name="SELECT_VIEWS" Value ="Select Views" ToolTip ="" />
+      </Resources>
+    </Screen>
+    <Screen Name="BROWSE_BOOK" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+        <Resource Name="DETAILS" Value="Details" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="Server Information" ToolTip="" />
+        <Resource Name="BOOK_INFORMATION" Value="Book Information" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="Select a Server" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="Select a Book" ToolTip="" />
+        <Resource Name="OPEN_BOOKS_BY_BROWSING" Value="Open books by browsing" ToolTip="" />
+        <Resource Name="LOADING" Value="Loading" ToolTip="" />        
+        <Resource Name="SERVER_KEY" Value="Server Key" ToolTip="" />
+        <Resource Name="CONTENT_PATH" Value="Content Path" ToolTip="" />
+        <Resource Name ="(E-OBB-EM003)_FAILED_LOAD" Value ="(E-OBB-EM003) Failed to load specified object" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM004)_FAILED_LOAD" Value ="(E-OBB-EM004) Failed to load specified object" ToolTip ="" />
+        <Resource Name ="(E-OBB-EM008)_INFORMATION_NOEXIST" Value ="(E-OBB-EM008) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM003)_FAILED_LOAD" Value ="(E-OBM-EM003) Failed to load specified object" ToolTip ="" />
+      </Resources>      
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_BROWSING" Value="Open books by browsing" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="Checking for data updates……" ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="Downloading …" ToolTip="" />
+        <Resource Name="(E-OBB-EM006)_FAILED_LOAD" Value="(E-OBB-EM006) Failed to load specified object" ToolTip="" />
+        <Resource Name="LOADING" Value="Loading …" ToolTip="" />
+        <Resource Name="(E-OBB-EM007)_INFORMATION_NOEXIST" Value="(E-OBB-EM007) Specified information does not exist" ToolTip="" />
+        <Resource Name="FINISHED_LOADING" Value="Finished loading" ToolTip="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBB-EM001)_FAILED_LOAD" Value="(E-OBB-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-OBB-EM002)_FAILED_FOLDER" Value="(E-OBB-EM002) Failed to create file/folder specified" ToolTip="" />
+      </Resources>
+    </Screen>
+    <Screen Name="OPENBOOKBOOKMARKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="OPEN_BOOKMARKS_BROWSING" Value="Open Bookmarks by Browsing" ToolTip="" />     
+        <Resource Name="BOOKMARKS_INFORMATION" Value="Bookmarks Information" ToolTip="" />
+        <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+        <Resource Name="CONTENT_PATH:" Value="Content Path:" ToolTip="" />
+        <Resource Name="DETAILS" Value="Details" ToolTip="" />
+        <Resource Name="SELECT_A_BOOKMARK" Value="Select a bookmark" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="Select A Server" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="Bookmarks loaded completely" ToolTip="" />
+        <Resource Name="SERVER_INFORMATION" Value="Server Information" ToolTip="" />
+        <Resource Name="SERVER_KEY" Value="Server Key" ToolTip="" />
+        <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+        <Resource Name="(E-OBM-EM002)_FAILED_LOAD" Value="(E-OBM-EM002) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-OBM-EM003)_FAILED_LOAD" Value="(E-OBM-EM003) Failed to load specified object" ToolTip="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-OBM-EM001)_FAILED_LOAD" Value ="(E-OBM-EM001) Failed to load specified object" ToolTip ="" />
+        <Resource Name ="(E-OBM-EM004)_FAILED_LOAD" Value ="(E-OBM-EM004) Failed to load specified object" ToolTip ="" />
+       </Resources>
+      <Resources Name ="STATUS_MESSAGE" >   
+        <Resource Name="LOADING_BOOKMARKS" Value="Loading bookmarks" ToolTip="" />
+        <Resource Name="BOOKMARKS_LOADED_COMPLETELY" Value="Bookmarks Loaded completely" ToolTip="" />
+      </Resources>      
+    </Screen>
+    <Screen Name="OPENBOOKSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="EXACT_CASE" Value="Match Case" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="BOOK_CODE" Value="Book Code" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value="Publishing Id" ToolTip="" />
+        <Resource Name="UPDATEDATE" Value="UpdateDate" ToolTip="" />
+      </Resources>
+     <Resources Name="LABEL">       
+        <Resource Name="SEARCH_A_BOOK" Value="Search a book" ToolTip="" />
+        <Resource Name="SELECT_A_BOOK" Value="Select a book" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="Enter the search criteria" ToolTip="" />      
+        <Resource Name="KEYWORD" Value="Keyword" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="SEARCH_CRITERIA" Value="Search Criteria" ToolTip="" />
+        <Resource Name="BOOK_CODE" Value="Book Code" ToolTip="" />
+        <Resource Name="PUBLISHING_ID" Value ="Publishing Id" ToolTip ="" />
+        <Resource Name ="ADVANCED_SEARCH" Value ="Advanced Search" ToolTip ="" />
+        <Resource Name="BOOK_INFORMATION" Value ="Book Information" ToolTip ="" />
+        <Resource Name ="DETAILS" Value ="Details" ToolTip ="" />
+        <Resource Name="DOWNLOADING" Value="Downloading……" ToolTip="" />
+        <Resource Name ="(E-OBS-EM011)_FAILED_LOAD" Value ="(E-OBS-EM011) Failed to load specified object" ToolTip ="" />
+       </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name="OPEN_BY_SEARCHING" Value="Open books by searching" ToolTip="" />
+        <Resource Name="ENTER_SEARCH_CRITERIA" Value="Enter the search criteria" ToolTip="" />
+        <Resource Name="DOWNLOADING" Value="Downloading……" ToolTip="" />
+        <Resource Name="LOADING" Value="Loading……" ToolTip="" />
+        <Resource Name ="(E-OBS-EM005)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM005) Specified information does not exist" ToolTip ="" />
+        <Resource Name="FINISHED_LOADING" Value="Finished loading" ToolTip="" />
+        <Resource Name ="(E-OBS-EM006)_FAILED_FOLDER" Value ="(E-OBS-EM006) Failed to create file/folder specified" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM007) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM008)_NOT_FORMAT" Value ="(E-OBS-EM008) Not in required format" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM009)_FAILED_LOAD" Value ="(E-OBS-EM009) Failed to load specified object" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM010)_ENCOUNTERED_PROBLEM" Value ="(E-OBS-EM010) Encountered problem while searching" ToolTip ="" />
+       </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-OBS-EM001)_FAILED_LOAD" Value="(E-OBS-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name ="(E-OBS-EM002)_FAILED_FOLDER" Value ="(E-OBS-EM002) Failed to create file/folder specified" ToolTip ="" />
+        <Resource Name ="(E-OBS-EM007)_INFORMATION_NOTEXIST" Value ="(E-OBS-EM007) Specified information does not exist" ToolTip ="" />
+       </Resources>
+    </Screen>
+    <Screen Name="PART_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECKBOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">  
+        <Resource Name="SELECT_A_SERVER" Value="Select a server…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />        
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web service path not found" ToolTip="" />
+        <Resource Name="ENTER_PARTNAME" Value="Enter part name to search" ToolTip="" />        
+         <Resource Name="SELECT_BOOKS" Value="Select books to search from" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="File schema not found on server" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="No result found" ToolTip="" />    
+        <Resource Name="NO_WEBSERVICE" Value="Web service not found at specified path" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web service path specified is not valid" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="Can not connect to specified address." ToolTip="" />
+        <Resource Name="DETAILS" Value="Details" ToolTip="" />
+        <Resource Name="KEYWORD" Value="Keyword" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name ="PUBLISHING_ID" Value ="Publishing Id" ToolTip ="" />
+      </Resources>
+        <Resources Name ="STATUS_MESSAGE" >
+       <Resource Name="SEARCH_ON_SERVER" Value="Search parts on server" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="Checking for data updates" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="Downloading Series.xml" ToolTip="" />
+        <Resource Name="NO_SERIES" Value="Series.xml could not be downloaded" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml loaded completely" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="Loading Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml could not be loaded" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="Specified information does not exist" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="Searching parts" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="Search complete" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="Search canceled" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="Search failed" ToolTip="" />
+        </Resources>
+      <Resources Name ="POPUP_MESSAGE" >
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) Failed to load specified object." ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) Cannot open book." ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) Failed to create file/folder specified." ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) Cannot open book." ToolTip ="" />
+      </Resources>      
+    </Screen>    
+    <Screen Name="PART_NUMBER_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_PARTS_ON_SERVER" Value="Search parts on server" ToolTip="" />
+        <Resource Name="SELECT_A_SERVER" Value="Select a server…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />
+        <Resource Name="SEARCH_PARTS_ON_SERVER" Value="Search parts on server" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web service path not found" ToolTip="" />
+        <Resource Name="ENTER_PARTNUMBER" Value="Enter part number to search" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web service path specified is not valid" ToolTip="" />   
+        <Resource Name="SELECT_BOOKS" Value="Select books to search from" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="File schema not found on server" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="No results found" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="Can not connect to specified address." ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Web service not found at specified path" ToolTip="" />       
+        <Resource Name="DETAILS" Value="Details" ToolTip="" />
+        <Resource Name="KEYWORD" Value="Keyword" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+      </Resources>
+       <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_ON_SERVER" Value="Search parts on server" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />
+        <Resource Name="CHECKING_UPDATES" Value="Checking for data updates" ToolTip="" />
+        <Resource Name="DOWNLOADING_SERIES" Value="Downloading Series.xml" ToolTip="" />
+        <Resource Name="NO_SERIES" Value="Series.xml could not be downloaded" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml loaded completely" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="Loading Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml could not be loaded" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="Specified information does not exist" ToolTip="" />
+        <Resource Name="SEARCHING_PARTS" Value="Searching parts" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="Search complete" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="Search canceled" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="Search failed" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE" >
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) Failed to load specified object." ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) Cannot open book." ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) Failed to create file/folder specified." ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) Cannot open book." ToolTip ="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PAGE_NAME_ADVSEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECKBOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">   
+        <Resource Name="SELECT_SERVER" Value="Select a server…" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />
+        <Resource Name="WEBSERVICE_NOT_FOUND" Value="Web service path not found" ToolTip="" />          
+        <Resource Name="ENTER_PAGENAME" Value="Enter page name to search" ToolTip="" />
+        <Resource Name="SELECT_BOOKS" Value="Select books to search from" ToolTip="" />
+        <Resource Name="NO_SCHEMA" Value="File schema not found on server" ToolTip="" />
+        <Resource Name="NO_RESULT_FOUND" Value="No results found" ToolTip="" />
+        <Resource Name="CANNOT_CONNECT" Value="Can not connect to specified address." ToolTip="" />
+        <Resource Name="CHECKING_FOR_DATA_UPDATES" Value="Checking for data updates" ToolTip="" />
+        <Resource Name="SERIES.XML_COULD_NOT_BE_DOWNLOADED" Value="Series.xml could not be downloaded" ToolTip="" />
+        <Resource Name="LOADING_SERIES.XML" Value="Loading Series.xml" ToolTip="" />
+        <Resource Name="SPECIFIED_INFORMATION_DOES_NOT_EXIST" Value="Specified information does not exist" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="Searching pages" ToolTip="" />
+        <Resource Name="NO_WEBSERVICE" Value="Web service not found at specified path" ToolTip="" />
+        <Resource Name="PATH_INCORRECT" Value="Web service path specified is not valid" ToolTip="" />      
+        <Resource Name="DETAILS" Value="Details" ToolTip="" />
+        <Resource Name="KEYWORD" Value="Keyword" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE" >
+        <Resource Name="SEARCH_PAGES" Value="Search pages on server" ToolTip="" />
+        <Resource Name="SEARCH_ANY_BOOKS" Value="Search any books" ToolTip="" />        
+        <Resource Name="CHECKING_UPDATES" Value="Checking for data updates" ToolTip="" />        
+        <Resource Name="DOWNLOADING_SERIES" Value="Downloading Series.xml" ToolTip="" />        
+        <Resource Name="NO_SERIES" Value="Series.xml could not be downloaded" ToolTip="" />
+        <Resource Name="SERIES_LOADED" Value="Series.xml loaded completely" ToolTip="" />
+        <Resource Name="LOADING_SERIES" Value="Loading Series.xml" ToolTip="" />
+        <Resource Name="SERIES_NOT_LOADED" Value="Series.xml could not be loaded" ToolTip="" />
+        <Resource Name="NO_INFORMATION" Value="Specified information does not exist" ToolTip="" />
+        <Resource Name="SEARCHING_PAGES" Value="Searching pages" ToolTip="" />
+        <Resource Name="SEARCH_COMPLETE" Value="Search complete" ToolTip="" />
+        <Resource Name="SEARCH_CANCELED" Value="Search canceled" ToolTip="" />
+        <Resource Name="SEARCH_FAILED" Value="Search failed" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-TV-LD001)_FAILED_LOAD" Value ="(E-TV-LD001) Failed to load specified object." ToolTip ="" />
+        <Resource Name ="(E-RG-OP001)_NO_BOOK" Value ="(E-RG-OP001) Cannot open book." ToolTip ="" />
+        <Resource Name ="(E-PT-CF001)_FAILED" Value ="(E-PT-CF001) Failed to create file/folder specified." ToolTip ="" />
+        <Resource Name ="(E-RG-OP002)_BOOK" Value ="(E-RG-OP002) Cannot open book." ToolTip ="" />
+      </Resources>
+    </Screen>    
+  </Screen>
+  
+  <Screen Name="CONFIGURATION" Value="Configuration">
+    
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="Page Name Search" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="Part Name Search" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="Part Number Search" ToolTip="" />
+      <Resource Name="FONT" Value="Font" ToolTip="" />
+      <Resource Name="COLOR" Value="Color" ToolTip="" />
+      <Resource Name="VIEWER_GENERAL" Value="Viewer General" ToolTip="" />
+      <Resource Name="MEMO_SETTINGS" Value="Memo Settings" ToolTip="" />
+    </Resources>
+    
+    <Screen Name="CONFIGURATION_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name="TASKS" Value="Tasks" ToolTip="" />
+        <Resource Name="VIEWER" Value="Viewer" ToolTip="" />
+        <Resource Name="FONT" Value="Font" ToolTip="" />
+        <Resource Name="COLOR" Value="Color" ToolTip="" />
+        <Resource Name="GENERAL" Value="General" ToolTip="" />
+        <Resource Name="MEMOS" Value="Memos" ToolTip="" />
+        <Resource Name="SETTINGS" Value="Settings" ToolTip="" />
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="Page Name" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="Text Search" ToolTip="" />
+        <Resource Name="PART_NAME" Value="Part Name" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="Part Number" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+        <Resource Name="TEXT" Value="Text" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="FONT" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="FONT:" Value="Font" ToolTip="" />
+        <Resource Name="GENERAL" Value="General" ToolTip="" />
+        <Resource Name="FONT" Value="Font" ToolTip="" />
+        <Resource Name="SIZE" Value="Size" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="COLOR" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="COLOR" Value="Color:" ToolTip="" />
+        <Resource Name="GENERAL" Value="General" ToolTip="" />
+        <Resource Name="PARTLIST_INFORMATION" Value="Partlist Information" ToolTip="" />
+        <Resource Name="BACKCOLOR_GENERAL" Value="Highlight Back Color" ToolTip="" />
+        <Resource Name="FORECOLOR_GENERAL" Value="Highlight Fore Color" ToolTip="" />
+        <Resource Name="BACKCOLOR_PART" Value="Highlight Back Color" ToolTip="" />
+        <Resource Name="FORECOLOR_PART" Value="Highlight Fore Color" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="GENERAL" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="GENERAL" Value="General" ToolTip="" />
+        <Resource Name="PICTURE" Value="Picture" ToolTip="" />
+        <Resource Name="PARTS_LIST" Value="Parts List" ToolTip="" />
+        <Resource Name="LANGUAGE" Value="Language" ToolTip="" />
+        <Resource Name="DEFAULT_LANGUAGE" Value="Default Language" ToolTip="" />
+        <Resource Name="OTHER" Value="Other" ToolTip="" />
+        <Resource Name="HISTORY_SIZE" Value="History Size" ToolTip="" />
+        <Resource Name="DEFAULT_ZOOM" Value="Default Zoom" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="Zoom Step" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="PARTSLIST_TOOLBAR_FRAME" Value="Show Parts List Toolbar In Frame" ToolTip="" />
+        <Resource Name="PICTURE_TOOLBAR_FRAME" Value="Show Picture Toolbar In Frame" ToolTip="" />
+        <Resource Name="MAINTAIN_ZOOM" Value="Maintain Zoom Level during navigation" ToolTip="" />
+        <Resource Name="ZOOMFIT_MULTIPARTS" Value="Zoom Fit Page for multi parts" ToolTip="" />
+        <Resource Name="OPEN_BOOK_CURRENT" Value="Open Book in Current Window" ToolTip="" />
+        <Resource Name="SIDE_BY_SIDE_PRINTING" Value="Side By Side Printing" ToolTip="" />
+        <Resource Name="MOUSEWHEEL_CONTENTS" Value="Use mouse wheel scroll on Contents" ToolTip="" />
+        <Resource Name="WHEELSCROLL_IMAGES" Value="Use mouse wheel scroll on Images" ToolTip="" />
+        <Resource Name="ZOOM_STEP" Value="Zoom Step" ToolTip="" />
+      </Resources>
+      <Resources Name="COMBO_BOX">
+        <Resource Name="FIT_PAGE" Value="Fit Page" ToolTip="" />
+        <Resource Name="FIT_WIDTH" Value="Fit Width" ToolTip="" />
+        <Resource Name="ONE_TO_ONE" Value="One to One" ToolTip="" />
+        <Resource Name="STRETCH" Value="Stretch" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="MEMO" ToolTip="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+        <Resource Name="BROWSEGLOBAL" Value="Browse" ToolTip="" />
+        <Resource Name="BROWSELOCAL" Value="Browse" ToolTip="" />        
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="MEMO" Value="Memo" ToolTip="" />
+        <Resource Name="BEHAVIOUR" Value="Behaviour" ToolTip="" />
+        <Resource Name="DETAIL" Value="Details" ToolTip="" />
+        <Resource Name="LOCAL_MEMO_BACKUP_FILE" Value="Local Memo Backup File" ToolTip="" />
+        <Resource Name="BOOKMARKS_INFORMATION" Value ="Bookmarks Information" ToolTip ="" />
+        <Resource Name="GLOBAL_MEMO" Value ="Global Memo Folder" ToolTip ="" /> 
+        <Resource Name="SELECT_FOLDER" Value ="Select Global Memo Folder" ToolTip ="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="POPUP_PICTURE_MEMOS" Value="Popup Picture Memos" ToolTip="" />
+        <Resource Name="ENABLE_GLOBAL_MEMOS" Value="Enable Global Memos" ToolTip="" />
+        <Resource Name="ENABLE_LOCAL_MEMOS" Value="Enable Local Memos" ToolTip="" />
+        <Resource Name="TAKE_BACKUP_OF_LOCAL_MEMOS" Value="Take Backup of Local Memos" ToolTip="" />
+        <Resource Name="ENABLE_ADMINISTRATOR_MEMOS" Value="Enable Administrator Memos" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-CMS-EM001)_FAILED" Value ="(E-CMS-EM001) Failed to save specified object" ToolTip ="" />
+        <Resource Name="(E-CMS-EM002)_INFORMATION" Value ="(E-CMS-EM002) Specified information does not exist" ToolTip ="" />
+        <Resource Name="(E-CMS-EM003)_FORMAT" Value ="(E-CMS-EM003) Not in required format" ToolTip ="" />
+        <Resource Name="(E-CMS-EM004)_FAILED" Value ="(E-CMS-EM004) Failed to create file/folder specified" ToolTip ="" />
+       </Resources>
+      
+    </Screen>
+    
+    <Screen Name="PAGE_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="Search Settings" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="Field Id" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="Display Name" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="Col Width" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="Col Alignment" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">        
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) Not in required format" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PART_NAME" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="Search Settings" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="Field Id" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="Display Name" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="Col Width" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="Col Alignment" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPT-EM001)_FAILED" Value="(E-SPT-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SPT-EM002)_FORMAT" Value="(E-SPT-EM002) Not in required format" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PART_NUMBER" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="Search Settings" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="Field Id" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="Display Name" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="Col Width" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="Col Alignment" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPN-EM001)_FAILED" Value="(E-SPN-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SPN-EM002)_FORMAT" Value="(E-SPN-EM002) Not in required format" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="ADVANCED_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="Search Settings" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="Field Id" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="Display Name" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="Col Width" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="Col Alignment" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) Not in required format" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="TEXT_SEARCH" Value="">
+      <Resources Name="BUTTON">
+        <Resource Name="OK" Value="OK" ToolTip="" />
+        <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH_SETTINGS" Value="Search Settings" ToolTip="" />
+      </Resources>
+      <Resources Name="GRID_VIEW">
+        <Resource Name="FIELD_ID" Value="Field Id" ToolTip="" />
+        <Resource Name="DISPLAY_NAME" Value="Display Name" ToolTip="" />
+        <Resource Name="COL_WIDTH" Value="Col Width" ToolTip="" />
+        <Resource Name="COL_ALIGNMENT" Value="Col Alignment" ToolTip="" />
+      </Resources>
+      <Resources Name="POPUP_MESSAGE">
+        <Resource Name="(E-SPG-EM001)_FAILED" Value="(E-SPG-EM001) Failed to load specified object" ToolTip="" />
+        <Resource Name="(E-SPG-EM002)_FORMAT" Value="(E-SPG-EM002) Not in required format" ToolTip="" />
+      </Resources>
+    </Screen>     
+  </Screen>
+  
+  <Screen Name="SEARCH" Value="Search">
+    <Resources Name="TOOLSTRIP">
+      <Resource Name="PAGE_NAME_SEARCH" Value="Page Name Search" ToolTip="" />
+      <Resource Name="TEXT_SEARCH" Value="Text Search" ToolTip="" />
+      <Resource Name="PART_NAME_SEARCH" Value="Part Name Search" ToolTip="" />
+      <Resource Name="PART_NUMBER_SEARCH" Value="Part Number Search" ToolTip="" />
+      <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+    </Resources>
+    
+    <Screen Name="SEARCH_TASKS" Value="">
+      <Resources Name="LABEL">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="PAGE" Value="Page" ToolTip="" />
+        <Resource Name="PAGE_NAME" Value="Page Name" ToolTip="" />
+        <Resource Name="TEXT_SEARCH" Value="Text Search" ToolTip="" />
+        <Resource Name="PART" Value="Part" ToolTip="" />
+        <Resource Name="PART_NAME" Value="Part Name" ToolTip="" />
+        <Resource Name="PART_NUMBER" Value="Part Number" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PAGE_NAME_SEARCH" Value="Search">
+     <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="Clear Search History" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PAGE_NAME" Value="Page Name" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="not found" ToolTip="" />        
+       </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) Not in required format" ToolTip ="" />
+        <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) Failed to create file/folder specified" ToolTip ="" />
+      </Resources>
+      <Resources Name="STATUS_MESSAGE">
+        <Resource Name="RESULT_FOUND" Value ="result(s) found" ToolTip ="" />
+        <Resource Name="NO_RESULT" Value ="No result found" ToolTip ="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) Specified information does not exist" ToolTip ="" />
+        <Resource Name="SEARCHING" Value="Searching …" ToolTip="" />
+      </Resources>      
+    </Screen>  
+    
+    <Screen Name="PART_NAME_SEARCH" Value="Search">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="Clear Search History" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NAME" Value="Part Name" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="not found" ToolTip="" />       
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="Search Whole Book" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="No result found" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="result(s) found" ToolTip="" />
+        <Resource Name="SEARCHING" Value="Searching …" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) Specified information does not exist" ToolTip ="" />
+        <Resources Name ="POPUP_MESSAGE">
+          <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) Not in required format" ToolTip ="" />
+          <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) Failed to create file/folder specified" ToolTip ="" />
+        </Resources>
+      </Resources>
+    </Screen>
+    
+    <Screen Name="PART_NUMBER_SEARCH" Value="Search">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="Clear Search History" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="PART_NUMBER" Value="Part Number" ToolTip="" />
+        <Resource Name="NOT_FOUND" Value="not found" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="Search Whole Book" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="No result found" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="result(s) found" ToolTip="" />
+        <Resource Name="SEARCHING" Value="Searching …" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) Specified information does not exist" ToolTip ="" />
+      </Resources>
+        <Resources Name ="POPUP_MESSAGE">
+          <Resource Name="(E-PGS-EM001)_NO_FORMAT" Value ="(E-PGS-EM001) Not in required format" ToolTip ="" />
+          <Resource Name="(E-PGS-EM002)_FAILED" Value ="(E-PGS-EM002) Failed to create file/folder specified" ToolTip ="" />
+        </Resources>
+         </Screen>
+    
+    <Screen Name="TEXT_SEARCH" Value="Search">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="Clear Search History" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="not found" ToolTip="" />
+        <Resource Name="TEXT" Value="Text" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="Search Whole Book" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="No result found" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="result(s) found" ToolTip="" />
+        <Resource Name="SEARCHING" Value="Searching …" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) Specified information does not exist" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="SearchSettings.xml is not in required format." ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridView control cannot be loaded completly." ToolTip ="" />
+      </Resources>     
+    </Screen>
+   <Screen Name="ADVANCED_SEARCH" Value="Search">
+      <Resources Name="BUTTON">
+        <Resource Name="SEARCH" Value="Search" ToolTip="" />
+        <Resource Name="CLEAR_SEARCH_HISTORY" Value="Clear Search History" ToolTip="" />
+      </Resources>
+      <Resources Name="LABEL">
+        <Resource Name="NOT_FOUND" Value="not found" ToolTip="" />
+        <Resource Name="TEXT" Value="Text" ToolTip="" />
+        <Resource Name="ADVANCED_SEARCH" Value="Advanced Search" ToolTip="" />
+      </Resources>
+      <Resources Name="CHECK_BOX">
+        <Resource Name="EXACT_MATCH" Value="Exact Match" ToolTip="" />
+        <Resource Name="MATCH_CASE" Value="Match Case" ToolTip="" />
+        <Resource Name="SEARCH_WHOLE_BOOK" Value="Search Whole Book" ToolTip="" />
+      </Resources>
+      <Resources Name ="STATUS_MESSAGE">
+        <Resource Name ="NO_RESULT" Value ="No result found" ToolTip ="" />
+        <Resource Name="RESULT_FOUND" Value="result(s) found" ToolTip="" />
+        <Resource Name="SEARCHING" Value="Searching …" ToolTip="" />
+        <Resource Name="(E-PGS-EM001)_NO_INFORMATION" Value ="(E-PGS-EM001) Specified information does not exist" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="NOT_IN_FORMAT" Value ="SearchSettings.xml is not in required format." ToolTip ="" />
+        <Resource Name ="CANNOT_LOAD_DGV" Value ="DataGridView control cannot be loaded completly." ToolTip ="" />
+      </Resources>
+   </Screen>    
+  </Screen>
+
+  <Screen Name="MEMO_LIST" Value ="Memo List">
+    <Screen Name ="MEMOLIST_TASKS">
+      <Resources Name="LABEL">
+        <Resource Name ="TASKS" Value ="Tasks" ToolTip ="" />
+        <Resource Name ="VIEW_OPTIONS" Value ="View Options" ToolTip ="" />
+        <Resource Name ="LOCAL_MEMOS" Value ="Local Memos" ToolTip ="" />
+        <Resource Name ="GLOBAL_MEMO" Value ="Global Memo" ToolTip ="" />
+        <Resource Name ="PART_MEMO" Value ="Part Memo" ToolTip ="" />
+        <Resource Name ="PICTURE_MEMO" Value="Picture Memo" ToolTip ="" />
+        <Resource Name ="ALL" Value ="All" ToolTip ="" />
+        <Resource Name ="BOTH" Value ="Both" ToolTip ="" />
+        <Resource Name ="ADMIN_MEMOS" Value ="Admin Memos" ToolTip ="" />
+        <Resource Name ="MEMO_TYPE" Value ="Memo Types" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_LOCAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="LOCAL_MEMO" Value ="Local Memo" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="OK" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="Go To Page" ToolTip ="" />
+      </Resources>
+
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Can not open Internet Explorer" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) Can not open file/folder specified" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) Failed to load specified object" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_GLOBAL">
+      <Resources Name ="LABEL">
+        <Resource Name ="GLOBAL_MEMO" Value ="Global Memo" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="OK" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="Go To Page" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Can not open Internet Explorer" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) Failed to load specified object" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ALL">
+      <Resources Name ="LABEL">
+        <Resource Name ="ALL_MEMO" Value ="All" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="OK" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="Go To Page" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Can not open Internet Explorer" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MGL-EM008)_INFORMATION" Value ="(E-MGL-EM008) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) Failed to load specified object" ToolTip ="" />
+      </Resources>
+    </Screen>
+
+    <Screen Name ="MEMOLIST_ADMIN">
+      <Resources Name ="LABEL">
+        <Resource Name ="ADMIN_MEMO" Value ="Admin Memo" ToolTip ="" />
+        <Resource Name ="PROGRAM_MEMO" Value ="Program Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_HYP" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_REF" Value ="Updated on:" ToolTip ="" />
+        <Resource Name ="EXECUTABLE_PATH" Value ="Executable Path" ToolTip ="" />
+        <Resource Name ="COMMAND_LINE" Value ="Command Line" ToolTip ="" />
+        <Resource Name ="HYPERLINK_MEMO" Value ="Hyperlink Memo" ToolTip ="" />
+        <Resource Name ="URL" Value ="URL" ToolTip ="" />
+        <Resource Name ="PROVIDE_URL" Value ="Provide the web page address (URL) in the above field to hyperlink" ToolTip ="" />
+        <Resource Name ="REFERENCE_MEMO" Value ="Reference Memo" ToolTip ="" />
+        <Resource Name ="SERVER_KEY" Value ="Server Key" ToolTip ="" />
+        <Resource Name ="BOOK_ID" Value ="Book Publishing Id" ToolTip ="" />
+        <Resource Name ="OTHER_REF" Value ="Other Ref" ToolTip ="" />
+        <Resource Name ="SPACE_SEPRATED" Value ="(space separated values)" ToolTip ="" />
+        <Resource Name ="TEXT_MEMO" Value ="Text Memo" ToolTip ="" />
+        <Resource Name ="UPDATED_ON_TXT" Value ="Updated on:" ToolTip ="" />
+      </Resources>
+      <Resources Name ="GRID_VIEW">
+        <Resource Name ="DESCRIPTION" Value ="Description" ToolTip ="" />
+        <Resource Name ="TYPE" Value ="Type" ToolTip ="" />
+        <Resource Name ="UPDATE_DATE" Value ="Update Date" ToolTip ="" />
+      </Resources>
+      <Resources Name ="BUTTON">
+        <Resource Name ="BROWSE" Value ="Browse" ToolTip ="" />
+        <Resource Name ="GO" Value ="GO" ToolTip ="" />
+        <Resource Name ="GO_HYP" Value ="GO" ToolTip ="" />
+        <Resource Name ="OK" Value ="OK" ToolTip ="" />
+        <Resource Name ="CANCEL" Value ="Cancel" ToolTip ="" />
+        <Resource Name ="GO_REF" Value ="GO" ToolTip ="" />
+      </Resources>
+      <Resources Name ="TOOL_STRIP">
+        <Resource Name ="GO_TO_PAGE" Value ="Go To Page" ToolTip ="" />
+      </Resources>
+      <Resources Name ="POPUP_MESSAGE">
+        <Resource Name ="(E-MLC-EM007)_IE" Value ="(E-MLC-EM007) Can not open Internet Explorer" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM009)_INFORMATION" Value ="(E-MLC-EM009) Specified information does not exist" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM010)_FOLDER" Value ="(E-MLC-EM010) Can not open file/folder specified" ToolTip ="" />
+        <Resource Name ="(E-MLC-EM001)_FAILED" Value ="(E-MLC-EM001) Failed to load specified object" ToolTip ="" />
+      </Resources>
+    </Screen>
+  </Screen>
+  
+  <Screen Name="MEMO_RECOVERY" Value="Memo">
+    <Resources Name="BUTTON">
+      <Resource Name="BROWSE" Value="Browse" ToolTip="" />
+      <Resource Name="RECOVER" Value="Recover" ToolTip="" />
+      <Resource Name="CANCEL" Value="Cancel" ToolTip="" />
+    </Resources>
+    <Resources Name="LABEL">
+      <Resource Name="LOCAL_MEMO_RECOVERY" Value="Local Memo Recovery" ToolTip="" />
+      <Resource Name="RECOVERY_FILE" Value="Recovery File" ToolTip="" />
+    </Resources>
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="MEMO_RECOVERY" Value="Current local memos will be lost Do you want to proceed with memo recovery?" ToolTip="" />
+      <Resource Name="(E-MRC-EM001)_FAILED" Value="(E-MRC-EM001) Failed to load specified object" ToolTip="" />
+      <Resource Name="(E-MRC-EM002)_INFORMATION" Value="(E-MRC-EM002) Specified information does not exist" ToolTip="" />
+      <Resource Name="(E-MRC-EM003)_FORMAT" Value ="(E-MRC-EM003) Not in required format" ToolTip ="" />
+    </Resources>
+  </Screen>
+  
+  <!--This Screen contains all the messages shown before lauch of GSPc Local Viewer-->
+  
+  <Screen Name="APPLICATION" Value ="">
+    <Resources Name="POPUP_MESSAGE">
+      <Resource Name="DJVU_UNREGISTERED" Value ="DjVu control is not registered on this machine" ToolTip ="" />
+      <Resource Name="UPDATES_AVAILABLE" Value ="Updates are available. Application is going to update." ToolTip ="" />
+      <Resource Name="INCORRECT_CONFIGURATION" Value ="Application configuration is incorrect. Please re-install it or contact your system administrator." ToolTip ="" />
+      <Resource Name="INI_NOT_FOUND" Value ="GSPcLocal.ini file not found" ToolTip ="" />
+      <Resource Name="NO_SERVER_INI" Value ="No server ini file found" ToolTip ="" />
+      <Resource Name="DIRECT_EXECUTION" Value ="Direct execution of application is not allowed" ToolTip ="" />
+	<Resource Name="E-OB-EM001" Value ="(E-OB-EM001) Cannot open book." ToolTip ="" />
+    </Resources>    
+    <Resources name ="LABEL">
+    <Resource Name="GSPCLOCAL" Value ="GSPcLocal Viewer 3.0" ToolTip ="" />
+    <Resource Name="UPDATE_MANAGER" Value ="Update Manager" ToolTip ="" />
+    </Resources>    
+  </Screen>
+  
+</GSPcLocalViewer>

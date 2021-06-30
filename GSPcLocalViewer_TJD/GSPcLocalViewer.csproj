@@ -1,0 +1,846 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <ProjectGuid>{E6E6AAFA-9520-4CBF-B8B9-4D908278AAC0}</ProjectGuid>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">x86</Platform>
+    <AssemblyName>GSPcLocalViewer</AssemblyName>
+    <OutputType>WinExe</OutputType>
+    <TargetFrameworkVersion>v3.5</TargetFrameworkVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|x86' ">
+    <OutputPath>bin\Debug\</OutputPath>
+    <DebugSymbols>true</DebugSymbols>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <Optimize>false</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>full</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|x86' ">
+    <OutputPath>bin\Release\</OutputPath>
+    <DebugSymbols>false</DebugSymbols>
+    <DefineConstants>TRACE</DefineConstants>
+    <Optimize>true</Optimize>
+    <WarningLevel>4</WarningLevel>
+    <DebugType>pdbonly</DebugType>
+    <ErrorReport>prompt</ErrorReport>
+    <PlatformTarget>x86</PlatformTarget>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="FileDownloaderDLL">
+      <HintPath>Libraries\FileDownloaderDLL.dll</HintPath>
+    </Reference>
+    <Reference Include="PDFLibNet">
+      <HintPath>Libraries\PDFLibNet.DLL</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="WeifenLuo.WinFormsUI.Docking">
+      <HintPath>.\GSPcLocalViewerReferences\WeifenLuo.WinFormsUI.Docking.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Drawing" />
+    <Reference Include="Microsoft.VisualBasic" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.Xml" />
+    <Reference Include="AxInterop.DjVuCtrlLib">
+      <HintPath>.\GSPcLocalViewerReferences\AxInterop.DjVuCtrlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Data" />
+    <Reference Include="System.Windows.Forms.TreeListView">
+      <HintPath>.\GSPcLocalViewerReferences\System.Windows.Forms.TreeListView.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Management" />
+    <Reference Include="Interop.DjVuCtrlLib">
+      <HintPath>.\GSPcLocalViewerReferences\Interop.DjVuCtrlLib.dll</HintPath>
+    </Reference>
+    <Reference Include="Interop.DjVuPrintLib">
+      <HintPath>.\GSPcLocalViewerReferences\Interop.DjVuPrintLib.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <Compile Include="Properties\AssemblyInfo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ScrollTypes.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ApplicationMode.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ResourceType.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\SpecialRefColumn.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPrint\PrinterStatus.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Properties\Settings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\LabledTextBox.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>LabledTextBox.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Program.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CustomToolStripMenuItem.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\DataSize.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Update.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\UpdateFile.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Properties\Resources.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\MessageHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CustomComboBox.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>CustomComboBox.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Global.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\AES.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\Search.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchBookSchemaCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchBookSchemaCompletedEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPageSchemaCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPageSchemaCompletedEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPartSchemaCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPartSchemaCompletedEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPagesCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPagesCompletedEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPartsCompletedEventHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSearch\SearchPartsCompletedEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CheckBoxClickedHandler.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\DataGridViewCheckBoxHeaderCellEventArgs.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\DatagridViewCheckBoxHeaderCell.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Download.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\MessageBoxIndirect.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\DjVuFeatures.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ApplicationFeatures.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ZoomMode.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CustomPrintPreviewControl.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\PageImageList.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\History.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\NumericTextBox.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\URLDecoder.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmViewerPicture.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmViewerPicture.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmInfo.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmInfo.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\IniFile.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\SectionKey_Tkey1, Tkey2_.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\IniDictonary_Tkey1, Tkey2, Tvalue_.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\IniFileIO.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmViewerPartslist.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmViewerPartslist.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Classes\Filter.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSelectionList.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmSelectionList.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\MemoSession.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\GSPcLocalHelp.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmViewerTreeview.Designer.cs">
+      <AutoGen>true</AutoGen>
+      <DependentUpon>frmViewerTreeview.resx</DependentUpon>
+      <DesignTimeSharedInput>true</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CustomTreeView.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ServerSettings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\RegistryReader.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ConfigTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\SearchTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\MemoTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\ViewAllMemoTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigViewerFont.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmDjVuAuthentication.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOpenBookBrowse.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmAddRecord.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOthers\frmPreviewProcessing.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOthers\frmProxyAuthentication.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmTextSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigViewerColor.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPageNameAdvSrch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSearchTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfiguration\frmConfigPartList.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPrint\frmPageSetup.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoAdmin.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOpenBookTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOpenBookBookmarks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigMemoSettings.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigSearchPageName.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoListTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSingleBookDownload.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Splash.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSelectionListQuantity.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPrint\frmPageSpecified.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoListAll.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfiguration\frmConfigSelectionList.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPartNumberSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoListGlobal.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Dashbord.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConnection.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOpenBookSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoRecovery.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmAbout.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigSearchPartName.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigSearchText.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmDataSize.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOpenBook.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPartNumberAdvSrch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemo.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPartNameSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigViewerGeneral.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmOthers\frmOpenBrowser.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPageNameSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPartNameAdvSrch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\CustomPrintPreviewDialog.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\Dimmer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmViewer.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigSearchAdvance.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoLocal.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmPrint\frmPrint.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigSearchPartNumber.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoGlobal.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfig.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoListLocal.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMultipleBooksDownload.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmSecurity.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmAdvanceSearch.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoList.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmMemoListAdmin.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\PreviewManager.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="GSPcLocalViewer\frmConfigTasks.cs">
+      <AutoGen>false</AutoGen>
+      <DesignTimeSharedInput>false</DesignTimeSharedInput>
+      <SubType>Form</SubType>
+    </Compile>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigViewerFont.resx">
+      <DependentUpon>frmConfigViewerFont.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmDjVuAuthentication.resx">
+      <DependentUpon>frmDjVuAuthentication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOpenBookBrowse.resx">
+      <DependentUpon>frmOpenBookBrowse.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmAddRecord.resx">
+      <DependentUpon>frmAddRecord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOthers\frmPreviewProcessing.resx">
+      <DependentUpon>frmPreviewProcessing.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOthers\frmProxyAuthentication.resx">
+      <DependentUpon>frmProxyAuthentication.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmTextSearch.resx">
+      <DependentUpon>frmTextSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigViewerColor.resx">
+      <DependentUpon>frmConfigViewerColor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPageNameAdvSrch.resx">
+      <DependentUpon>frmPageNameAdvSrch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSearchTasks.resx">
+      <DependentUpon>frmSearchTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfiguration\frmConfigPartList.resx">
+      <DependentUpon>frmConfigPartList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPrint\frmPageSetup.resx">
+      <DependentUpon>frmPageSetup.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoAdmin.resx">
+      <DependentUpon>frmMemoAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOpenBookTasks.resx">
+      <DependentUpon>frmOpenBookTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOpenBookBookmarks.resx">
+      <DependentUpon>frmOpenBookBookmarks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoTasks.resx">
+      <DependentUpon>frmMemoTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigMemoSettings.resx">
+      <DependentUpon>frmConfigMemoSettings.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigSearchPageName.resx">
+      <DependentUpon>frmConfigSearchPageName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoListTasks.resx">
+      <DependentUpon>frmMemoListTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSingleBookDownload.resx">
+      <DependentUpon>frmSingleBookDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\Splash.resx">
+      <DependentUpon>Splash.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSelectionListQuantity.resx">
+      <DependentUpon>frmSelectionListQuantity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPrint\frmPageSpecified.resx">
+      <DependentUpon>frmPageSpecified.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoListAll.resx">
+      <DependentUpon>frmMemoListAll.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfiguration\frmConfigSelectionList.resx">
+      <DependentUpon>frmConfigSelectionList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPartNumberSearch.resx">
+      <DependentUpon>frmPartNumberSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoListGlobal.resx">
+      <DependentUpon>frmMemoListGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\Dashbord.resx">
+      <DependentUpon>Dashbord.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConnection.resx">
+      <DependentUpon>frmConnection.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOpenBookSearch.resx">
+      <DependentUpon>frmOpenBookSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoRecovery.resx">
+      <DependentUpon>frmMemoRecovery.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmAbout.resx">
+      <DependentUpon>frmAbout.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigSearchPartName.resx">
+      <DependentUpon>frmConfigSearchPartName.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigSearchText.resx">
+      <DependentUpon>frmConfigSearchText.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmDataSize.resx">
+      <DependentUpon>frmDataSize.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOpenBook.resx">
+      <DependentUpon>frmOpenBook.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPartNumberAdvSrch.resx">
+      <DependentUpon>frmPartNumberAdvSrch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemo.resx">
+      <DependentUpon>frmMemo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPartNameSearch.resx">
+      <DependentUpon>frmPartNameSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigViewerGeneral.resx">
+      <DependentUpon>frmConfigViewerGeneral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmOthers\frmOpenBrowser.resx">
+      <DependentUpon>frmOpenBrowser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPageNameSearch.resx">
+      <DependentUpon>frmPageNameSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPartNameAdvSrch.resx">
+      <DependentUpon>frmPartNameAdvSrch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\CustomPrintPreviewDialog.resx">
+      <DependentUpon>CustomPrintPreviewDialog.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\Dimmer.resx">
+      <DependentUpon>Dimmer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmViewer.resx">
+      <DependentUpon>frmViewer.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigSearchAdvance.resx">
+      <DependentUpon>frmConfigSearchAdvance.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSearch.resx">
+      <DependentUpon>frmSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoLocal.resx">
+      <DependentUpon>frmMemoLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmPrint\frmPrint.resx">
+      <DependentUpon>frmPrint.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigSearchPartNumber.resx">
+      <DependentUpon>frmConfigSearchPartNumber.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoGlobal.resx">
+      <DependentUpon>frmMemoGlobal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfig.resx">
+      <DependentUpon>frmConfig.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoListLocal.resx">
+      <DependentUpon>frmMemoListLocal.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMultipleBooksDownload.resx">
+      <DependentUpon>frmMultipleBooksDownload.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSecurity.resx">
+      <DependentUpon>frmSecurity.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmAdvanceSearch.resx">
+      <DependentUpon>frmAdvanceSearch.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoList.resx">
+      <DependentUpon>frmMemoList.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmMemoListAdmin.resx">
+      <DependentUpon>frmMemoListAdmin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\PreviewManager.resx">
+      <DependentUpon>PreviewManager.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmConfigTasks.resx">
+      <DependentUpon>frmConfigTasks.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\LabledTextBox.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>LabledTextBox.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\CustomComboBox.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>CustomComboBox.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmViewerPicture.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmViewerPicture.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmInfo.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmInfo.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmViewerPartslist.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmViewerPartslist.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmSelectionList.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmSelectionList.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="GSPcLocalViewer\frmViewerTreeview.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>frmViewerTreeview.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
